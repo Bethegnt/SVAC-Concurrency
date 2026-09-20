@@ -30,7 +30,7 @@ Our empirical findings reveal:
 4. **Equivalence vs. Strict Positional Bias:** Invariant-based scoring reveals that strict positional matching severely underestimates model competence: when alternative valid execution paths are honored, valid step accuracy increases to 74.3% in Banker's ($\Delta = +32.8\%$) and 95.6% in WFG ($\Delta = +64.3\%$).
 5. **Format Brittleness in Open Architectures:** Severe schema compliance degradation in open-weight models (19.7% parse success for Nemotron-120B) demonstrates that raw parameter scale does not guarantee structured state-machine adherence.
 
-The complete benchmark suite, deterministic reference solvers, prompt templates, and evaluation pipelines are publicly available at: `https://github.com/anonymous-author/SVAC-Concurrency`.
+The complete benchmark suite, deterministic reference solvers, prompt templates, and evaluation pipelines are publicly available at: `https://github.com/Bethegnt/SVAC-Concurrency`.
 
 **Index Terms** — Large Language Models, Algorithmic Reasoning, Operating Systems, Concurrency Control, Deadlock Detection, Banker's Algorithm, Step-level Verification, Benchmark.
 

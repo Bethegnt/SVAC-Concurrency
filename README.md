@@ -93,7 +93,7 @@ SVAC_Concurrency/
 Clone the repository and install the minimal dependencies:
 
 ```bash
-git clone https://github.com/anonymous-author/SVAC-Concurrency.git
+git clone https://github.com/Bethegnt/SVAC-Concurrency.git
 cd SVAC-Concurrency
 pip install -r requirements.txt
 ```
