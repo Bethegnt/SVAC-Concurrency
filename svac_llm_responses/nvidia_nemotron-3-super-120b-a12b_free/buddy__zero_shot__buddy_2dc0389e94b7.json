@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_2dc0389e94b7",
+  "task": "buddy",
+  "variant": "zero_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"op_index\": 0,\n      \"request_id\": \"OVERFLOW\",\n      \"action\": \"alloc_failed\",\n      \"block_addr\": null,\n      \"block_size\": null,\n      \"free_lists\": {\n        \"256\": [0]\n      }\n    }\n  ],\n  \"allocation_log\": {\n    \"OVERFLOW\": {\n      \"address\": null,\n      \"block_size\": 1024,\n      \"status\": \"failed\"\n    }\n  },\n  \"final_free_lists\": {\n    \"256\": [0]\n  }\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 1356,
+    "completion_tokens": 932,
+    "total_tokens": 2288,
+    "attempts": 1
+  }
+}

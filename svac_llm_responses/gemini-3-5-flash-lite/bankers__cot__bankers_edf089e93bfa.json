@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_edf089e93bfa",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [3, 0],\n    [0, 4],\n    [0, 1]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: its need [3, 0] is greater than available work [0, 1], so it cannot proceed; checking P1: its need [0, 4] is greater than work [0, 1]; checking P2: its need [0, 1] is less than or equal to work [0, 1], so P2 qualifies.\",\n      \"step\": 1,\n      \"work_before\": [0, 1],\n      \"candidate_process\": 2,\n      \"need_row\": [0, 1],\n      \"work_after\": [4, 2],\n      \"finish\": [false, false, true]\n    },\n    {\n      \"thought\": \"Restarting scan from P0: checking P0: its need [3, 0] is less than or equal to current work [4, 2], so P0 qualifies.\",\n      \"step\": 2,\n      \"work_before\": [4, 2],\n      \"candidate_process\": 0,\n      \"need_row\": [3, 0],\n      \"work_after\": [7, 6],\n      \"finish\": [true, false, true]\n    },\n    {\n      \"thought\": \"Restarting scan from P0: P0 is already finished; checking P1: its need [0, 4] is less than or equal to current work [7, 6], so P1 qualifies.\",\n      \"step\": 3,\n      \"work_before\": [7, 6],\n      \"candidate_process\": 1,\n      \"need_row\": [0, 4],\n      \"work_after\": [11, 8],\n      \"finish\": [true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\n    \"P2\",\n    \"P0\",\n    \"P1\"\n  ]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 705,
+    "response_tokens": 489,
+    "total_tokens": 1194,
+    "attempts": 1
+  }
+}

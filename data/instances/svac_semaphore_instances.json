@@ -1,0 +1,2683 @@
+[
+  {
+    "instance_id": "sem_b2d7610910c0",
+    "task": "semaphore",
+    "mode": "producer_consumer",
+    "complexity_level": 1,
+    "initial_value": 1,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 1,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_3e990ec3c920",
+    "task": "semaphore",
+    "mode": "contention",
+    "complexity_level": 1,
+    "initial_value": 1,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 1,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T1"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_a20bc4d75546",
+    "task": "semaphore",
+    "mode": "bounded_edge",
+    "complexity_level": 1,
+    "initial_value": 1,
+    "max_value": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 1,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_152174be45fd",
+    "task": "semaphore",
+    "mode": "random_interleaved",
+    "complexity_level": 1,
+    "initial_value": 1,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 3,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 4,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_38b434ac2511",
+    "task": "semaphore",
+    "mode": "producer_consumer",
+    "complexity_level": 2,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T2": "running",
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_2060757b82f0",
+    "task": "semaphore",
+    "mode": "contention",
+    "complexity_level": 2,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T2"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_6a3c723da818",
+    "task": "semaphore",
+    "mode": "bounded_edge",
+    "complexity_level": 2,
+    "initial_value": 2,
+    "max_value": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 1,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_a08a8491ceba",
+    "task": "semaphore",
+    "mode": "random_interleaved",
+    "complexity_level": 2,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 0,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T2",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T2"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T2"
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_3b91874c9452",
+    "task": "semaphore",
+    "mode": "producer_consumer",
+    "complexity_level": 3,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_d4e7f864a70a",
+    "task": "semaphore",
+    "mode": "contention",
+    "complexity_level": 3,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T2"
+          ],
+          "blocked_queue_after": [
+            "T2",
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T2",
+            "T3"
+          ],
+          "blocked_queue_after": [
+            "T3"
+          ],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T1",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_02e8f38a88f7",
+    "task": "semaphore",
+    "mode": "bounded_edge",
+    "complexity_level": 3,
+    "initial_value": 2,
+    "max_value": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 1,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 1,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_3dc29ad59dd4",
+    "task": "semaphore",
+    "mode": "random_interleaved",
+    "complexity_level": 3,
+    "initial_value": 2,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 0,
+      "final_blocked_queue": [
+        "T2",
+        "T3"
+      ],
+      "thread_final_state": {
+        "T1": "running",
+        "T3": "blocked",
+        "T0": "running",
+        "T2": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T3",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T3",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3"
+          ],
+          "blocked_queue_after": [
+            "T3",
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T1",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3",
+            "T0"
+          ],
+          "blocked_queue_after": [
+            "T0"
+          ],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T0"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T0"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T2",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T2"
+          ],
+          "blocked_queue_after": [
+            "T2",
+            "T3"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_03dc6ac61276",
+    "task": "semaphore",
+    "mode": "producer_consumer",
+    "complexity_level": 4,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 3,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T2": "running",
+        "T4": "running",
+        "T1": "running",
+        "T3": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T3",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_fdb39b0f2fbb",
+    "task": "semaphore",
+    "mode": "contention",
+    "complexity_level": 4,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 3,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3"
+          ],
+          "blocked_queue_after": [
+            "T3",
+            "T4"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3",
+            "T4"
+          ],
+          "blocked_queue_after": [
+            "T4"
+          ],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T1",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T4"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T4"
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_48a0fb166bcf",
+    "task": "semaphore",
+    "mode": "bounded_edge",
+    "complexity_level": 4,
+    "initial_value": 3,
+    "max_value": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 3,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_ca4e1eb6714c",
+    "task": "semaphore",
+    "mode": "random_interleaved",
+    "complexity_level": 4,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 7,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T4": "running",
+        "T1": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 4,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 5,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T4",
+          "action": "wait_acquired",
+          "value_before": 6,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 5,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 6,
+          "value_after": 7,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 7,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 6,
+          "value_after": 7,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 7,
+          "value_after": 8,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 8,
+          "value_after": 7,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_a6a31b403d54",
+    "task": "semaphore",
+    "mode": "producer_consumer",
+    "complexity_level": 5,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T5",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T5",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 3,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T2": "running",
+        "T4": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T5",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 11,
+          "op_index": 10,
+          "thread": "T4",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 12,
+          "op_index": 11,
+          "thread": "T5",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 13,
+          "op_index": 12,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 14,
+          "op_index": 13,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_4e57c7f204ef",
+    "task": "semaphore",
+    "mode": "contention",
+    "complexity_level": 5,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T2",
+        "op": "wait"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T5",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 7,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 2,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "wait_acquired",
+          "value_before": 1,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "wait_blocked",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3"
+          ],
+          "blocked_queue_after": [
+            "T3",
+            "T4"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T3",
+            "T4"
+          ],
+          "blocked_queue_after": [
+            "T4"
+          ],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T1",
+          "action": "signal_handoff",
+          "value_before": 0,
+          "value_after": 0,
+          "blocked_queue_before": [
+            "T4"
+          ],
+          "blocked_queue_after": [],
+          "woken_thread": "T4"
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 0,
+          "value_after": 1,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 1,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 2,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 11,
+          "op_index": 10,
+          "thread": "T5",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 12,
+          "op_index": 11,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 4,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 13,
+          "op_index": 12,
+          "thread": "T1",
+          "action": "signal_increment",
+          "value_before": 5,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 14,
+          "op_index": 13,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 6,
+          "value_after": 7,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_b3a3f5dfbac6",
+    "task": "semaphore",
+    "mode": "bounded_edge",
+    "complexity_level": 5,
+    "initial_value": 3,
+    "max_value": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T1",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 2,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 3,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 3,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "invalid_over_signal",
+          "value_before": 2,
+          "value_after": 2,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "sem_d79e6dbf6059",
+    "task": "semaphore",
+    "mode": "random_interleaved",
+    "complexity_level": 5,
+    "initial_value": 3,
+    "max_value": null,
+    "operations": [
+      {
+        "thread": "T3",
+        "op": "signal"
+      },
+      {
+        "thread": "T3",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T2",
+        "op": "signal"
+      },
+      {
+        "thread": "T1",
+        "op": "wait"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "signal"
+      },
+      {
+        "thread": "T0",
+        "op": "wait"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      },
+      {
+        "thread": "T4",
+        "op": "signal"
+      }
+    ],
+    "ground_truth": {
+      "final_value": 7,
+      "final_blocked_queue": [],
+      "thread_final_state": {
+        "T3": "running",
+        "T4": "running",
+        "T0": "running",
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T3",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T3",
+          "action": "wait_acquired",
+          "value_before": 4,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T4",
+          "action": "wait_acquired",
+          "value_before": 4,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 4,
+          "value_after": 3,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 3,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T2",
+          "action": "signal_increment",
+          "value_before": 4,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T1",
+          "action": "wait_acquired",
+          "value_before": 5,
+          "value_after": 4,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 4,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 11,
+          "op_index": 10,
+          "thread": "T0",
+          "action": "signal_increment",
+          "value_before": 5,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 12,
+          "op_index": 11,
+          "thread": "T0",
+          "action": "wait_acquired",
+          "value_before": 6,
+          "value_after": 5,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 13,
+          "op_index": 12,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 5,
+          "value_after": 6,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 14,
+          "op_index": 13,
+          "thread": "T4",
+          "action": "signal_increment",
+          "value_before": 6,
+          "value_after": 7,
+          "blocked_queue_before": [],
+          "blocked_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_6f10924ab565",
+  "task": "bankers",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-120b",
+  "response_text": "{\n  \"need_matrix\": [[\"00\"],[31],[\"01\"]],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [31],\n      \"candidate_process\": 0,\n      \"need_row\": [\"00\"],\n      \"work_after\": [75],\n      \"finish\": [true,false,false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [75],\n      \"candidate_process\": 1,\n      \"need_row\": [31],\n      \"work_after\": [108],\n      \"finish\": [true,true,false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [108],\n      \"candidate_process\": 2,\n      \"need_row\": [\"01\"],\n      \"work_after\": [118],\n      \"finish\": [true,true,true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\"P0\",\"P1\",\"P2\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 718,
+    "completion_tokens": 1063,
+    "total_tokens": 1781,
+    "attempts": 3
+  }
+}

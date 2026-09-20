@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_0f4ea61f9899",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"need_matrix\": [[0, 0, 0], [2, 0, 0], [4, 4, 1], [2, 2, 3]],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [1, 1, 2],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 0, 0],\n      \"work_after\": [4, 1, 2],\n      \"finish\": [true, false, false, false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [4, 1, 2],\n      \"candidate_process\": 1,\n      \"need_row\": [2, 0, 0],\n      \"work_after\": [4, 2, 2],\n      \"finish\": [true, true, false, false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [4, 2, 2],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [true, true, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 910,
+    "completion_tokens": 2637,
+    "total_tokens": 3547,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_b0d499478685",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 4, 1],\n    [3, 0, 4],\n    [1, 0, 0],\n    [3, 0, 3]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: Need [0, 4, 1] is not less than or equal to Work [0, 0, 0].\",\n      \"step\": 1,\n      \"work_before\": [0, 0, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P1: Need [3, 0, 4] is not less than or equal to Work [0, 0, 0].\",\n      \"step\": 2,\n      \"work_before\": [0, 0, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P2: Need [1, 0, 0] is not less than or equal to Work [0, 0, 0].\",\n      \"step\": 3,\n      \"work_before\": [0, 0, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P3: Need [3, 0, 3] is not less than or equal to Work [0, 0, 0].\",\n      \"step\": 4,\n      \"work_before\": [0, 0, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 744,
+    "response_tokens": 518,
+    "total_tokens": 1262,
+    "attempts": 1
+  }
+}

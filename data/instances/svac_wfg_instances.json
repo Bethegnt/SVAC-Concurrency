@@ -1,0 +1,5504 @@
+[
+  {
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P1"
+      ],
+      "P1": [
+        "P0"
+      ],
+      "P2": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P1",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ],
+          "cycle": [
+            "P0",
+            "P1",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P2"
+      ],
+      "P1": [],
+      "P2": [
+        "P0"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P2"
+      ],
+      "P1": [],
+      "P2": [
+        "P0"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P1",
+        "P2"
+      ],
+      "P1": [],
+      "P2": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P2"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "processes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "edges": {
+      "P0": [
+        "P2"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P2"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P0"
+      ],
+      "P3": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P1",
+        "P3"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P3"
+      ],
+      "P3": [
+        "P0"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "cycle": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P3"
+      ],
+      "P1": [
+        "P2",
+        "P3"
+      ],
+      "P2": [
+        "P0"
+      ],
+      "P3": [
+        "P1"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P3",
+        "P1",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P1"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P1",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P3",
+            "P1",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P3",
+        "P2"
+      ],
+      "P1": [
+        "P3",
+        "P2"
+      ],
+      "P2": [],
+      "P3": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P2",
+        "P1"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P3"
+      ],
+      "P3": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "edges": {
+      "P0": [
+        "P3",
+        "P2"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P3"
+      ],
+      "P3": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P3"
+      ],
+      "P1": [
+        "P0"
+      ],
+      "P2": [
+        "P0"
+      ],
+      "P3": [
+        "P4"
+      ],
+      "P4": [
+        "P1"
+      ],
+      "P5": [
+        "P1"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P3",
+        "P4",
+        "P1",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4",
+            "P1"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4",
+            "P1"
+          ],
+          "cycle": [
+            "P0",
+            "P3",
+            "P4",
+            "P1",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P3"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P0"
+      ],
+      "P3": [
+        "P2"
+      ],
+      "P4": [],
+      "P5": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P3",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P2"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P3",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P4"
+      ],
+      "P1": [
+        "P2"
+      ],
+      "P2": [
+        "P0"
+      ],
+      "P3": [],
+      "P4": [
+        "P1"
+      ],
+      "P5": [
+        "P1"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P4",
+        "P1",
+        "P2",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P1"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P1",
+            "P2"
+          ],
+          "cycle": [
+            "P0",
+            "P4",
+            "P1",
+            "P2",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P2",
+        "P1"
+      ],
+      "P1": [],
+      "P2": [
+        "P3",
+        "P5"
+      ],
+      "P3": [
+        "P5",
+        "P4"
+      ],
+      "P4": [
+        "P5"
+      ],
+      "P5": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3",
+            "P5"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P1",
+        "P3"
+      ],
+      "P1": [
+        "P5"
+      ],
+      "P2": [
+        "P5",
+        "P4"
+      ],
+      "P3": [
+        "P5"
+      ],
+      "P4": [
+        "P5"
+      ],
+      "P5": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P5"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 9,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P2",
+            "P4"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "complexity_level": 3,
+    "num_processes": 6,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "edges": {
+      "P0": [
+        "P3",
+        "P1",
+        "P4",
+        "P2"
+      ],
+      "P1": [
+        "P4"
+      ],
+      "P2": [],
+      "P3": [
+        "P4"
+      ],
+      "P4": [
+        "P5"
+      ],
+      "P5": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [],
+      "P1": [
+        "P3"
+      ],
+      "P2": [
+        "P5",
+        "P6"
+      ],
+      "P3": [],
+      "P4": [],
+      "P5": [
+        "P2"
+      ],
+      "P6": [
+        "P4"
+      ],
+      "P7": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P2",
+        "P5",
+        "P2"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P2",
+            "P5"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "cycle_detected",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P2",
+            "P5"
+          ],
+          "cycle": [
+            "P2",
+            "P5",
+            "P2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [
+        "P7"
+      ],
+      "P1": [
+        "P5"
+      ],
+      "P2": [
+        "P6"
+      ],
+      "P3": [],
+      "P4": [
+        "P2",
+        "P6"
+      ],
+      "P5": [
+        "P0"
+      ],
+      "P6": [
+        "P0"
+      ],
+      "P7": [
+        "P4"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P7",
+        "P4",
+        "P2",
+        "P6",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7",
+            "P4"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P4",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7",
+            "P4",
+            "P2"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7",
+            "P4",
+            "P2",
+            "P6"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P2",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7",
+            "P4",
+            "P2",
+            "P6"
+          ],
+          "cycle": [
+            "P0",
+            "P7",
+            "P4",
+            "P2",
+            "P6",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [
+        "P6"
+      ],
+      "P1": [
+        "P3",
+        "P6"
+      ],
+      "P2": [
+        "P4"
+      ],
+      "P3": [
+        "P0"
+      ],
+      "P4": [
+        "P7"
+      ],
+      "P5": [],
+      "P6": [
+        "P1"
+      ],
+      "P7": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P6",
+        "P1",
+        "P3",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6",
+            "P1"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6",
+            "P1",
+            "P3"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6",
+            "P1",
+            "P3"
+          ],
+          "cycle": [
+            "P0",
+            "P6",
+            "P1",
+            "P3",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [
+        "P3",
+        "P4"
+      ],
+      "P1": [
+        "P7",
+        "P3"
+      ],
+      "P2": [
+        "P4",
+        "P5",
+        "P3"
+      ],
+      "P3": [],
+      "P4": [
+        "P5"
+      ],
+      "P5": [
+        "P6",
+        "P7"
+      ],
+      "P6": [],
+      "P7": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5",
+            "P6"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5",
+            "P7"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 13,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 15,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [
+        "P4",
+        "P3",
+        "P1",
+        "P2"
+      ],
+      "P1": [
+        "P6",
+        "P7"
+      ],
+      "P2": [
+        "P4"
+      ],
+      "P3": [],
+      "P4": [
+        "P5"
+      ],
+      "P5": [
+        "P6"
+      ],
+      "P6": [
+        "P7"
+      ],
+      "P7": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P4"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5",
+            "P6"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5",
+            "P6"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4",
+            "P5"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P4"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 13,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 15,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "complexity_level": 4,
+    "num_processes": 8,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "edges": {
+      "P0": [
+        "P6",
+        "P7"
+      ],
+      "P1": [
+        "P4",
+        "P6",
+        "P7"
+      ],
+      "P2": [
+        "P4",
+        "P3",
+        "P6"
+      ],
+      "P3": [],
+      "P4": [],
+      "P5": [
+        "P6"
+      ],
+      "P6": [
+        "P7"
+      ],
+      "P7": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6",
+            "P7"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P4"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 11,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "step": 13,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 15,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P5"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [
+        "P5",
+        "P6"
+      ],
+      "P1": [],
+      "P2": [],
+      "P3": [],
+      "P4": [],
+      "P5": [
+        "P6"
+      ],
+      "P6": [
+        "P10"
+      ],
+      "P7": [
+        "P0"
+      ],
+      "P8": [],
+      "P9": [],
+      "P10": [
+        "P7",
+        "P11",
+        "P1"
+      ],
+      "P11": [
+        "P5"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P0",
+        "P5",
+        "P6",
+        "P10",
+        "P7",
+        "P0"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P5",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P6"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P6",
+            "P10"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P6",
+            "P10",
+            "P7"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "cycle_detected",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P6",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P6",
+            "P10",
+            "P7"
+          ],
+          "cycle": [
+            "P0",
+            "P5",
+            "P6",
+            "P10",
+            "P7",
+            "P0"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [],
+      "P1": [],
+      "P2": [],
+      "P3": [
+        "P11",
+        "P8"
+      ],
+      "P4": [
+        "P7"
+      ],
+      "P5": [],
+      "P6": [
+        "P2"
+      ],
+      "P7": [
+        "P2"
+      ],
+      "P8": [],
+      "P9": [],
+      "P10": [],
+      "P11": [
+        "P3"
+      ]
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P3",
+        "P11",
+        "P3"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P3"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P11",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P3",
+            "P11"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "cycle_detected",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P11",
+            "P2",
+            "P3"
+          ],
+          "recursion_stack": [
+            "P3",
+            "P11"
+          ],
+          "cycle": [
+            "P3",
+            "P11",
+            "P3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [
+        "P1"
+      ],
+      "P1": [
+        "P7",
+        "P0"
+      ],
+      "P2": [],
+      "P3": [
+        "P2"
+      ],
+      "P4": [],
+      "P5": [],
+      "P6": [],
+      "P7": [
+        "P8"
+      ],
+      "P8": [
+        "P1"
+      ],
+      "P9": [],
+      "P10": [
+        "P8"
+      ],
+      "P11": []
+    },
+    "ground_truth": {
+      "deadlock": true,
+      "cycle_nodes": [
+        "P1",
+        "P7",
+        "P8",
+        "P1"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P7"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P7"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P7",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P7",
+            "P8"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "cycle_detected",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P7",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P7",
+            "P8"
+          ],
+          "cycle": [
+            "P1",
+            "P7",
+            "P8",
+            "P1"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [
+        "P5",
+        "P9",
+        "P7"
+      ],
+      "P1": [
+        "P8",
+        "P6",
+        "P2",
+        "P5"
+      ],
+      "P2": [
+        "P4"
+      ],
+      "P3": [
+        "P10"
+      ],
+      "P4": [
+        "P6"
+      ],
+      "P5": [
+        "P8"
+      ],
+      "P6": [
+        "P10"
+      ],
+      "P7": [
+        "P11"
+      ],
+      "P8": [
+        "P9"
+      ],
+      "P9": [
+        "P10"
+      ],
+      "P10": [],
+      "P11": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P5"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P5",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P8"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P8",
+            "P9"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "visit",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P8",
+            "P9",
+            "P10"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P8",
+            "P9"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5",
+            "P8"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "backtrack",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P5"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "visit",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7",
+            "P11"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P7"
+          ]
+        },
+        {
+          "step": 13,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 15,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P5",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P6"
+          ]
+        },
+        {
+          "step": 17,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 18,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "step": 19,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P2",
+            "P4"
+          ]
+        },
+        {
+          "step": 20,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "step": 21,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 22,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 23,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P3"
+          ]
+        },
+        {
+          "step": 24,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [
+        "P6",
+        "P3",
+        "P8",
+        "P2"
+      ],
+      "P1": [
+        "P2",
+        "P3",
+        "P5"
+      ],
+      "P2": [
+        "P8",
+        "P9",
+        "P7"
+      ],
+      "P3": [],
+      "P4": [],
+      "P5": [
+        "P7",
+        "P11"
+      ],
+      "P6": [
+        "P10"
+      ],
+      "P7": [
+        "P8"
+      ],
+      "P8": [
+        "P11"
+      ],
+      "P9": [],
+      "P10": [],
+      "P11": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6",
+            "P10"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "backtrack",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P6"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P3",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P3"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P3",
+            "P6"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P3",
+            "P6",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P8"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "visit",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P3",
+            "P6",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P8",
+            "P11"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "backtrack",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P3",
+            "P6",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P8"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "backtrack",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P3",
+            "P6",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P8"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 13,
+          "action": "visit",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P9"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "backtrack",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 15,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2",
+            "P7"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P2"
+          ]
+        },
+        {
+          "step": 17,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 18,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 19,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 20,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1",
+            "P5"
+          ]
+        },
+        {
+          "step": 21,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P1"
+          ]
+        },
+        {
+          "step": 22,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 23,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P4"
+          ]
+        },
+        {
+          "step": 24,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "complexity_level": 5,
+    "num_processes": 12,
+    "processes": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "edges": {
+      "P0": [
+        "P1"
+      ],
+      "P1": [
+        "P9",
+        "P8",
+        "P11",
+        "P7"
+      ],
+      "P2": [
+        "P10",
+        "P6"
+      ],
+      "P3": [
+        "P7",
+        "P10",
+        "P6"
+      ],
+      "P4": [
+        "P7"
+      ],
+      "P5": [
+        "P7"
+      ],
+      "P6": [],
+      "P7": [
+        "P11"
+      ],
+      "P8": [
+        "P11"
+      ],
+      "P9": [
+        "P10"
+      ],
+      "P10": [],
+      "P11": []
+    },
+    "ground_truth": {
+      "deadlock": false,
+      "cycle_nodes": null,
+      "steps": [
+        {
+          "step": 1,
+          "action": "visit",
+          "node": "P0",
+          "visited_set": [
+            "P0"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "visit",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "visit",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P9"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "visit",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P9",
+            "P10"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "backtrack",
+          "node": "P10",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P9"
+          ]
+        },
+        {
+          "step": 6,
+          "action": "backtrack",
+          "node": "P9",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 7,
+          "action": "visit",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P8"
+          ]
+        },
+        {
+          "step": 8,
+          "action": "visit",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P8",
+            "P11"
+          ]
+        },
+        {
+          "step": 9,
+          "action": "backtrack",
+          "node": "P11",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P8"
+          ]
+        },
+        {
+          "step": 10,
+          "action": "backtrack",
+          "node": "P8",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 11,
+          "action": "visit",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1",
+            "P7"
+          ]
+        },
+        {
+          "step": 12,
+          "action": "backtrack",
+          "node": "P7",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0",
+            "P1"
+          ]
+        },
+        {
+          "step": 13,
+          "action": "backtrack",
+          "node": "P1",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P0"
+          ]
+        },
+        {
+          "step": 14,
+          "action": "backtrack",
+          "node": "P0",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 15,
+          "action": "visit",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 16,
+          "action": "visit",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P2",
+            "P6"
+          ]
+        },
+        {
+          "step": 17,
+          "action": "backtrack",
+          "node": "P6",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P2"
+          ]
+        },
+        {
+          "step": 18,
+          "action": "backtrack",
+          "node": "P2",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 19,
+          "action": "visit",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P3"
+          ]
+        },
+        {
+          "step": 20,
+          "action": "backtrack",
+          "node": "P3",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 21,
+          "action": "visit",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P4"
+          ]
+        },
+        {
+          "step": 22,
+          "action": "backtrack",
+          "node": "P4",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        },
+        {
+          "step": 23,
+          "action": "visit",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": [
+            "P5"
+          ]
+        },
+        {
+          "step": 24,
+          "action": "backtrack",
+          "node": "P5",
+          "visited_set": [
+            "P0",
+            "P1",
+            "P10",
+            "P11",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9"
+          ],
+          "recursion_stack": []
+        }
+      ]
+    }
+  }
+]

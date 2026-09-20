@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_7493fe374806",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "qwen_qwen3-6-27b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\n        \"P0\"\n      ]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\n        \"P0\",\n        \"P2\"\n      ]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\n        \"P0\",\n        \"P2\"\n      ],\n      \"cycle\": [\n        \"P0\",\n        \"P2\",\n        \"P0\"\n      ]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\n    \"P0\",\n    \"P2\",\n    \"P0\"\n  ]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 632,
+    "completion_tokens": 5380,
+    "total_tokens": 6012,
+    "attempts": 2
+  }
+}

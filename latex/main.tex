@@ -1,0 +1,741 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+%% ---- Core packages ----
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{balance}
+
+%% ---- hyperref setup ----
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+  pdftitle={SVAC-Concurrency: A Step-Verification Benchmark for LLM Reasoning on OS Concurrency Algorithms},
+  pdfauthor={[Author Name]},
+  pdfkeywords={Large Language Models, Algorithmic Reasoning, Operating Systems, Concurrency Control,
+               Deadlock Detection, Banker's Algorithm, Step-level Verification, Benchmark}
+}
+
+%% ---- Custom column types for tables ----
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+%% ---- Convenience macros ----
+\newcommand{\SA}{\text{SA}}
+\newcommand{\FEP}{\text{FEP}}
+\newcommand{\ECR}{\text{ECR}}
+\newcommand{\VA}{\text{VA}}
+\newcommand{\SAvalid}{\text{SA}_{\text{valid}}}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+\title{SVAC-Concurrency: A Step-Verification Benchmark for Large Language Model
+       Reasoning on Operating System Concurrency Algorithms}
+
+%% Replace the author block with real names before submission.
+\author{%
+  \IEEEauthorblockN{[Author Name]\textsuperscript{1},
+                    [Advisor / Co-Author Name]\textsuperscript{1}}
+  \IEEEauthorblockA{\textsuperscript{1}Department of Computer Science and Engineering,\\
+    [Institution / University Name], [City, State, Country]\\
+    Email: \{author.name, advisor.name\}@university.edu}
+}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+% ============================================================
+While Large Language Models (LLMs) demonstrate remarkable competence in natural language
+understanding and high-level source code synthesis, their ability to faithfully track
+deterministic, multi-step algorithmic state transitions remains fundamentally unverified.
+Concurrency control and resource allocation algorithms in Operating Systems (OS) represent
+a rigorous, safety-critical testbed for mechanistic reasoning, demanding strict invariant
+preservation, vector/matrix state updates, and topological cycle detection.
+
+In this paper, we present \textbf{SVAC-Concurrency}, an open-source, reproducible
+evaluation benchmark comprising \textbf{125 parameterized problem instances} (generating
+375 evaluation traces per model across 3 prompting regimes) spanning five canonical OS
+algorithms: Wait-For Graph (WFG) deadlock detection, Banker's safety algorithm, Buddy
+System memory allocation, counting Semaphores, and Mutex lock simulations.
+
+Rather than relying solely on coarse outcome correctness (Verdict Accuracy),
+SVAC-Concurrency introduces a deterministic ground-truth verification framework to
+evaluate execution traces across four diagnostic dimensions: \textbf{Step Accuracy (SA)},
+\textbf{First Error Position (FEP)}, \textbf{Error Cascade Rate (ECR)}, and
+\textbf{Equivalence-Aware Invariant Validity}. We conduct an extensive cross-architectural
+investigation evaluating Google Gemini-3.5-Flash-Lite, OpenAI GPT-OSS-20B, NVIDIA
+Nemotron-3-Super-120B, and Liquid AI LFM-2.6B across Zero-Shot,
+Few-Shot, and Chain-of-Thought (CoT) prompting strategies.
+
+Our empirical findings reveal:
+\begin{enumerate}
+\item \textbf{Procedural Fidelity vs.\ Outcome Illusion:} Across balanced 50/50 decision
+  distributions (majority baseline $= 50.0\%$), Gemini-3.5-Flash-Lite achieves 72.8\%
+  Verdict Accuracy on parsed responses but only 56.1\% Step Accuracy---collapsing to
+  \textbf{36.98\% SA} on non-saturating state-tracking tasks (WFG, Banker's, Buddy)---
+  demonstrating widespread ``right verdict for flawed reasons'' behavior.
+\item \textbf{Prompt-Priming vs.\ Invariant Divergence in Graph Reasoning:} Under strict
+  positional matching, WFG cycle detection exhibits an apparent collapse from 85.4\% SA
+  in Few-Shot to 7.5\% in CoT (and 4.4\% in Zero-Shot). Crucially,
+  equivalence-aware invariant verification reveals that CoT maintains
+  \textbf{93.2\% valid step accuracy} and \textbf{93.3\% verdict accuracy} (comparable
+  to Few-Shot's 100.0\% valid SA and 100.0\% VA). The collapse in strict positional SA
+  is driven by prompt-primed canonical tie-breaking rather than algorithmic incapacity,
+  demonstrating that rigid sequential benchmarks risk measuring format compliance rather
+  than reasoning.
+\item \textbf{Failure Horizon Dichotomy:} WFG errors under strict matching occur at Step
+  1 in 100\% of Zero-Shot and CoT failure cases due to branch tie-breaking divergence,
+  whereas Buddy allocation exhibits true intermediate state corruption (mean
+  $\FEP = 6.6$--$7.6$ steps).
+\item \textbf{Equivalence vs.\ Strict Positional Bias:} Invariant-based scoring reveals
+  that strict positional matching severely underestimates model competence: valid step
+  accuracy increases to 74.3\% in Banker's ($\Delta = {+}32.8\%$) and 95.6\% in WFG
+  ($\Delta = {+}64.3\%$).
+\item \textbf{Format Brittleness in Open Architectures:} Severe schema compliance
+  degradation in open-weight models (19.7\% parse success for Nemotron-120B) demonstrates
+  that raw parameter scale does not guarantee structured state-machine adherence.
+\end{enumerate}
+
+The complete benchmark suite, deterministic reference solvers, prompt templates, and
+evaluation pipelines are publicly available at:
+\url{https://github.com/anonymous-author/SVAC-Concurrency}.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Large Language Models, Algorithmic Reasoning, Operating Systems, Concurrency Control,
+Deadlock Detection, Banker's Algorithm, Step-level Verification, Benchmark.
+\end{IEEEkeywords}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+% ============================================================
+
+Large Language Models (LLMs) are increasingly integrated into modern software engineering
+pipelines, automated code review tools, and operating systems pedagogy~\cite{brown2020language,bubeck2023sparks}.
+Despite remarkable empirical gains on functional coding benchmarks such as
+HumanEval~\cite{chen2021codex}, MBPP~\cite{austin2021program}, and
+APPS~\cite{hendrycks2021apps}, conventional benchmarks evaluate programs almost
+exclusively via black-box input-output test cases. They fail to assess whether an
+auto-regressive model maintains a coherent, mechanically faithful simulation of
+intermediate program states during execution~\cite{cobbe2021training,hendrycks2021math,lightman2024verify}.
+
+In operating systems and systems programming, procedural correctness is
+non-negotiable. Concurrency control algorithms---such as deadlock detection, resource
+allocation safety, and dynamic physical memory partitioning---are governed by rigorous
+theoretical properties:
+\begin{enumerate}
+\item \textbf{Strict Discrete State Tracking:} Every transition must update resource
+  availability vectors, process allocation matrices, or block allocation trees without
+  state drift or phantom resource generation.
+\item \textbf{Topological and Relational Invariants:} Identifying deadlocks requires
+  systematic traversal of directed Wait-For Graphs to detect closed cycles without
+  hallucinating non-existent dependency edges.
+\item \textbf{Catastrophic Error Cascades:} A single state corruption at step $t$
+  invalidates all subsequent state assertions at $t{+}k$, converting downstream
+  execution into an unfaithful hallucination.
+\end{enumerate}
+
+When evaluating LLMs on such procedural tasks, standard outcome-based metrics (e.g.,
+binary classification of whether a system is deadlocked or safe) introduce massive
+evaluation noise. On balanced datasets, an LLM can easily guess the correct binary
+verdict through statistical heuristics or shallow token correlations while executing an
+entirely invalid sequence of intermediate states.
+
+To resolve this evaluation gap, we introduce \textbf{SVAC-Concurrency}
+(\emph{Step-Verification of Algorithmic Concurrency}), a comprehensive,
+parameter-controlled benchmark designed to evaluate intermediate LLM reasoning traces
+across five foundational OS concurrency algorithms. Each instance is paired with an
+exact ground-truth execution trace computed by deterministic reference solvers,
+unit-tested against textbook worked examples~\cite{silberschatz2018os} and, for WFG
+and Banker's algorithms (60 of 125 instances), validated via independent brute-force
+differential testing.
+
+\subsection*{Research Questions}
+\begin{itemize}
+\item \textbf{RQ1} (\emph{Procedural Fidelity vs.\ Outcome Correctness}): Do LLMs
+  produce faithful intermediate state transitions, or do high verdict accuracies mask
+  severe intermediate state-tracking failures on balanced decision distributions?
+\item \textbf{RQ2} (\emph{Complexity Scaling \& Failure Horizons}): How do increasing
+  state-space bounds affect step accuracy, and at what execution horizon ($\FEP$) do
+  cascading errors initiate across different algorithmic structures?
+\item \textbf{RQ3} (\emph{Prompting Dynamics \& Serialization Artifacts}): Does
+  step-by-step verbalization (CoT) assist or destabilize discrete graph-traversal and
+  matrix-tracking algorithms, and to what extent does few-shot prompting act as format
+  serialization priming?
+\item \textbf{RQ4} (\emph{Equivalence \& Architectural Robustness}): To what extent does
+  strict positional scoring underestimate valid alternative execution paths, and how do
+  open-weight models adhere to strict intermediate state schemas compared to
+  instruction-tuned frontier APIs?
+\end{itemize}
+
+\subsection*{Primary Contributions}
+\begin{itemize}
+\item \textbf{Comprehensive Benchmark Suite:} 125 unique instances across 5 core OS
+  algorithms parameterized across 5 distinct complexity tiers ($N{=}375$ evaluations
+  per model across 3 prompt strategies).
+\item \textbf{Multi-Dimensional Metric Taxonomy:} Formalization of $\SA$, $\FEP$,
+  $\ECR$, and Equivalence-Aware Invariant Validity to capture reasoning dynamics beyond
+  binary verdicts.
+\item \textbf{Cross-Architectural Empirical Investigation:} Systematic comparison of four
+  distinct model families: Gemini-3.5-Flash-Lite, GPT-OSS-20B, Nemotron-3-Super-120B,
+  and Liquid AI LFM-2.6B.
+\item \textbf{Deconstruction of the CoT Inversion Effect:} Discovery and formal
+  characterization showing that the apparent collapse of CoT in graph cycle detection
+  (85.4\% Few-Shot vs.\ 7.5\% CoT strict SA) is primarily driven by serialization
+  tie-breaking divergence, while invariant-aware step validity remains robust at 93.2\%
+  with 93.3\% verdict accuracy.
+\item \textbf{Equivalence-Aware Invariant Evaluation:} Demonstration that rigid
+  positional matching under-reports valid algorithmic execution by 32.8\% in Banker's
+  and 64.3\% in WFG.
+\end{itemize}
+
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+% ============================================================
+
+\subsection{Benchmarking Code Generation and Execution Reasoning}
+
+Early LLM code evaluation benchmarks such as HumanEval~\cite{chen2021codex},
+MBPP~\cite{austin2021program}, and APPS~\cite{hendrycks2021apps} established
+input-output testing as the standard paradigm for evaluating program synthesis. Recent
+efforts have shifted toward evaluating \emph{execution reasoning}. CRUXEval~\cite{gu2024cruxeval}
+evaluated code execution reasoning by testing input/output prediction across short Python
+snippets. REval~\cite{chen2025reval} and CodeMind~\cite{liu2024codemind} introduced
+state-level execution tracing for general imperative code. While these benchmarks test
+arbitrary code snippets, they do not systematically probe canonical discrete algorithms
+where formal invariants, resource constraints, and topological cycles dictate
+correctness. SVAC-Concurrency provides precisely this specialized, parameter-controlled
+algorithmic framework.
+
+\subsection{Mechanistic State Tracking in Transformers}
+
+A growing body of literature investigates whether transformer architectures maintain
+coherent internal world models during sequential tasks. Toshniwal et al.~\cite{toshniwal2022chess}
+demonstrated that auto-regressive language models track board state representations in
+chess games despite receiving only move sequences. Strobl et al.~\cite{strobl2024transformers}
+surveyed the theoretical boundaries of what formal languages and state machines
+transformer architectures can express. Wang et al.~\cite{wang2023graph} investigated
+graph traversal algorithms in natural language. In the systems domain, the precursor SVAC
+technical report~\cite{anon2024svac} evaluated step-level reasoning in virtual memory
+page replacement policies (FIFO, LRU, Optimal, Clock). Additionally, the CONCUR
+benchmark by Huang et al.~\cite{huang2026concur} evaluated LLMs on \emph{synthesizing}
+concurrent synchronization primitives. Our work explicitly contrasts with CONCUR: rather
+than evaluating concurrent code synthesis, we evaluate \emph{execution-trace
+verification}, isolating whether models accurately track concurrent state transitions and
+deadlock invariants.
+
+\subsection{Prompting Dynamics and CoT Unfaithfulness}
+
+Chain-of-Thought (CoT) prompting~\cite{wei2022chain,chu2024survey} is widely documented to boost
+arithmetic and multi-hop reasoning. However, recent empirical studies reveal significant
+limits and pathology in verbalized reasoning. Lanham et al.~\cite{lanham2023faithfulness}
+and Turpin et al.~\cite{turpin2023unfaithful} demonstrated that CoT explanations are
+frequently unfaithful, serving as post-hoc rationalizations rather than causal
+computation drivers. Shi et al.~\cite{shi2023distracted} demonstrated that LLMs are
+easily distracted by irrelevant reasoning context, while Liu et al.~\cite{liu2024mindstep}
+observed degradation in multi-step planning tasks when natural language narration exceeds
+formal state-space capacity. In graph-theoretic tasks, Agrawal et al.~\cite{agrawal2024graph}
+investigated the structural limitations of language models on graph reasoning. Our work
+grounds these phenomena in operating systems concurrency, providing quantitative evidence
+of how serialization tie-breaks and verbalized narration interact with discrete state tracking.
+
+% ============================================================
+\section{Benchmark Architecture and Methodology}
+\label{sec:benchmark}
+% ============================================================
+
+\begin{table*}[t]
+\centering
+\caption{SVAC-Concurrency Benchmark Suite Overview}
+\label{tab:suite}
+\begin{tabular}{L{2.8cm}L{3.2cm}C{1.4cm}L{3.4cm}L{3.0cm}}
+\toprule
+\textbf{Algorithm Family} & \textbf{State Representation} & \textbf{Instances} &
+\textbf{Complexity Bounds} & \textbf{Class Balance} \\
+\midrule
+Wait-For Graph (WFG) & Directed Adjacency \& Recursion Stack & 30 &
+  $|V| \in [2,6]$, $|E| \in [1,8]$ & 50\% Deadlock (15) / 50\% Acyclic (15) \\
+\addlinespace
+Banker's Algorithm & Available Vector, Allocation/Need Matrix & 30 &
+  $P \in [2,6]$, $R \in [2,4]$ & 50\% Safe (15) / 50\% Unsafe (15) \\
+\addlinespace
+Buddy System Memory & Free-list Binary Tree \& Blocks & 25 &
+  512\,KB--4096\,KB, Requests $\in [4,10]$ & Deterministic Partition Trace \\
+\addlinespace
+Counting Semaphore & \texttt{S.value} \& FIFO Blocked Queue & 20 &
+  $S \in [1,3]$, Ops $\in [4,10]$ & Deterministic State Sequence \\
+\addlinespace
+Mutex Lock Synchronization & Owner ID \& Lock State Flag & 20 &
+  Threads $\in [2,5]$, Ops $\in [4,8]$ & Deterministic Transition Trace \\
+\midrule
+\textbf{Total} & & \textbf{125} & 5 Complexity Tiers & 50.0\% Majority Baseline \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Problem Formulations \& Ground-Truth Verification}
+
+All problem instances are deterministically synthesized across five calibrated complexity
+tiers (Levels 1--5). Ground-truth execution traces are produced by reference Python
+solvers (\texttt{solvers/}) unit-tested against textbook worked examples from Silberschatz
+et al.~\cite{silberschatz2018os}. Additionally, WFG and Banker's Algorithm solvers
+(60 of 125 instances) were independently cross-verified via brute-force differential
+testing against alternative reference implementations (3-color DFS oracle for WFG;
+exhaustive permutation search for Banker's).
+
+\begin{enumerate}
+\item \textbf{Wait-For Graph (WFG) Deadlock Detection:} Given a set of processes
+  $P = \{P_0, \dots, P_{n-1}\}$ and directed wait edges $E \subseteq P \times P$, where
+  $(P_i, P_j) \in E$ indicates $P_i$ is blocked waiting for a resource held by $P_j$.
+  The model must execute DFS, tracking the active recursion stack and visited set at each
+  step, identifying back-edges, reporting the cycle subgraph if present, and emitting a
+  final verdict $\text{deadlock} \in \{\text{true}, \text{false}\}$. The dataset is
+  strictly balanced: 15 instances contain cycles and 15 are directed acyclic graphs
+  (DAGs), balanced evenly (3 positive, 3 negative) across all 5 complexity tiers.
+
+\item \textbf{Banker's Algorithm for Deadlock Avoidance:} Given an Available resource
+  vector $A \in \mathbb{N}^m$, Allocation matrix $\mathbf{Alloc} \in \mathbb{N}^{n \times m}$,
+  and Max demand matrix $\mathbf{Max} \in \mathbb{N}^{n \times m}$. The model must
+  compute $\mathbf{Need} = \mathbf{Max} - \mathbf{Alloc}$, iteratively identify an
+  executable candidate process $P_i$ such that $\mathbf{Need}_i \le \text{Work}$,
+  simulate resource reclamation $\text{Work} \leftarrow \text{Work} + \mathbf{Alloc}_i$,
+  update the $\text{Finish}$ boolean array, and determine whether a complete safe
+  sequence exists ($\text{safe} \in \{\text{true}, \text{false}\}$). Strictly balanced:
+  15 safe and 15 unsafe instances (3 per complexity tier).
+
+\item \textbf{Buddy System Memory Allocation:} Given total memory size $M = 2^K$ and a
+  sequential stream of allocation and deallocation operations. The model must track
+  recursive block splits, power-of-two alignments, and buddy coalescing on free
+  operations, returning the exact block partition state at each step.
+
+\item \textbf{Counting Semaphore Simulation:} Given initial counter $S \ge 0$ and an
+  interleaved execution stream of concurrent $\text{wait}(S)$ and $\text{signal}(S)$
+  calls from multiple threads. The model must track the integer value of $S$ and the FIFO
+  blocked thread queue at every transition.
+
+\item \textbf{Mutex Lock Simulation:} Evaluates mutual exclusion lock acquisition,
+  priority ownership, contention blocking, and release transitions across concurrent
+  threads.
+\end{enumerate}
+
+\subsection{Mathematical Evaluation Framework}
+
+Let an evaluation instance $I$ have ground-truth trace
+$\mathbf{Y}^* = (y_1^*, y_2^*, \dots, y_{T^*}^*)$ of length $T^*$, and model-generated
+trace $\hat{\mathbf{Y}} = (\hat{y}_1, \hat{y}_2, \dots, \hat{y}_m)$ of length $m$.
+
+\subsubsection{Formal Step Equality Specification}
+
+A step $\hat{y}_t$ matches ground truth $y_t^*$ if and only if all task-specific state
+attributes match under canonical normalization:
+
+\textbf{WFG Deadlock:}
+\begin{align}
+\hat{y}_t = y_t^* \iff
+  &\bigl(\hat{y}_t.\text{action} = y_t^*.\text{action}\bigr) \notag\\
+  &\land \bigl(\hat{y}_t.\text{node} = y_t^*.\text{node}\bigr) \notag\\
+  &\land \bigl(\mathrm{sort}(\hat{y}_t.\text{visited}) = \mathrm{sort}(y_t^*.\text{visited})\bigr)\notag\\
+  &\land \bigl(\hat{y}_t.\text{stack} = y_t^*.\text{stack}\bigr)
+\end{align}
+Visited nodes are compared as canonical sorted sets (order-insensitive), while the
+recursion stack is compared as an ordered sequence (order-sensitive).
+
+\textbf{Banker's Algorithm:}
+\begin{align}
+\hat{y}_t = y_t^* \iff
+  &\bigl(\hat{y}_t.\text{candidate} = y_t^*.\text{candidate}\bigr) \notag\\
+  &\land \bigl(\hat{y}_t.\text{work\_before} = y_t^*.\text{work\_before}\bigr)\notag\\
+  &\land \bigl(\hat{y}_t.\text{work\_after} = y_t^*.\text{work\_after}\bigr)\notag\\
+  &\land \bigl(\hat{y}_t.\text{finish} = y_t^*.\text{finish}\bigr)
+\end{align}
+
+\textbf{Buddy System / Semaphore / Mutex:} Exact equality across all state fields
+(allocated block address-size tuples, free-list, counter/owner state, blocked thread
+list order).
+
+\subsubsection{Diagnostic Trace Metrics}
+
+\begin{enumerate}
+\item \textbf{Step Accuracy ($\SA$):}
+  \begin{equation}
+    \SA = \frac{1}{T^*} \sum_{t=1}^{\min(T^*,m)} \mathbb{I}(\hat{y}_t = y_t^*)
+  \end{equation}
+
+\item \textbf{First Error Position ($\FEP$):}
+  \begin{equation}
+    \FEP = \min\!\left(\bigl\{t \in \{1,\dots,T^*\} \mid \hat{y}_t \ne y_t^*\bigr\}
+             \cup \{\infty\}\right)
+  \end{equation}
+
+\item \textbf{Error Cascade Rate ($\ECR$):}
+  \begin{equation}
+    \ECR = \begin{cases}
+      \dfrac{1}{T^* - \FEP} \displaystyle\sum_{t=\FEP+1}^{T^*}
+        \mathbb{I}(\hat{y}_t \ne y_t^*), & \text{if } \FEP < T^* \\[6pt]
+      0, & \text{if } \FEP \ge T^* \text{ or } \FEP = \infty
+    \end{cases}
+  \end{equation}
+
+\item \textbf{Verdict Accuracy ($\VA$):} To prevent conflating parse failures with
+  reasoning errors, we report both $\VA_{\text{parsed}}$ (conditionally over successfully
+  formatted outputs) and $\VA_{\text{all}}$ (treating unparsed outputs as incorrect):
+  \begin{align}
+    \VA_{\text{parsed}} &= \frac{1}{N_{\text{parsed}}}
+      \sum_{i=1}^{N_{\text{parsed}}} \mathbb{I}(\widehat{\text{verdict}}_i = \text{verdict}_i^*)\\
+    \VA_{\text{all}} &= \frac{1}{N_{\text{total}}}
+      \sum_{i=1}^{N_{\text{total}}} \mathbb{I}\!\left(\text{parsed}_i \land
+      \widehat{\text{verdict}}_i = \text{verdict}_i^*\right)
+  \end{align}
+\end{enumerate}
+
+\subsubsection{Equivalence-Aware Invariant Scoring}
+
+Strict positional matching penalizes models when multiple valid execution paths exist
+(e.g., Banker's instances where multiple processes satisfy $\mathbf{Need}_i \le \text{Work}$,
+or graph traversals with alternative neighbor ordering). We therefore formulate
+\textbf{Equivalence-Aware Invariant Validity ($\SAvalid$)}:
+\begin{itemize}
+\item At each step $t$, verify that $\hat{y}_t.\text{candidate}$ is unfinished and
+  satisfies $\mathbf{Need}_{\text{candidate}} \le \text{Work}_{t-1}$.
+\item Verify that $\text{Work}_t = \text{Work}_{t-1} + \mathbf{Alloc}_{\text{candidate}}$
+  and only the candidate process finishes.
+\item If safe, verify that $\hat{y}.\text{safe\_sequence}$ is an executable permutation
+  under initial resources.
+\end{itemize}
+
+% ============================================================
+\section{Experimental Setup}
+\label{sec:setup}
+% ============================================================
+
+All evaluations were executed under strict deterministic parameters
+($\text{temperature} = 0.0$, $\text{top\_p} = 1.0$) across three prompt configurations:
+\textbf{Zero-Shot (ZS)} (direct JSON schema specification), \textbf{Few-Shot (FS)}
+(in-context exemplars of step-by-step execution), and \textbf{Chain-of-Thought (CoT)}
+(verbalized rationale preceding structured JSON emission).
+
+We evaluated four diverse foundation models:
+\begin{enumerate}
+\item \textbf{Google Gemini-3.5-Flash-Lite:} High-throughput dense instruction-tuned
+  reasoning model evaluated via Google AI Studio API endpoints across all 125 instances
+  ($N{=}375$).
+\item \textbf{OpenAI GPT-OSS-20B:} Open-weight model evaluated via Groq high-speed LPU
+  inference acceleration, scoped to WFG deadlock detection ($N{=}81$ scored attempts) due
+  to upstream API rate-limits.
+\item \textbf{NVIDIA Nemotron-3-Super-120B:} 120B-parameter open-weight foundation model
+  evaluated via OpenRouter endpoints across all 125 instances ($N{=}375$ attempts).
+\item \textbf{Liquid AI LFM-2.6B:} Non-transformer dynamical state-space architecture
+  evaluated via OpenRouter endpoints, scoped to WFG ($N{=}39$ scored attempts).
+\end{enumerate}
+
+% ============================================================
+\section{Results and Empirical Analysis}
+\label{sec:results}
+% ============================================================
+
+\begin{table*}[t]
+\centering
+\caption{Multi-Provider Cross-Architecture Benchmark Results}
+\label{tab:cross_model}
+\begin{tabular}{L{2.8cm}C{2.0cm}C{1.4cm}C{1.4cm}C{1.4cm}C{1.4cm}C{1.7cm}C{1.7cm}}
+\toprule
+\textbf{Model Architecture} & \textbf{Organization} & \textbf{Att.} & \textbf{Parse}
+  & \textbf{SA} & \textbf{ECR} & \textbf{VA\textsubscript{parsed}} & \textbf{VA\textsubscript{all}} \\
+\midrule
+Gemini-3.5-Flash-Lite & Google DeepMind & 375 & 99.2\% & 56.1\% & 36.9\% & 72.8\% & 72.3\% \\
+GPT-OSS-20B           & OpenAI          & 81\rlap{$^\dagger$} & 58.0\% & 53.1\%$^*$ & 45.3\%$^*$ & 100.0\%$^*$ & 58.0\% \\
+Nemotron-3-Super-120B & NVIDIA          & 375 & 19.7\% & 48.5\%$^*$ & 41.3\%$^*$ & 95.9\%$^*$ & 18.9\% \\
+Liquid LFM-2.6B       & Liquid AI       & 39\rlap{$^\dagger$} & 69.2\% & 14.4\%$^*$ & 86.1\%$^*$ & 96.3\%$^*$ & 66.7\% \\
+\midrule
+Majority Baseline & --- & 375 & 100.0\% & 0.0\% & 100.0\% & 50.0\% & 50.0\% \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize $^*$Computed conditionally over successfully parsed JSON outputs.}\\
+\multicolumn{8}{l}{\footnotesize $^\dagger$Scoped to WFG subset due to upstream provider rate-limiting and connection resets.}\\
+\multicolumn{8}{l}{\footnotesize Parse Rate $= N_{\text{parsed}} / N_{\text{attempted}}$. Att.~= attempts.}
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{Per-Task Step Accuracy (\%) Across Prompt Strategies\\
+         (Gemini-3.5-Flash-Lite, $N = 20$--$30$ instances per cell)}
+\label{tab:task_sa}
+\begin{tabular}{L{2.4cm}C{1.4cm}C{1.4cm}C{1.4cm}}
+\toprule
+\textbf{Task Domain} & \textbf{ZS} & \textbf{FS} & \textbf{CoT} \\
+\midrule
+WFG Deadlock         & 4.4\%  & 85.4\% & 7.5\%  \\
+Banker's Safety      & 32.9\% & 41.9\% & 49.7\% \\
+Buddy System         & 30.5\% & 31.5\% & 49.1\% \\
+Counting Semaphore   & 91.2\% & 96.2\% & 95.0\% \\
+Mutex Lock           & 100.0\%& 100.0\%& 100.0\%\\
+\midrule
+Non-Saturated Mean\rlap{$^\ddagger$} & 22.6\% & 52.9\% & 35.4\% \\
+Instance-Weighted Mean\rlap{$^\natural$} & 45.6\% & 68.2\% & 54.7\% \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize $^\ddagger$WFG + Banker's + Buddy only. Overall non-saturated SA: 36.98\%.}\\
+\multicolumn{4}{l}{\footnotesize $^\natural$Weighted by $N$ per task (30,30,25,20,20); strategy mean = 56.2\%, reconciling to suite SA of 56.1\%.}
+\end{tabular}
+\end{table}
+
+\subsection{The ``Right Verdict for Wrong Reasons'' Gap}
+
+A primary finding from our benchmark is the stark divergence between Verdict Accuracy and
+Step Accuracy. As shown in Table~\ref{tab:cross_model}, Gemini-3.5-Flash-Lite achieves an
+overall \textbf{Verdict Accuracy of 72.8\%} on parsed responses, yet exhibits a mean
+\textbf{Step Accuracy of only 56.1\%}.
+
+Crucially, the 56.1\% suite mean is heavily inflated by trivial state saturation in
+Mutex (100.0\% SA) and Semaphore tasks (94.2\% SA). When isolating the \textbf{non-saturating
+algorithmic tasks (WFG, Banker's, and Buddy System)}, mean Step Accuracy drops to
+\textbf{36.98\%}. Because the decision tasks are strictly 50/50 balanced (majority
+baseline $= 50.0\%$), the gap between 72.8\% VA and 37.0\% non-saturated SA demonstrates
+that outcome accuracy vastly overstates procedural competence.
+
+\subsection{Deconstructing the CoT Inversion Effect: Priming vs.\ Invariants}
+
+Table~\ref{tab:task_sa} appears to show an extreme prompting anomaly. In linear-procedural
+tasks, CoT prompting provides substantial gains ($+16.8\%$ Banker's, $+18.6\%$ Buddy
+over Zero-Shot). In WFG cycle detection, strict positional matching reports an apparent
+collapse: Few-Shot attains \textbf{85.4\% SA} whereas CoT plunges to \textbf{7.5\% SA}.
+
+\begin{table}[t]
+\centering
+\caption{WFG Empirical Error Taxonomy \& Accuracy Breakdown (Gemini)}
+\label{tab:wfg_taxonomy}
+\begin{tabular}{L{3.2cm}C{1.5cm}C{1.5cm}C{1.3cm}}
+\toprule
+\textbf{Metric / Error Category} & \textbf{ZS} ($N{=}30$) & \textbf{FS} ($N{=}30$) & \textbf{CoT} ($N{=}30$) \\
+\midrule
+Visited Set Corruption    & 30 (100\%)  &  7 (23.3\%) & 30 (100\%) \\
+Recursion Stack Corr.     & 14 (46.7\%) & 12 (40.0\%) &  8 (26.7\%) \\
+Wrong Traversal Node      & 20 (66.7\%) & 12 (40.0\%) & 18 (60.0\%) \\
+Step Count Mismatch       & 16 (53.3\%) & 13 (43.3\%) & 12 (40.0\%) \\
+False Cycle Hallucination &  3 (10.0\%) &  0 (0.0\%)  &  2 (6.7\%)  \\
+Missed Cycle (False Neg.) &  0 (0.0\%)  &  0 (0.0\%)  &  0 (0.0\%)  \\
+\midrule
+Verdict Acc.\ (VA)        & 27/30 (90.0\%) & 28/28 (100\%)\rlap{$^\S$} & 28/30 (93.3\%) \\
+Strict Positional SA      &  4.4\%  & 85.4\% &  7.5\%  \\
+Invariant-Based Valid SA  & 93.7\%  & 100.0\%& 93.2\%  \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize $^\S$2 Few-Shot instances failed schema parsing; VA computed over 28 parsed responses.}
+\end{tabular}
+\end{table}
+
+A superficial reading concludes that CoT verbalization causes general topological
+reasoning breakdown. However, cross-examining Table~\ref{tab:wfg_taxonomy} and
+Table~\ref{tab:invariant_sa} reveals a deeper, nuanced scientific truth:
+
+\begin{enumerate}
+\item \textbf{High Invariant Validity and Verdict Accuracy:} Under invariant checking,
+  Zero-Shot achieves \textbf{93.7\% valid SA} (90.0\% VA), Few-Shot achieves
+  \textbf{100.0\% valid SA} (100.0\% VA), and CoT achieves \textbf{93.2\% valid SA}
+  (93.3\% VA). Models across all three strategies execute sound DFS traversals.
+
+\item \textbf{Why Strict SA Collapses (The Serialization Priming Effect):} In Few-Shot
+  prompting, the in-context exemplar explicitly demonstrates the solver's canonical
+  tie-breaking convention (alphabetical neighbor selection). Without this formatting
+  prompt, Zero-Shot and CoT models explore valid neighbors in non-canonical order. Because
+  strict positional matching requires step $t$ to match identically, a single
+  non-canonical branch at Step~1 invalidates every subsequent positional comparison,
+  resulting in $\FEP = 1$ in 100\% of cases and depressing strict SA to 4.4\%--7.5\%.
+
+\item \textbf{Residual CoT Tracking Drift:} Although CoT maintains 93.2\% invariant
+  validity, Table~\ref{tab:wfg_taxonomy} confirms that verbalization induces subtle
+  tracking drift: \texttt{visited\_set\_corruption} occurs in 100\% of CoT traces
+  (vs.\ 23.3\% in Few-Shot), and false cycle hallucination rises from 0\% in Few-Shot
+  to 6.7\% in CoT. In long verbalized traces, models occasionally conflate backtracked
+  nodes with active recursion path elements.
+\end{enumerate}
+
+\textbf{Case Study: Localized CoT Backtrack Drift (Instance \texttt{wfg\_3ceec919261d}).}
+Ground truth for this instance is \texttt{deadlock=False} (DAG). At step~9, the model's
+trace correctly backtracks P4 out of the recursion stack
+(\texttt{"recursion\_stack":~["P0"]}), marking P4 as fully explored. However, 12 steps
+later at step~21, the model re-asserts P4 as being ``in the recursion stack'' and
+declares a false cycle---contradicting its own step-9 state. This demonstrates how
+unconstrained natural language tokens can induce localized state-binding drift at
+terminal steps.
+
+\subsection{First Error Position (FEP) Dynamics}
+
+Evaluating the discrete point of first failure ($\FEP$) reveals fundamentally distinct
+degradation dynamics across algorithmic domains:
+\begin{itemize}
+\item \textbf{Immediate Topological Divergence (WFG):} Under strict matching,
+  $\FEP = 1$ in 100.0\% of error cases for ZS and CoT (mean $\FEP = 1.00$) due to
+  branch tie-break divergence at the initial node. Under Few-Shot, format priming aligns
+  canonical order, delaying initial failure to mean $\FEP = 8.38$ (median 7.0).
+\item \textbf{Early Matrix Misalignment (Banker's):} $\FEP = 1$ occurs in 76.0\% (ZS),
+  59.1\% (FS), and 82.4\% (CoT) of error instances (mean $\FEP \in [1.28, 1.55]$).
+\item \textbf{Gradual Multi-Step State Drift (Buddy System):} $\FEP = 1$ occurs in only
+  22.7\%--34.8\% of errors, with a mean $\FEP$ of \textbf{6.96 steps (ZS), 7.57 (FS),
+  and 6.55 (CoT)} (median $\FEP = 4.0$--$5.0$). Models correctly perform initial block
+  splits, but accumulate arithmetic fragmentation errors over long horizons.
+\end{itemize}
+
+\subsection{Equivalence-Aware Invariant Scoring vs.\ Strict Positional Matching}
+
+\begin{table}[t]
+\centering
+\caption{Invariant-Based Valid SA vs.\ Strict Positional SA (Gemini)}
+\label{tab:invariant_sa}
+\begin{tabular}{L{2.4cm}C{1.5cm}C{1.5cm}C{1.4cm}}
+\toprule
+\textbf{Task / Variant} & \textbf{Strict SA} & \textbf{Valid SA} & \textbf{$\Delta$} \\
+\midrule
+\multicolumn{4}{l}{\emph{Banker's Safety ($N{=}90$)}} \\
+\quad Zero-Shot    & 32.9\% & 74.4\% & $+41.6\%$ \\
+\quad Few-Shot     & 41.9\% & 78.9\% & $+37.1\%$ \\
+\quad CoT          & 49.7\% & 69.5\% & $+19.8\%$ \\
+\quad \textbf{Mean}& \textbf{41.5\%} & \textbf{74.3\%} & $\mathbf{+32.8\%}$ \\
+\midrule
+\multicolumn{4}{l}{\emph{WFG Deadlock ($N{=}88$)}} \\
+\quad Zero-Shot    &  4.4\% & 93.7\% & $+89.4\%$ \\
+\quad Few-Shot     & 85.4\% & 100.0\%& $+14.6\%$ \\
+\quad CoT          &  7.5\% & 93.2\% & $+85.8\%$ \\
+\quad \textbf{Mean}& \textbf{31.2\%} & \textbf{95.6\%} & $\mathbf{+64.3\%}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+As detailed in Table~\ref{tab:invariant_sa}:
+\begin{enumerate}
+\item \textbf{Banker's Algorithm:} When verifying that each chosen candidate process
+  satisfies $\mathbf{Need}_i \le \text{Work}$ and properly reclaims resources under the
+  model's own state, valid step accuracy reaches \textbf{74.3\%} ($+32.8\%$ over
+  positional SA). In 7 out of 90 instances, models executed a sound safe sequence that
+  prioritized a different candidate process than the reference solver's deterministic
+  tie-break.
+\item \textbf{WFG Cycle Detection:} Under invariant checking (valid neighbor traversal
+  and backtracking), WFG valid step accuracy reaches \textbf{95.6\%} ($+64.3\%$ over
+  positional SA).
+\item \textbf{Trace Length Alignment Sensitivity:} Evaluating monotonic Longest Common
+  Subsequence (LCS) alignment reveals that trace length disparity
+  ($m / T^* \approx 1.3$--$2.8$) creates substantial artificial cascade penalties:
+  aligned SA increases Banker's CoT from 49.7\% to 63.5\% ($+13.8\%$) and WFG Few-Shot
+  from 85.4\% to 97.7\% ($+12.3\%$).
+\end{enumerate}
+
+\subsection{Cross-Model Schema Fragility and Formatting Brittleness}
+
+Table~\ref{tab:cross_model} underscores a profound divergence between proprietary
+instruction-tuned models and open-weight architectures. While Gemini-3.5-Flash-Lite
+achieved 99.2\% parse success, \textbf{NVIDIA Nemotron-3-Super-120B achieved only 19.7\%
+parse success}, with the remaining 80.3\% of outputs failing JSON decoding due to missing
+closing delimiters, extraneous conversational preambles, or unescaped tokens.
+
+Crucially, auditing the parsed subset reveals that Nemotron achieved \textbf{95.9\%
+Verdict Accuracy} and \textbf{48.5\% Step Accuracy}. Our dual-metric decomposition
+($\VA_{\text{parsed}}$ vs.\ $\VA_{\text{all}}$) establishes that open-weight models
+suffer not from semantic reasoning deficits, but from strict output-channel schema
+adherence failures.
+
+% ============================================================
+\section{Discussion and Practical Implications}
+\label{sec:discussion}
+% ============================================================
+
+\subsection{Token-Level Format Following vs.\ Algorithmic Competence}
+
+Our findings highlight that raw parameter count does not ensure procedural fidelity.
+Nemotron-120B contains 120B total parameters, yet
+failed schema parsing on 80.3\% of tasks where Gemini-3.5-Flash-Lite parsed cleanly.
+For practical systems verification pipelines, constrained decoding (e.g., grammar-based
+sampling via outlines or JSON schemas) is essential before open-weight models can be
+reliably deployed.
+
+\subsection{Implications for Automated Verification and Systems Pedagogy}
+
+\begin{enumerate}
+\item \textbf{Never rely on unverified verdicts:} On balanced 50/50 concurrency
+  distributions, LLMs exhibit a 35.8\% divergence between outcome correctness and
+  procedural fidelity. Downstream systems tools must verify intermediate execution traces.
+\item \textbf{Distinguish between format compliance and procedural validity:} In graph
+  and state-machine problems, few-shot exemplars serve primarily to prime arbitrary
+  serialization conventions (tie-breaks). Automated benchmarks must adopt equivalence-aware
+  verifiers to avoid mistaking valid alternative traversals for reasoning failures.
+\item \textbf{Constrain generative freedom in topological tasks:} Unstructured
+  verbalization in CoT increases state-binding drift on recursion stacks. Structured
+  schema emission should be enforced.
+\end{enumerate}
+
+% ============================================================
+\section{Limitations}
+\label{sec:limitations}
+% ============================================================
+
+This empirical investigation is bounded by several methodology considerations:
+\begin{enumerate}
+\item \textbf{Single-Run Deterministic Sampling:} Inferences were performed at
+  $\text{temperature} = 0.0$. We did not evaluate temperature-swept self-consistency or
+  majority voting across multiple runs.
+\item \textbf{Per-Cell Sample Size:} With 125 instances spanning 5 tasks and 5 complexity
+  levels, individual task-complexity sub-cells contain $N = 4$--$6$ instances, though
+  each prompt strategy evaluates $N = 20$--$30$ instances per algorithm family.
+\item \textbf{Partial Evaluation of Open Models:} Upstream API rate-limiting on
+  open-router endpoints restricted open-weight evaluations (GPT-OSS-20B and LFM-2.6B)
+  to WFG subsets, necessitating conditional reporting over parsed subsets.
+\item \textbf{Synthetic Problem Horizons:} Instances model canonical textbook concurrency
+  algorithms ($P \le 6, R \le 4$) rather than production-scale distributed systems traces.
+\item \textbf{Static Prompting Regimes:} We evaluated static ZS, FS, and CoT prompts
+  without dynamic tool feedback, external Python interpreter execution, or
+  self-correction loops.
+\item \textbf{Tie-Breaking Sensitivity:} While invariant-aware scoring resolves
+  alternative valid sequences, strict positional SA remains sensitive to canonical solver
+  ordering.
+\end{enumerate}
+
+% ============================================================
+\section{Future Work}
+\label{sec:future}
+% ============================================================
+
+Future extensions of SVAC-Concurrency will investigate:
+\begin{enumerate}
+\item \textbf{Grammar-Constrained Decoding:} Evaluating whether formal context-free
+  grammars (CFGs) eliminate open-weight formatting collapse.
+\item \textbf{Reinforcement Learning with Step Verifiers:} Utilizing SVAC's intermediate
+  step verifiers as dense process reward models (PRMs) to train reasoning models on
+  discrete concurrency invariants.
+\item \textbf{Kernel-Level Concurrency Traces:} Extending problem instances to real Linux
+  kernel eBPF trace logs and lockdep synchronization graphs.
+\end{enumerate}
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+% ============================================================
+
+We presented \textbf{SVAC-Concurrency}, a fine-grained, open-source benchmark for
+evaluating LLM intermediate reasoning traces on Operating System concurrency algorithms.
+Through multi-dimensional metrics ($\SA$, $\FEP$, $\ECR$, and Equivalence-Aware
+Validity), we showed that high outcome accuracy masks severe intermediate state failures,
+deconstructed the CoT Inversion Effect in topological deadlock detection as serialization
+tie-breaking priming, and demonstrated the critical impact of invariant-aware scoring.
+All benchmark datasets, reference solvers, and evaluation harnesses are made publicly
+available to advance verifiable algorithmic reasoning.
+
+\balance
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

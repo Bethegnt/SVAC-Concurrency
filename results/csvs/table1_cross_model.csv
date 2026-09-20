@@ -1,0 +1,6 @@
+Model Architecture,Organization,Scored (N),Parse Rate,Step Acc (SA),Error Cascade (ECR),Verdict Acc (Parsed),Verdict Acc (All)
+Gemini-3.5-Flash-Lite,Google DeepMind,375 / 375,99.2%,56.1%,36.9%,72.8%,72.3%
+OpenAI-GPT-OSS-20B,OpenAI,81 / 81,58.0%,53.1%,45.3%,100.0%,58.0%
+Nemotron-3-Super-120B,NVIDIA,375 / 375,19.7%,48.5%,41.3%,95.9%,18.9%
+Liquid-LFM-2.6B,Liquid AI,39 / 39,69.2%,14.4%,86.1%,96.3%,66.7%
+Majority Baseline,Random / Majority,375 / 375,100.0%,0.0%,100.0%,50.0%,50.0%

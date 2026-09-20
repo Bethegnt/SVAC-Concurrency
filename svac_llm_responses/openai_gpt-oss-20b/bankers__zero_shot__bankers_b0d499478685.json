@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_b0d499478685",
+  "task": "bankers",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 4, 1],\n    [3, 0, 4],\n    [1, 0, 0],\n    [3, 0, 3]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [0, 0, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}\n",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 756,
+    "completion_tokens": 863,
+    "total_tokens": 1619,
+    "attempts": 6
+  }
+}

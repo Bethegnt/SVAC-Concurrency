@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_6f10924ab565",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 0],\n    [3, 1],\n    [0, 1]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Check P0: Need [0, 0] is less than or equal to Work [3, 1], so P0 qualifies.\",\n      \"step\": 1,\n      \"work_before\": [3, 1],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 0],\n      \"work_after\": [7, 5],\n      \"finish\": [true, false, false]\n    },\n    {\n      \"thought\": \"Restart scan from P0: P0 is finished. Check P1: Need [3, 1] is less than or equal to Work [7, 5], so P1 qualifies.\",\n      \"step\": 2,\n      \"work_before\": [7, 5],\n      \"candidate_process\": 1,\n      \"need_row\": [3, 1],\n      \"work_after\": [10, 8],\n      \"finish\": [true, true, false]\n    },\n    {\n      \"thought\": \"Restart scan from P0: P0 and P1 are finished. Check P2: Need [0, 1] is less than or equal to Work [10, 8], so P2 qualifies.\",\n      \"step\": 3,\n      \"work_before\": [10, 8],\n      \"candidate_process\": 2,\n      \"need_row\": [0, 1],\n      \"work_after\": [11, 8],\n      \"finish\": [true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\n    \"P0\",\n    \"P1\",\n    \"P2\"\n  ]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 705,
+    "response_tokens": 442,
+    "total_tokens": 1147,
+    "attempts": 1
+  }
+}

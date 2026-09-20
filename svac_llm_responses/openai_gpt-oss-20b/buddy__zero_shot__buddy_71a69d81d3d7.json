@@ -1,0 +1,12 @@
+{
+  "instance_id": "buddy_71a69d81d3d7",
+  "task": "buddy",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

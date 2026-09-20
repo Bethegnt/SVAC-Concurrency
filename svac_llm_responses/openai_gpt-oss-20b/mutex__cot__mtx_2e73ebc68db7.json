@@ -1,0 +1,12 @@
+{
+  "instance_id": "mtx_2e73ebc68db7",
+  "task": "mutex",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

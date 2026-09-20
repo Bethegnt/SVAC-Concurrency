@@ -1,0 +1,2342 @@
+[
+  {
+    "instance_id": "mtx_d32ece863aa2",
+    "task": "mutex",
+    "mode": "sequential",
+    "complexity_level": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T1",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_f35cb038545f",
+    "task": "mutex",
+    "mode": "contention",
+    "complexity_level": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T0",
+          "action": "unlock_release_handoff",
+          "owner_before": "T0",
+          "owner_after": "T1",
+          "wait_queue_before": [
+            "T1"
+          ],
+          "wait_queue_after": [],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_b63848081bd6",
+    "task": "mutex",
+    "mode": "invalid_unlock_edge",
+    "complexity_level": 1,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": null,
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_6433603c3cca",
+    "task": "mutex",
+    "mode": "self_deadlock_edge",
+    "complexity_level": 1,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": "T0",
+      "final_wait_queue": [
+        "T0",
+        "T1"
+      ],
+      "thread_final_state": {
+        "T0": "blocked",
+        "T1": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_self_deadlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T0"
+          ],
+          "wait_queue_after": [
+            "T0",
+            "T1"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_a9ca8304f9b0",
+    "task": "mutex",
+    "mode": "sequential",
+    "complexity_level": 2,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T1",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T2",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T2",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "unlock_release_idle",
+          "owner_before": "T2",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_2e73ebc68db7",
+    "task": "mutex",
+    "mode": "contention",
+    "complexity_level": 2,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_handoff",
+          "owner_before": "T0",
+          "owner_after": "T1",
+          "wait_queue_before": [
+            "T1",
+            "T2"
+          ],
+          "wait_queue_after": [
+            "T2"
+          ],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T1",
+          "action": "unlock_release_handoff",
+          "owner_before": "T1",
+          "owner_after": "T2",
+          "wait_queue_before": [
+            "T2"
+          ],
+          "wait_queue_after": [],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "unlock_release_idle",
+          "owner_before": "T2",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_4bcb5043086e",
+    "task": "mutex",
+    "mode": "invalid_unlock_edge",
+    "complexity_level": 2,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": null,
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_85991bf24e65",
+    "task": "mutex",
+    "mode": "self_deadlock_edge",
+    "complexity_level": 2,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": "T0",
+      "final_wait_queue": [
+        "T0",
+        "T1"
+      ],
+      "thread_final_state": {
+        "T0": "blocked",
+        "T1": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_self_deadlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T0"
+          ],
+          "wait_queue_after": [
+            "T0",
+            "T1"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_a8773ebc3230",
+    "task": "mutex",
+    "mode": "sequential",
+    "complexity_level": 3,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T1",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T2",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T2",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "unlock_release_idle",
+          "owner_before": "T2",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T3",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T3",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "unlock_release_idle",
+          "owner_before": "T3",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_d7924f751b8b",
+    "task": "mutex",
+    "mode": "contention",
+    "complexity_level": 3,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T0",
+          "action": "unlock_release_handoff",
+          "owner_before": "T0",
+          "owner_after": "T1",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "wait_queue_after": [
+            "T2",
+            "T3"
+          ],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T1",
+          "action": "unlock_release_handoff",
+          "owner_before": "T1",
+          "owner_after": "T2",
+          "wait_queue_before": [
+            "T2",
+            "T3"
+          ],
+          "wait_queue_after": [
+            "T3"
+          ],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T2",
+          "action": "unlock_release_handoff",
+          "owner_before": "T2",
+          "owner_after": "T3",
+          "wait_queue_before": [
+            "T3"
+          ],
+          "wait_queue_after": [],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "unlock_release_idle",
+          "owner_before": "T3",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_58c19487146f",
+    "task": "mutex",
+    "mode": "invalid_unlock_edge",
+    "complexity_level": 3,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": null,
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_8d7b9f0a6f26",
+    "task": "mutex",
+    "mode": "self_deadlock_edge",
+    "complexity_level": 3,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": "T0",
+      "final_wait_queue": [
+        "T0",
+        "T1"
+      ],
+      "thread_final_state": {
+        "T0": "blocked",
+        "T1": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_self_deadlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T0"
+          ],
+          "wait_queue_after": [
+            "T0",
+            "T1"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_9f36eaf4c6c8",
+    "task": "mutex",
+    "mode": "sequential",
+    "complexity_level": 4,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      },
+      {
+        "thread": "T4",
+        "op": "lock"
+      },
+      {
+        "thread": "T4",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T1",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T2",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T2",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "unlock_release_idle",
+          "owner_before": "T2",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T3",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T3",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "unlock_release_idle",
+          "owner_before": "T3",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T4",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T4",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "unlock_release_idle",
+          "owner_before": "T4",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_409dc95bbbe5",
+    "task": "mutex",
+    "mode": "contention",
+    "complexity_level": 4,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T4",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      },
+      {
+        "thread": "T4",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T0",
+          "action": "unlock_release_handoff",
+          "owner_before": "T0",
+          "owner_after": "T1",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "wait_queue_after": [
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T1",
+          "action": "unlock_release_handoff",
+          "owner_before": "T1",
+          "owner_after": "T2",
+          "wait_queue_before": [
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "wait_queue_after": [
+            "T3",
+            "T4"
+          ],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T2",
+          "action": "unlock_release_handoff",
+          "owner_before": "T2",
+          "owner_after": "T3",
+          "wait_queue_before": [
+            "T3",
+            "T4"
+          ],
+          "wait_queue_after": [
+            "T4"
+          ],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T3",
+          "action": "unlock_release_handoff",
+          "owner_before": "T3",
+          "owner_after": "T4",
+          "wait_queue_before": [
+            "T4"
+          ],
+          "wait_queue_after": [],
+          "woken_thread": "T4"
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "unlock_release_idle",
+          "owner_before": "T4",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_cca52880af10",
+    "task": "mutex",
+    "mode": "invalid_unlock_edge",
+    "complexity_level": 4,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": null,
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_6717136bc637",
+    "task": "mutex",
+    "mode": "self_deadlock_edge",
+    "complexity_level": 4,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": "T0",
+      "final_wait_queue": [
+        "T0",
+        "T1"
+      ],
+      "thread_final_state": {
+        "T0": "blocked",
+        "T1": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_self_deadlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T0"
+          ],
+          "wait_queue_after": [
+            "T0",
+            "T1"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_1797d65b113e",
+    "task": "mutex",
+    "mode": "sequential",
+    "complexity_level": 5,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      },
+      {
+        "thread": "T4",
+        "op": "lock"
+      },
+      {
+        "thread": "T4",
+        "op": "unlock"
+      },
+      {
+        "thread": "T5",
+        "op": "lock"
+      },
+      {
+        "thread": "T5",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running",
+        "T5": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T1",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T1",
+          "action": "unlock_release_idle",
+          "owner_before": "T1",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T2",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T2",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T2",
+          "action": "unlock_release_idle",
+          "owner_before": "T2",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T3",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T3",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T3",
+          "action": "unlock_release_idle",
+          "owner_before": "T3",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T4",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T4",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T4",
+          "action": "unlock_release_idle",
+          "owner_before": "T4",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 11,
+          "op_index": 10,
+          "thread": "T5",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T5",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 12,
+          "op_index": 11,
+          "thread": "T5",
+          "action": "unlock_release_idle",
+          "owner_before": "T5",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 13,
+          "op_index": 12,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 14,
+          "op_index": 13,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_aa41e59dba08",
+    "task": "mutex",
+    "mode": "contention",
+    "complexity_level": 5,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      },
+      {
+        "thread": "T2",
+        "op": "lock"
+      },
+      {
+        "thread": "T3",
+        "op": "lock"
+      },
+      {
+        "thread": "T4",
+        "op": "lock"
+      },
+      {
+        "thread": "T5",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T2",
+        "op": "unlock"
+      },
+      {
+        "thread": "T3",
+        "op": "unlock"
+      },
+      {
+        "thread": "T4",
+        "op": "unlock"
+      },
+      {
+        "thread": "T5",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running",
+        "T1": "running",
+        "T2": "running",
+        "T3": "running",
+        "T4": "running",
+        "T5": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T1"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T2",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T3",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 5,
+          "op_index": 4,
+          "thread": "T4",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 6,
+          "op_index": 5,
+          "thread": "T5",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "wait_queue_after": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 7,
+          "op_index": 6,
+          "thread": "T0",
+          "action": "unlock_release_handoff",
+          "owner_before": "T0",
+          "owner_after": "T1",
+          "wait_queue_before": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "wait_queue_after": [
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "woken_thread": "T1"
+        },
+        {
+          "step": 8,
+          "op_index": 7,
+          "thread": "T1",
+          "action": "unlock_release_handoff",
+          "owner_before": "T1",
+          "owner_after": "T2",
+          "wait_queue_before": [
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "wait_queue_after": [
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "woken_thread": "T2"
+        },
+        {
+          "step": 9,
+          "op_index": 8,
+          "thread": "T2",
+          "action": "unlock_release_handoff",
+          "owner_before": "T2",
+          "owner_after": "T3",
+          "wait_queue_before": [
+            "T3",
+            "T4",
+            "T5"
+          ],
+          "wait_queue_after": [
+            "T4",
+            "T5"
+          ],
+          "woken_thread": "T3"
+        },
+        {
+          "step": 10,
+          "op_index": 9,
+          "thread": "T3",
+          "action": "unlock_release_handoff",
+          "owner_before": "T3",
+          "owner_after": "T4",
+          "wait_queue_before": [
+            "T4",
+            "T5"
+          ],
+          "wait_queue_after": [
+            "T5"
+          ],
+          "woken_thread": "T4"
+        },
+        {
+          "step": 11,
+          "op_index": 10,
+          "thread": "T4",
+          "action": "unlock_release_handoff",
+          "owner_before": "T4",
+          "owner_after": "T5",
+          "wait_queue_before": [
+            "T5"
+          ],
+          "wait_queue_after": [],
+          "woken_thread": "T5"
+        },
+        {
+          "step": 12,
+          "op_index": 11,
+          "thread": "T5",
+          "action": "unlock_release_idle",
+          "owner_before": "T5",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_4d9591e4c085",
+    "task": "mutex",
+    "mode": "invalid_unlock_edge",
+    "complexity_level": 5,
+    "operations": [
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "unlock"
+      },
+      {
+        "thread": "T0",
+        "op": "unlock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": null,
+      "final_wait_queue": [],
+      "thread_final_state": {
+        "T0": "running"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": null,
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "invalid_unlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 4,
+          "op_index": 3,
+          "thread": "T0",
+          "action": "unlock_release_idle",
+          "owner_before": "T0",
+          "owner_after": null,
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "mtx_800fc3a70960",
+    "task": "mutex",
+    "mode": "self_deadlock_edge",
+    "complexity_level": 5,
+    "operations": [
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T0",
+        "op": "lock"
+      },
+      {
+        "thread": "T1",
+        "op": "lock"
+      }
+    ],
+    "ground_truth": {
+      "final_owner": "T0",
+      "final_wait_queue": [
+        "T0",
+        "T1"
+      ],
+      "thread_final_state": {
+        "T0": "blocked",
+        "T1": "blocked"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "op_index": 0,
+          "thread": "T0",
+          "action": "lock_acquired",
+          "owner_before": null,
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [],
+          "woken_thread": null
+        },
+        {
+          "step": 2,
+          "op_index": 1,
+          "thread": "T0",
+          "action": "lock_self_deadlock",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [],
+          "wait_queue_after": [
+            "T0"
+          ],
+          "woken_thread": null
+        },
+        {
+          "step": 3,
+          "op_index": 2,
+          "thread": "T1",
+          "action": "lock_blocked",
+          "owner_before": "T0",
+          "owner_after": "T0",
+          "wait_queue_before": [
+            "T0"
+          ],
+          "wait_queue_after": [
+            "T0",
+            "T1"
+          ],
+          "woken_thread": null
+        }
+      ]
+    }
+  }
+]

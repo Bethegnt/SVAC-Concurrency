@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_4cf71d568433",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [1, 2, 1, 2],\n    [1, 0, 2, 3],\n    [2, 3, 1, 1],\n    [2, 1, 4, 4],\n    [3, 0, 0, 3],\n    [0, 4, 4, 2],\n    [0, 2, 4, 1],\n    [1, 1, 4, 3]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"I checked P0, P1, P2, P3, P4, P5, P6, and P7; only P4 has a need [3, 0, 0, 3] which is less than or equal to available [0, 2, 1, 0] is false, wait, checking P4: need [3, 0, 0, 3] vs work [0, 2, 1, 0] fails, checking P0: [1, 2, 1, 2] vs [0, 2, 1, 0] fails, checking P1: [1, 0, 2, 3] vs [0, 2, 1, 0] fails, checking P2: [2, 3, 1, 1] vs [0, 2, 1, 0] fails, checking P3: [2, 1, 4, 4] vs [0, 2, 1, 0] fails, checking P5: [0, 4, 4, 2] vs [0, 2, 1, 0] fails, checking P6: [0, 2, 4, 1] vs [0, 2, 1, 0] fails, checking P7: [1, 1, 4, 3] vs [0, 2, 1, 0] fails.\",\n      \"step\": 1,\n      \"work_before\": [0, 2, 1, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 867,
+    "response_tokens": 558,
+    "total_tokens": 1425,
+    "attempts": 1
+  }
+}

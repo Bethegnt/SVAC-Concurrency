@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_1f02fad7f5cc",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P7\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P8\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"]\n    },\n    {\n      \"step\": 5,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"]\n    },\n    {\n      \"step\": 6,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P8\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"],\n      \"cycle\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 717,
+    "completion_tokens": 4196,
+    "total_tokens": 4913,
+    "attempts": 1
+  }
+}

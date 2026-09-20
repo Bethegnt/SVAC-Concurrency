@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_2dc0389e94b7",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Need a block of size 1024 for this request; no free block of that size or larger exists, so allocation fails.\",\n      \"step\": 1,\n      \"op_index\": 0,\n      \"request_id\": \"OVERFLOW\",\n      \"action\": \"alloc_failed\",\n      \"block_addr\": null,\n      \"block_size\": null,\n      \"free_lists\": {\n        \"256\": [0]\n      }\n    }\n  ],\n  \"allocation_log\": {\n    \"OVERFLOW\": {\n      \"address\": null,\n      \"block_size\": 1024,\n      \"status\": \"failed\"\n    }\n  },\n  \"final_free_lists\": {\n    \"256\": [0]\n  }\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 1448,
+    "completion_tokens": 740,
+    "total_tokens": 2188,
+    "attempts": 1
+  }
+}

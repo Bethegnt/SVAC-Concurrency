@@ -1,0 +1,4372 @@
+[
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "meta-llama_llama-3.1-8b-instruct_free",
+    "response_meta": {
+      "error": "http_404",
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_2xTzYy7B2OuPc10BRple2TDtYli\"}",
+      "attempts": 5
+    }
+  }
+]

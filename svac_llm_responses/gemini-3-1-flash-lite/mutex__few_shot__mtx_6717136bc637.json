@@ -1,0 +1,14 @@
+{
+  "instance_id": "mtx_6717136bc637",
+  "task": "mutex",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"op_index\": 0,\n      \"thread\": \"T0\",\n      \"action\": \"lock_acquired\",\n      \"owner_before\": null,\n      \"owner_after\": \"T0\",\n      \"wait_queue_before\": [],\n      \"wait_queue_after\": [],\n      \"woken_thread\": null\n    },\n    {\n      \"step\": 2,\n      \"op_index\": 1,\n      \"thread\": \"T0\",\n      \"action\": \"lock_self_deadlock\",\n      \"owner_before\": \"T0\",\n      \"owner_after\": \"T0\",\n      \"wait_queue_before\": [],\n      \"wait_queue_after\": [\n        \"T0\"\n      ],\n      \"woken_thread\": null\n    },\n    {\n      \"step\": 3,\n      \"op_index\": 2,\n      \"thread\": \"T1\",\n      \"action\": \"lock_blocked\",\n      \"owner_before\": \"T0\",\n      \"owner_after\": \"T0\",\n      \"wait_queue_before\": [\n        \"T0\"\n      ],\n      \"wait_queue_after\": [\n        \"T0\",\n        \"T1\"\n      ],\n      \"woken_thread\": null\n    }\n  ],\n  \"final_owner\": \"T0\",\n  \"final_wait_queue\": [\n    \"T0\",\n    \"T1\"\n  ],\n  \"thread_final_state\": {\n    \"T0\": \"blocked\",\n    \"T1\": \"blocked\"\n  }\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 1263,
+    "response_tokens": 395,
+    "total_tokens": 1658,
+    "attempts": 1
+  }
+}

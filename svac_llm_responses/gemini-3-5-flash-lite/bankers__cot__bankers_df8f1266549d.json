@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_df8f1266549d",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 4, 4, 3],\n    [1, 4, 1, 1],\n    [0, 1, 0, 3],\n    [3, 0, 2, 3],\n    [0, 3, 1, 4],\n    [2, 4, 3, 2]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: Need [0, 4, 4, 3] exceeds Work [1, 1, 1, 0]. Checking P1: Need [1, 4, 1, 1] exceeds Work. Checking P2: Need [0, 1, 0, 3] exceeds Work. Checking P3: Need [3, 0, 2, 3] exceeds Work. Checking P4: Need [0, 3, 1, 4] exceeds Work. Checking P5: Need [2, 4, 3, 2] exceeds Work.\",\n      \"step\": 1,\n      \"work_before\": [1, 1, 1, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 819,
+    "response_tokens": 337,
+    "total_tokens": 1156,
+    "attempts": 1
+  }
+}

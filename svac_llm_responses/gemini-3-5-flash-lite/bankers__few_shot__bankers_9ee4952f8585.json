@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_9ee4952f8585",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 3, 1],\n    [0, 4, 2],\n    [3, 2, 1],\n    [3, 3, 1],\n    [3, 4, 0]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [0, 3, 0],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 3, 1],\n      \"work_after\": [4, 3, 1],\n      \"finish\": [true, false, false, false, false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [4, 3, 1],\n      \"candidate_process\": 2,\n      \"need_row\": [3, 2, 1],\n      \"work_after\": [5, 6, 4],\n      \"finish\": [true, false, true, false, false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [5, 6, 4],\n      \"candidate_process\": 1,\n      \"need_row\": [0, 4, 2],\n      \"work_after\": [5, 9, 6],\n      \"finish\": [true, true, true, false, false]\n    },\n    {\n      \"step\": 4,\n      \"work_before\": [5, 9, 6],\n      \"candidate_process\": 3,\n      \"need_row\": [3, 3, 1],\n      \"work_after\": [6, 13, 10],\n      \"finish\": [true, true, true, true, false]\n    },\n    {\n      \"step\": 5,\n      \"work_before\": [6, 13, 10],\n      \"candidate_process\": 4,\n      \"need_row\": [3, 4, 0],\n      \"work_after\": [6, 15, 11],\n      \"finish\": [true, true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\n    \"P0\",\n    \"P2\",\n    \"P1\",\n    \"P3\",\n    \"P4\"\n  ]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 954,
+    "response_tokens": 572,
+    "total_tokens": 1526,
+    "attempts": 1
+  }
+}

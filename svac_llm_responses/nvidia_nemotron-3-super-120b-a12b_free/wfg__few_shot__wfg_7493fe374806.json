@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_7493fe374806",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\"step\": 1, \"action\": \"visit\", \"node\": \"P0\", \"visited_set\": [\"P0\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 2, \"action\": \"visit\", \"node\": \"P2\", \"visited_set\": [\"P0\", \"P2\"], \"recursion_stack\": [\"P0\", \"P2\"]},\n    {\"step\": 3, \"action\": \"cycle_detected\", \"node\": \"P0\", \"visited_set\": [\"P0\", \"P2\"], \"recursion_stack\": [\"P0\", \"P2\"], \"cycle\": [\"P0\", \"P2\", \"P0\"]}\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 842,
+    "completion_tokens": 1657,
+    "total_tokens": 2499,
+    "attempts": 1
+  }
+}

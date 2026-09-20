@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_a7d34eafc06a",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\"step\": 1, \"action\": \"visit\", \"node\": \"P0\", \"visited_set\": [], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 2, \"action\": \"backtrack\", \"node\": \"P0\", \"visited_set\": [], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 3, \"action\": \"visit\", \"node\": \"P1\", \"visited_set\": [\"P0\"], \"recursion_stack\": [\"P1\"]},\n    {\"step\": 4, \"action\": \"backtrack\", \"node\": \"P1\", \"visited_set\": [\"P0\"], \"recursion_stack\": [\"P1\"]},\n    {\"step\": 5, \"action\": \"visit\", \"node\": \"P2\", \"visited_set\": [\"P0\", \"P1\"], \"recursion_stack\": [\"P2\"]},\n    {\"step\": 6, \"action\": \"backtrack\", \"node\": \"P2\", \"visited_set\": [\"P0\", \"P1\"], \"recursion_stack\": [\"P2\"]},\n    {\"step\": 7, \"action\": \"visit\", \"node\": \"P3\", \"visited_set\": [\"P0\", \"P1\", \"P2\"], \"recursion_stack\": [\"P3\"]},\n    {\"step\": 8, \"action\": \"visit\", \"node\": \"P11\", \"visited_set\": [\"P0\", \"P1\", \"P2\"], \"recursion_stack\": [\"P3\", \"P11\"]},\n    {\"step\": 9, \"action\": \"cycle_detected\", \"node\": \"P11\", \"visited_set\": [\"P0\", \"P1\", \"P2\"], \"recursion_stack\": [\"P3\", \"P11\"], \"cycle\": [\"P3\", \"P11\", \"P3\"]}\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P3\", \"P11\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 723,
+    "completion_tokens": 3989,
+    "total_tokens": 4712,
+    "attempts": 1
+  }
+}

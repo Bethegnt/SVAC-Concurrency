@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_34bc6b54f102",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\"step\": 1, \"action\": \"visit\", \"node\": \"P0\", \"visited_set\": [\"P0\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 2, \"action\": \"visit\", \"node\": \"P6\", \"visited_set\": [\"P0\", \"P6\"], \"recursion_stack\": [\"P0\", \"P6\"]},\n    {\"step\": 3, \"action\": \"visit\", \"node\": \"P1\", \"visited_set\": [\"P0\", \"P1\", \"P6\"], \"recursion_stack\": [\"P0\", \"P6\", \"P1\"]},\n    {\"step\": 4, \"action\": \"visit\", \"node\": \"P3\", \"visited_set\": [\"P0\", \"P1\", \"P3\", \"P6\"], \"recursion_stack\": [\"P0\", \"P6\", \"P1\", \"P3\"]},\n    {\"step\": 5, \"action\": \"cycle_detected\", \"node\": \"P0\", \"visited_set\": [\"P0\", \"P1\", \"P3\", \"P6\"], \"recursion_stack\": [\"P0\", \"P6\", \"P1\", \"P3\"], \"cycle\": [\"P0\", \"P6\", \"P1\", \"P3\", \"P0\"]}\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P6\", \"P1\", \"P3\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 967,
+    "completion_tokens": 3057,
+    "total_tokens": 4024,
+    "attempts": 2
+  }
+}

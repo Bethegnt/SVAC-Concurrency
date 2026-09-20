@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_75acae09740d",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS from P0; visit P0 and push to recursion stack.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P0's first edge to P1; P1 is unvisited, so visit P1.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"thought\": \"P1 has no outgoing edges; backtrack from P1 and add to visited set.\",\n      \"step\": 3,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P1\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P0's second edge to P2; P2 is unvisited, so visit P2.\",\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P1\"],\n      \"recursion_stack\": [\"P0\", \"P2\"]\n    },\n    {\n      \"thought\": \"P2 has no outgoing edges; backtrack from P2 and add to visited set.\",\n      \"step\": 5,\n      \"action\": \"backtrack\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P1\", \"P2\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"All edges of P0 have been explored; backtrack from P0 and add to visited set.\",\n      \"step\": 6,\n      \"action\": \"backtrack\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": []\n    }\n  ],\n  \"deadlock\": false,\n  \"cycle_nodes\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 693,
+    "response_tokens": 508,
+    "total_tokens": 3053,
+    "attempts": 1
+  }
+}

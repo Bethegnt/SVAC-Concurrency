@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_feb8aa465b66",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 1, 2],\n    [1, 1, 1],\n    [1, 1, 4],\n    [4, 1, 2]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [3, 3, 1],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 1, 2],\n      \"work_after\": [5, 4, 2],\n      \"finish\": [true, false, false, false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [5, 4, 2],\n      \"candidate_process\": 1,\n      \"need_row\": [1, 1, 1],\n      \"work_after\": [8, 5, 4],\n      \"finish\": [true, true, false, false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [8, 5, 4],\n      \"candidate_process\": 2,\n      \"need_row\": [1, 1, 4],\n      \"work_after\": [10, 8, 5],\n      \"finish\": [true, true, true, false]\n    },\n    {\n      \"step\": 4,\n      \"work_before\": [10, 8, 5],\n      \"candidate_process\": 3,\n      \"need_row\": [4, 1, 2],\n      \"work_after\": [14, 10, 9],\n      \"finish\": [true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\n    \"P0\",\n    \"P1\",\n    \"P2\",\n    \"P3\"\n  ]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 936,
+    "response_tokens": 457,
+    "total_tokens": 1393,
+    "attempts": 1
+  }
+}

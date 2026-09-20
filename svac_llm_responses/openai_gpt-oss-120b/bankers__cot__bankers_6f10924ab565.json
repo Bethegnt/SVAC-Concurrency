@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_6f10924ab565",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-120b",
+  "response_text": "{\"need_matrix\":[[\"00\"],[31],[\"01\"]],\"steps\":[{\"thought\":\"Checked P0 first; its need [0,0] is satisfied.\",\"step\":1,\"work_before\":[31],\"candidate_process\":0,\"need_row\":[\"00\"],\"work_after\":[75],\"finish\":[true,false,false]},{\"thought\":\"Checked P0 (finished) then P1; need [3,1] fits work.\",\"step\":2,\"work_before\":[75],\"candidate_process\":1,\"need_row\":[31],\"work_after\":[108],\"finish\":[true,true,false]},{\"thought\":\"Checked P0,P1 (finished) then P2; need [0,1] fits work.\",\"step\":3,\"work_before\":[108],\"candidate_process\":2,\"need_row\":[\"01\"],\"work_after\":[118],\"finish\":[true,true,true]}],\"safe\":true,\"safe_sequence\":[\"P0\",\"P1\",\"P2\"]}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 756,
+    "completion_tokens": 1380,
+    "total_tokens": 2136,
+    "attempts": 3
+  }
+}

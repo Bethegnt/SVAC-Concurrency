@@ -1,0 +1,14 @@
+{
+  "instance_id": "sem_a20bc4d75546",
+  "task": "semaphore",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"The semaphore value is 1 and the max_value is 1, so signalling when the queue is empty and value is at max_value results in an invalid operation.\",\n      \"step\": 1,\n      \"op_index\": 0,\n      \"thread\": \"T0\",\n      \"action\": \"invalid_over_signal\",\n      \"value_before\": 1,\n      \"value_after\": 1,\n      \"blocked_queue_before\": [],\n      \"blocked_queue_after\": [],\n      \"woken_thread\": null\n    },\n    {\n      \"thought\": \"The semaphore value is 1, so T0 acquires the semaphore and the value decrements to 0.\",\n      \"step\": 2,\n      \"op_index\": 1,\n      \"thread\": \"T0\",\n      \"action\": \"wait_acquired\",\n      \"value_before\": 1,\n      \"value_after\": 0,\n      \"blocked_queue_before\": [],\n      \"blocked_queue_after\": [],\n      \"woken_thread\": null\n    },\n    {\n      \"thought\": \"The semaphore value is 0 and the queue is empty, so the signal increments the value to 1.\",\n      \"step\": 3,\n      \"op_index\": 2,\n      \"thread\": \"T1\",\n      \"action\": \"signal_increment\",\n      \"value_before\": 0,\n      \"value_after\": 1,\n      \"blocked_queue_before\": [],\n      \"blocked_queue_after\": [],\n      \"woken_thread\": null\n    },\n    {\n      \"thought\": \"The semaphore value is 1 and the max_value is 1, so signalling when the queue is empty and value is at max_value results in an invalid operation.\",\n      \"step\": 4,\n      \"op_index\": 3,\n      \"thread\": \"T0\",\n      \"action\": \"invalid_over_signal\",\n      \"value_before\": 1,\n      \"value_after\": 1,\n      \"blocked_queue_before\": [],\n      \"blocked_queue_after\": [],\n      \"woken_thread\": null\n    }\n  ],\n  \"final_value\": 1,\n  \"final_blocked_queue\": [],\n  \"thread_final_state\": {\n    \"T0\": \"running\",\n    \"T1\": \"running\"\n  }\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 810,
+    "response_tokens": 573,
+    "total_tokens": 1383,
+    "attempts": 1
+  }
+}

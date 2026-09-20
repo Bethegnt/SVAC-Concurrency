@@ -1,0 +1,192 @@
+[
+  {
+    "task": "WFG Deadlock Detection",
+    "short": "wfg",
+    "n": 30,
+    "positive_label": "deadlock=True",
+    "negative_label": "deadlock=False",
+    "n_positive": 15,
+    "n_negative": 15,
+    "balance": 0.5,
+    "majority_baseline_va": 0.5,
+    "random_baseline_va": 0.5,
+    "by_level": {
+      "1": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "2": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "3": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "4": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "5": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      }
+    },
+    "step_counts": {
+      "min": 3,
+      "max": 24,
+      "mean": 9.133333333333333
+    }
+  },
+  {
+    "task": "Banker's Algorithm",
+    "short": "bankers",
+    "n": 30,
+    "positive_label": "safe=True",
+    "negative_label": "safe=False (unsafe)",
+    "n_positive": 15,
+    "n_negative": 15,
+    "balance": 0.5,
+    "majority_baseline_va": 0.5,
+    "random_baseline_va": 0.5,
+    "by_level": {
+      "1": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "2": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "3": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "4": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      },
+      "5": {
+        "n": 6,
+        "pos": 3,
+        "neg": 3
+      }
+    },
+    "step_counts": {
+      "min": 1,
+      "max": 8,
+      "mean": 3.2333333333333334
+    }
+  },
+  {
+    "task": "Buddy System Allocation",
+    "short": "buddy",
+    "n": 25,
+    "positive_label": "N/A (no binary verdict)",
+    "negative_label": null,
+    "n_positive": null,
+    "n_negative": null,
+    "balance": "N/A (non-binary task)",
+    "majority_baseline_va": null,
+    "random_baseline_va": null,
+    "by_level": {
+      "1": {
+        "n": 5
+      },
+      "2": {
+        "n": 5
+      },
+      "3": {
+        "n": 5
+      },
+      "4": {
+        "n": 5
+      },
+      "5": {
+        "n": 5
+      }
+    },
+    "step_counts": {
+      "min": 1,
+      "max": 44,
+      "mean": 18.64
+    }
+  },
+  {
+    "task": "Counting Semaphore",
+    "short": "semaphore",
+    "n": 20,
+    "positive_label": "N/A (no binary verdict)",
+    "negative_label": null,
+    "n_positive": null,
+    "n_negative": null,
+    "balance": null,
+    "majority_baseline_va": null,
+    "random_baseline_va": null,
+    "by_level": {
+      "1": {
+        "n": 4
+      },
+      "2": {
+        "n": 4
+      },
+      "3": {
+        "n": 4
+      },
+      "4": {
+        "n": 4
+      },
+      "5": {
+        "n": 4
+      }
+    },
+    "step_counts": {
+      "min": 4,
+      "max": 14,
+      "mean": 7.3
+    }
+  },
+  {
+    "task": "Mutex Lock Synchronization",
+    "short": "mutex",
+    "n": 20,
+    "positive_label": "N/A (no binary verdict)",
+    "negative_label": null,
+    "n_positive": null,
+    "n_negative": null,
+    "balance": null,
+    "majority_baseline_va": null,
+    "random_baseline_va": null,
+    "by_level": {
+      "1": {
+        "n": 4
+      },
+      "2": {
+        "n": 4
+      },
+      "3": {
+        "n": 4
+      },
+      "4": {
+        "n": 4
+      },
+      "5": {
+        "n": 4
+      }
+    },
+    "step_counts": {
+      "min": 3,
+      "max": 14,
+      "mean": 5.85
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "instance_id": "sem_48a0fb166bcf",
+  "task": "semaphore",
+  "variant": "zero_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

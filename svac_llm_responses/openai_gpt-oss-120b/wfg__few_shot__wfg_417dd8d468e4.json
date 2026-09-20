@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_417dd8d468e4",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "openai_gpt-oss-120b",
+  "response_text": "{\"steps\":[{\"step\":1,\"action\":\"visit\",\"node\":\"P0\",\"visited_set\":[\"P0\"],\"recursion_stack\":[\"P0\"]},{\"step\":2,\"action\":\"visit\",\"node\":\"P1\",\"visited_set\":[\"P0\",\"P1\"],\"recursion_stack\":[\"P0\",\"P1\"]},{\"step\":3,\"action\":\"cycle_detected\",\"node\":\"P0\",\"visited_set\":[\"P0\",\"P1\"],\"recursion_stack\":[\"P0\",\"P1\"],\"cycle\":[\"P0\",\"P1\",\"P0\"]}],\"deadlock\":true,\"cycle_nodes\":[\"P0\",\"P1\",\"P0\"]}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 906,
+    "completion_tokens": 695,
+    "total_tokens": 1601,
+    "attempts": 3
+  }
+}

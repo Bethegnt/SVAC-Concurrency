@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_1f160cd685bb",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "",
+  "meta": {
+    "finish_reason": "length",
+    "prompt_tokens": 665,
+    "completion_tokens": 8192,
+    "total_tokens": 8857,
+    "attempts": 1
+  }
+}

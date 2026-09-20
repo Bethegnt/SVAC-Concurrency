@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_1f02fad7f5cc",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0, adding to recursion stack.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P0's edge to P1, visiting P1.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"thought\": \"Exploring P1's edge to P7, visiting P7.\",\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P7\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\"]\n    },\n    {\n      \"thought\": \"Exploring P7's edge to P8, visiting P8.\",\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P8\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"]\n    },\n    {\n      \"thought\": \"P8's edge to P1 forms a cycle back to P1.\",\n      \"step\": 5,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P8\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"],\n      \"cycle\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 847,
+    "completion_tokens": 2381,
+    "total_tokens": 3228,
+    "attempts": 5
+  }
+}

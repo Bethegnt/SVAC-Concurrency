@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_9b87c54ebde0",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 1, 2],\n    [3, 4, 3],\n    [4, 2, 2],\n    [0, 3, 2],\n    [1, 2, 4]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: Need [0, 1, 2] is less than or equal to Work [3, 3, 0] is false because 2 > 0.\",\n      \"step\": 1,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P1: Need [3, 4, 3] is not less than or equal to Work [3, 3, 0].\",\n      \"step\": 2,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P2: Need [4, 2, 2] is not less than or equal to Work [3, 3, 0].\",\n      \"step\": 3,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P3: Need [0, 3, 2] is not less than or equal to Work [3, 3, 0] because 2 > 0.\",\n      \"step\": 4,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P4: Need [1, 2, 4] is not less than or equal to Work [3, 3, 0] because 4 > 0.\",\n      \"step\": 5,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 762,
+    "response_tokens": 667,
+    "total_tokens": 1429,
+    "attempts": 1
+  }
+}

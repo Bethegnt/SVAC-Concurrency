@@ -1,0 +1,8 @@
+Task Domain,Zero-Shot (ZS),Few-Shot (FS),Chain-of-Thought (CoT),Task Mean SA
+WFG Deadlock Detection,4.4%,85.4%,7.5%,31.2%
+Banker's Safety Algorithm,32.9%,41.9%,49.7%,41.5%
+Buddy System Allocation,30.5%,31.5%,49.1%,36.9%
+Counting Semaphore Sync,91.2%,96.2%,95.0%,94.2%
+Mutex Lock Synchronization,100.0%,100.0%,100.0%,100.0%
+Non-Saturated Subset (WFG+Bankers+Buddy),22.6%,52.9%,35.4%,37.0%
+Overall Suite Mean,51.8%,71.0%,60.3%,56.1%

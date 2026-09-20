@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_04efb5729513",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [[0, 2], [2, 2], [4, 1]],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [1, 1],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 897,
+    "response_tokens": 118,
+    "total_tokens": 1015,
+    "attempts": 1
+  }
+}

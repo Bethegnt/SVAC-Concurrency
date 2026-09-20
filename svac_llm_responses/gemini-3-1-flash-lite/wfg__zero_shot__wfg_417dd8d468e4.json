@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_417dd8d468e4",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"],\n      \"cycle\": [\"P0\", \"P1\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P1\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 629,
+    "response_tokens": 216,
+    "total_tokens": 845,
+    "attempts": 1
+  }
+}

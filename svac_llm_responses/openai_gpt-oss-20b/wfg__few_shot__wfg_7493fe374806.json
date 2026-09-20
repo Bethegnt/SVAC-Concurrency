@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_7493fe374806",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P2\"],\n      \"recursion_stack\": [\"P0\", \"P2\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\", \"P2\"],\n      \"recursion_stack\": [\"P0\", \"P2\"],\n      \"cycle\": [\"P0\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 906,
+    "completion_tokens": 900,
+    "total_tokens": 1806,
+    "attempts": 1
+  }
+}

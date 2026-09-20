@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_aebd30c18fd6",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0, pushing onto recursion stack.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring edge P0->P6, pushing P6 onto stack.\",\n      \"",
+  "meta": {
+    "finish_reason": "length",
+    "prompt_tokens": 823,
+    "completion_tokens": 4096,
+    "total_tokens": 4919,
+    "attempts": 4
+  }
+}

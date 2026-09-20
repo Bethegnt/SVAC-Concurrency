@@ -1,0 +1,12 @@
+{
+  "instance_id": "wfg_55c243f253a1",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

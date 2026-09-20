@@ -1,0 +1,12 @@
+{
+  "instance_id": "buddy_749d02e99409",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

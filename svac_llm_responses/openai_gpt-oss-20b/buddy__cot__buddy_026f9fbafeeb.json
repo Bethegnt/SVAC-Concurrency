@@ -1,0 +1,11 @@
+{
+  "instance_id": "buddy_026f9fbafeeb",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "network_error: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "attempts": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_564d936009b5",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\"step\": 1, \"action\": \"visit\", \"node\": \"P0\", \"visited_set\": [\"P0\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 2, \"action\": \"visit\", \"node\": \"P3\", \"visited_set\": [\"P0\", \"P3\"], \"recursion_stack\": [\"P0\", \"P3\"]},\n    {\"step\": 3, \"action\": \"backtrack\", \"node\": \"P3\", \"visited_set\": [\"P0\", \"P3\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 4, \"action\": \"visit\", \"node\": \"P2\", \"visited_set\": [\"P0\", \"P2\", \"P3\"], \"recursion_stack\": [\"P0\", \"P2\"]},\n    {\"step\": 5, \"action\": \"backtrack\", \"node\": \"P2\", \"visited_set\": [\"P0\", \"P2\", \"P3\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 6, \"action\": \"backtrack\", \"node\": \"P0\", \"visited_set\": [\"P0\", \"P2\", \"P3\"], \"recursion_stack\": []},\n    {\"step\": 7, \"action\": \"visit\", \"node\": \"P1\", \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\"], \"recursion_stack\": [\"P1\"]},\n    {\"step\": 8, \"action\": \"backtrack\", \"node\": \"P1\", \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\"], \"recursion_stack\": []}\n  ],\n  \"deadlock\": false,\n  \"cycle_nodes\": null\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 922,
+    "completion_tokens": 3380,
+    "total_tokens": 4302,
+    "attempts": 4
+  }
+}

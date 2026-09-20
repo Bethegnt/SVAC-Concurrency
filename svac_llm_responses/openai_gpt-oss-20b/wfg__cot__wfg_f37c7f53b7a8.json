@@ -1,0 +1,12 @@
+{
+  "instance_id": "wfg_f37c7f53b7a8",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_55c243f253a1",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "finish_reason": "length",
+    "prompt_tokens": 815,
+    "completion_tokens": 4096,
+    "total_tokens": 4911,
+    "attempts": 6
+  }
+}

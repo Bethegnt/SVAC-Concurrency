@@ -1,0 +1,52 @@
+
+============================================================
+  FP/FN Analysis — Model: gemini-3-5-flash-lite
+============================================================
+
+──────────────────────────────────────────────────
+  WFG — Overall (N=88)
+──────────────────────────────────────────────────
+  TP=0  TN=38  FP=50  FN=0  (N=88)
+  Accuracy  : 43.2%
+  Precision : 0.0%  (when model says +, how often correct?)
+  Recall    : 0.0%  (what fraction of + cases caught?)
+  F1 Score  : 0.0%
+  FP Rate   : 56.8%  (over-prediction of deadlock/unsafe)
+
+    [zero_shot]  Acc=40.0%  FPR=60.0%  FNR=100.0%  F1=0.0%
+
+    [few_shot]  Acc=46.4%  FPR=53.6%  FNR=100.0%  F1=0.0%
+
+    [cot]  Acc=43.3%  FPR=56.7%  FNR=100.0%  F1=0.0%
+
+  Complexity Breakdown:
+    Complexity 1: Acc=50.0%  FP=9  FN=0  FPR=50.0%
+    Complexity 2: Acc=50.0%  FP=9  FN=0  FPR=50.0%
+    Complexity 3: Acc=50.0%  FP=9  FN=0  FPR=50.0%
+    Complexity 4: Acc=38.9%  FP=11  FN=0  FPR=61.1%
+    Complexity 5: Acc=25.0%  FP=12  FN=0  FPR=75.0%
+
+──────────────────────────────────────────────────
+  BANKERS — Overall (N=90)
+──────────────────────────────────────────────────
+  TP=33  TN=4  FP=41  FN=12  (N=90)
+  Accuracy  : 41.1%
+  Precision : 44.6%  (when model says +, how often correct?)
+  Recall    : 73.3%  (what fraction of + cases caught?)
+  F1 Score  : 55.5%
+  FP Rate   : 91.1%  (over-prediction of deadlock/unsafe)
+
+    [zero_shot]  Acc=50.0%  FPR=100.0%  FNR=0.0%  F1=66.7%
+
+    [few_shot]  Acc=40.0%  FPR=100.0%  FNR=20.0%  F1=57.1%
+
+    [cot]  Acc=33.3%  FPR=73.3%  FNR=60.0%  F1=37.5%
+
+  Complexity Breakdown:
+    Complexity 1: Acc=22.2%  FP=9  FN=5  FPR=100.0%
+    Complexity 2: Acc=44.4%  FP=8  FN=2  FPR=88.9%
+    Complexity 3: Acc=55.6%  FP=8  FN=0  FPR=88.9%
+    Complexity 4: Acc=44.4%  FP=7  FN=3  FPR=77.8%
+    Complexity 5: Acc=38.9%  FP=9  FN=2  FPR=100.0%
+
+✅ Analysis complete. (to save: redirect stdout > /Users/bethegnt/Downloads/SVAC_Concurrency/results/reports/gemini-3-5-flash-lite_fp_fn_analysis.txt)

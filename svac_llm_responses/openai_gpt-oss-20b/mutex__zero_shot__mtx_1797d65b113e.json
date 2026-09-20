@@ -1,0 +1,12 @@
+{
+  "instance_id": "mtx_1797d65b113e",
+  "task": "mutex",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

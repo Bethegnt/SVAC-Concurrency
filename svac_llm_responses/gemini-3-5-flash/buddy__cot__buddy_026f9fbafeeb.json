@@ -1,0 +1,12 @@
+{
+  "instance_id": "buddy_026f9fbafeeb",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

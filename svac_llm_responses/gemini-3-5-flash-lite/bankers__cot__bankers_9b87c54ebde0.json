@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_9b87c54ebde0",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 1, 2],\n    [3, 4, 3],\n    [4, 2, 2],\n    [0, 3, 2],\n    [1, 2, 4]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checked P0, its need [0, 1, 2] is less than or equal to current work [3, 3, 0], so it qualifies.\",\n      \"step\": 1,\n      \"work_before\": [3, 3, 0],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 1, 2],\n      \"work_after\": [6, 3, 1],\n      \"finish\": [true, false, false, false, false]\n    },\n    {\n      \"thought\": \"Checked P0 which is already finished, then checked P1 whose need [3, 4, 3] exceeds work [6, 3, 1], then checked P2 whose need [4, 2, 2] is less than or equal to work [6, 3, 1], so P2 qualifies.\",\n      \"step\": 2,\n      \"work_before\": [6, 3, 1],\n      \"candidate_process\": 2,\n      \"need_row\": [4, 2, 2],\n      \"work_after\": [9, 5, 1],\n      \"finish\": [true, false, true, false, false]\n    },\n    {\n      \"thought\": \"Restarted scan from P0, skipped P0, checked P1 whose need [3, 4, 3] is less than or equal to work [9, 5, 1], so P1 qualifies.\",\n      \"step\": 3,\n      \"work_before\": [9, 5, 1],\n      \"candidate_process\": 1,\n      \"need_row\": [3, 4, 3],\n      \"work_after\": [10, 5, 5],\n      \"finish\": [true, true, true, false, false]\n    },\n    {\n      \"thought\": \"Restarted scan from P0, skipped P0 and P1, skipped P2, checked P3 whose need [0, 3, 2] is less than or equal to work [10, 5, 5], so P3 qualifies.\",\n      \"step\": 4,\n      \"work_before\": [10, 5, 5],\n      \"candidate_process\": 3,\n      \"need_row\": [0, 3, 2],\n      \"work_after\": [14, 6, 5],\n      \"finish\": [true, true, true, true, false]\n    },\n    {\n      \"thought\": \"Restarted scan from P0, skipped P0 through P3, checked P4 whose need [1, 2, 4] is less than or equal to work [14, 6, 5], so P4 qualifies.\",\n      \"step\": 5,\n      \"work_before\": [14, 6, 5],\n      \"candidate_process\": 4,\n      \"need_row\": [1, 2, 4],\n      \"work_after\": [16, 6, 8],\n      \"finish\": [true, true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\"P0\", \"P2\", \"P1\", \"P3\", \"P4\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 762,
+    "response_tokens": 843,
+    "total_tokens": 1605,
+    "attempts": 1
+  }
+}

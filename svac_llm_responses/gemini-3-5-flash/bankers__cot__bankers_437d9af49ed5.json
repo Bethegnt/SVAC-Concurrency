@@ -1,0 +1,12 @@
+{
+  "instance_id": "bankers_437d9af49ed5",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "instance_id": "mtx_800fc3a70960",
+  "task": "mutex",
+  "variant": "zero_shot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

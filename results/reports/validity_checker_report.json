@@ -1,0 +1,43 @@
+{
+  "bankers": {
+    "n_parsed": 90,
+    "exact_sa": 0.41481555555555555,
+    "valid_sa": 0.7428823953823954,
+    "delta_sa": 0.3280668398268398,
+    "alt_safe_seq_count": 7,
+    "by_strategy": {
+      "cot": {
+        "exact_sa": 0.49722333333333335,
+        "valid_sa": 0.6947582972582972
+      },
+      "few_shot": {
+        "exact_sa": 0.41861,
+        "valid_sa": 0.7894444444444445
+      },
+      "zero_shot": {
+        "exact_sa": 0.32861333333333337,
+        "valid_sa": 0.7444444444444442
+      }
+    }
+  },
+  "wfg": {
+    "n_parsed": 88,
+    "exact_sa": 0.3121056818181818,
+    "valid_sa": 0.9554683753248345,
+    "delta_sa": 0.6433626935066526,
+    "by_strategy": {
+      "cot": {
+        "exact_sa": 0.07477,
+        "valid_sa": 0.9323450039239513
+      },
+      "few_shot": {
+        "exact_sa": 0.8541642857142858,
+        "valid_sa": 1.0
+      },
+      "zero_shot": {
+        "exact_sa": 0.04352,
+        "valid_sa": 0.937028897028897
+      }
+    }
+  }
+}

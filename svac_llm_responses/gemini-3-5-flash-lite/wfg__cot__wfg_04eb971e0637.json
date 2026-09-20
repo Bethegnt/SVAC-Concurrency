@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_04eb971e0637",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Start DFS at P0, adding it to the recursion stack and checking its edge to P3.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Visit P3 from P0; P3 is added to the recursion stack and we check its edge to P2.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P3\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\"]\n    },\n    {\n      \"thought\": \"Visit P2 from P3; P2 is added to the recursion stack and we check its edge to P0.\",\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P2\"]\n    },\n    {\n      \"thought\": \"Visit P0 from P2; P0 is already in the recursion stack, forming a cycle, so we halt immediately.\",\n      \"step\": 4,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P2\"],\n      \"cycle\": [\"P0\", \"P3\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P3\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 725,
+    "response_tokens": 403,
+    "total_tokens": 1128,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,10 @@
+Error Metric / Category,Zero-Shot (N=30),Few-Shot (N=30),Chain-of-Thought (N=30)
+Visited Set Corruption,30 (100.0%),7 (23.3%),30 (100.0%)
+Recursion Stack Corruption,14 (46.7%),12 (40.0%),8 (26.7%)
+Wrong Traversal Node,20 (66.7%),12 (40.0%),18 (60.0%)
+Step Count Mismatch,16 (53.3%),13 (43.3%),12 (40.0%)
+False Cycle Hallucination,3 (10.0%),0 (0.0%),2 (6.7%)
+Missed Cycle (False Negative),0 (0.0%),0 (0.0%),0 (0.0%)
+Verdict Accuracy (VA),27 / 30 (90.0%),28 / 28 (100.0%),28 / 30 (93.3%)
+Strict Positional Step Accuracy,4.4%,85.4%,7.5%
+Invariant-Based Valid Step Accuracy,93.7%,100.0%,93.2%

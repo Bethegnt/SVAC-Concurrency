@@ -1,0 +1,6784 @@
+[
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 954,
+      "response_tokens": 166,
+      "total_tokens": 3740,
+      "attempts": 2
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "network_error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_2e73ebc68db7",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_4bcb5043086e",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "invalid_unlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_58c19487146f",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "invalid_unlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_6433603c3cca",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "self_deadlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_85991bf24e65",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "self_deadlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_8d7b9f0a6f26",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "self_deadlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_9f36eaf4c6c8",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_a8773ebc3230",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_a9ca8304f9b0",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_b63848081bd6",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "invalid_unlock_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_action": 0,
+      "owner_corruption": 0,
+      "wait_queue_corruption": 0,
+      "wrong_woken_thread": 0,
+      "missed_self_deadlock": 0,
+      "invalid_unlock_misclassified": 0,
+      "wrong_final_state": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "mtx_d32ece863aa2",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 855,
+      "response_tokens": 434,
+      "total_tokens": 2619,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_d7924f751b8b",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "mtx_f35cb038545f",
+    "task": "mutex",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_02e8f38a88f7",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_03dc6ac61276",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_152174be45fd",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_2060757b82f0",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_38b434ac2511",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3b91874c9452",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3dc29ad59dd4",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3e990ec3c920",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_48a0fb166bcf",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_4e57c7f204ef",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_6a3c723da818",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a08a8491ceba",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a20bc4d75546",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a6a31b403d54",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b2d7610910c0",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b3a3f5dfbac6",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_ca4e1eb6714c",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d4e7f864a70a",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d79e6dbf6059",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_fdb39b0f2fbb",
+    "task": "semaphore",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_02e8f38a88f7",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_03dc6ac61276",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_152174be45fd",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_2060757b82f0",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_38b434ac2511",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3b91874c9452",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3dc29ad59dd4",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3e990ec3c920",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_48a0fb166bcf",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_4e57c7f204ef",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_6a3c723da818",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a08a8491ceba",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a20bc4d75546",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a6a31b403d54",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b2d7610910c0",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b3a3f5dfbac6",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_ca4e1eb6714c",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d4e7f864a70a",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d79e6dbf6059",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_fdb39b0f2fbb",
+    "task": "semaphore",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_02e8f38a88f7",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_03dc6ac61276",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_152174be45fd",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_2060757b82f0",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_38b434ac2511",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3b91874c9452",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3dc29ad59dd4",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_3e990ec3c920",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_48a0fb166bcf",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_4e57c7f204ef",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_6a3c723da818",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a08a8491ceba",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a20bc4d75546",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_a6a31b403d54",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b2d7610910c0",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "producer_consumer",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_b3a3f5dfbac6",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "bounded_edge",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_ca4e1eb6714c",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d4e7f864a70a",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_d79e6dbf6059",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "random_interleaved",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "sem_fdb39b0f2fbb",
+    "task": "semaphore",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "contention",
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 692,
+      "response_tokens": 295,
+      "total_tokens": 2881,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.7143,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 709,
+      "response_tokens": 698,
+      "total_tokens": 3628,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.7143,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 708,
+      "response_tokens": 712,
+      "total_tokens": 3812,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 691,
+      "response_tokens": 302,
+      "total_tokens": 2889,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.6,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 692,
+      "response_tokens": 498,
+      "total_tokens": 2895,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.125,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8571,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 7,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 708,
+      "response_tokens": 698,
+      "total_tokens": 4345,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 691,
+      "response_tokens": 306,
+      "total_tokens": 3317,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 693,
+      "response_tokens": 508,
+      "total_tokens": 3053,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 710,
+      "response_tokens": 491,
+      "total_tokens": 3521,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 710,
+      "response_tokens": 498,
+      "total_tokens": 3753,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.6,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 692,
+      "response_tokens": 480,
+      "total_tokens": 2501,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 704,
+      "response_tokens": 293,
+      "total_tokens": 3273,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 16,
+    "n_steps_ground_truth": 16,
+    "parse_success": true,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 932,
+      "response_tokens": 1206,
+      "total_tokens": 6184,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 959,
+      "response_tokens": 403,
+      "total_tokens": 4415,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting ',' delimiter: line 30 column 6 (char 620)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "MAX_TOKENS",
+      "prompt_tokens": 993,
+      "response_tokens": 328,
+      "total_tokens": 9181,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 919,
+      "response_tokens": 411,
+      "total_tokens": 4159,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 16,
+    "n_steps_ground_truth": 16,
+    "parse_success": true,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 931,
+      "response_tokens": 1240,
+      "total_tokens": 6723,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting ',' delimiter: line 30 column 6 (char 632)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "MAX_TOKENS",
+      "prompt_tokens": 994,
+      "response_tokens": 328,
+      "total_tokens": 9182,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 9,
+    "n_steps_ground_truth": 9,
+    "parse_success": true,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 956,
+      "response_tokens": 612,
+      "total_tokens": 5039,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 16,
+    "n_steps_ground_truth": 16,
+    "parse_success": true,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 932,
+      "response_tokens": 1147,
+      "total_tokens": 6233,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting ',' delimiter: line 30 column 6 (char 629)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "MAX_TOKENS",
+      "prompt_tokens": 991,
+      "response_tokens": 323,
+      "total_tokens": 9179,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 968,
+      "response_tokens": 526,
+      "total_tokens": 6518,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 662,
+      "response_tokens": 286,
+      "total_tokens": 4162,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.2222,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.75,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 7,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 9,
+    "n_steps_ground_truth": 9,
+    "parse_success": true,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 684,
+      "response_tokens": 577,
+      "total_tokens": 4358,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0833,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.9091,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 11,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 12,
+    "n_steps_ground_truth": 12,
+    "parse_success": true,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 674,
+      "response_tokens": 782,
+      "total_tokens": 4054,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 690,
+      "response_tokens": 365,
+      "total_tokens": 4068,
+      "attempts": 2
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 667,
+      "response_tokens": 360,
+      "total_tokens": 6119,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 629,
+      "response_tokens": 216,
+      "total_tokens": 2626,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.7143,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 646,
+      "response_tokens": 484,
+      "total_tokens": 2927,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.7143,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 645,
+      "response_tokens": 484,
+      "total_tokens": 3331,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 628,
+      "response_tokens": 216,
+      "total_tokens": 2538,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.6,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 629,
+      "response_tokens": 357,
+      "total_tokens": 2820,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.125,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8571,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 7,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 645,
+      "response_tokens": 492,
+      "total_tokens": 3550,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 628,
+      "response_tokens": 216,
+      "total_tokens": 2538,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 630,
+      "response_tokens": 360,
+      "total_tokens": 2632,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8182,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 10,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 12,
+    "n_steps_ground_truth": 12,
+    "parse_success": true,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 673,
+      "response_tokens": 770,
+      "total_tokens": 4148,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 647,
+      "response_tokens": 360,
+      "total_tokens": 3459,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 647,
+      "response_tokens": 360,
+      "total_tokens": 4663,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 692,
+      "response_tokens": 438,
+      "total_tokens": 5214,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.6,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 629,
+      "response_tokens": 357,
+      "total_tokens": 2820,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0833,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.9091,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 11,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 12,
+    "n_steps_ground_truth": 12,
+    "parse_success": true,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 674,
+      "response_tokens": 790,
+      "total_tokens": 4927,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 664,
+      "response_tokens": 360,
+      "total_tokens": 3166,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "gemini-3-5-flash",
+    "response_meta": {
+      "finish_reason": "STOP",
+      "prompt_tokens": 641,
+      "response_tokens": 216,
+      "total_tokens": 2437,
+      "attempts": 1
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_f37c7f53b7a8",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0; P0 is visited and added to the recursion stack.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P0's edge to P2; P2 is not in the recursion stack, so visit P2.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P2\"]\n    },\n    {\n      \"thought\": \"Exploring P2's edge to P0; P0 is in the recursion stack, cycle detected.\",\n      \"step\": 3,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P2\"],\n      \"cycle\": [\"P0\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 704,
+    "response_tokens": 296,
+    "total_tokens": 1000,
+    "attempts": 1
+  }
+}

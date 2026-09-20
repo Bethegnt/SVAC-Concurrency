@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_1f02fad7f5cc",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"P0 points to P1, moving to P1.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"thought\": \"P1 points to P7, moving to P7.\",\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P7\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\"]\n    },\n    {\n      \"thought\": \"P7 points to P8, moving to P8.\",\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P8\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"]\n    },\n    {\n      \"thought\": \"P8 points to P1, which is already in the recursion stack, cycle detected.\",\n      \"step\": 5,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P7\", \"P8\"],\n      \"cycle\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P1\", \"P7\", \"P8\", \"P1\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 793,
+    "response_tokens": 442,
+    "total_tokens": 1235,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_0ec67367ebb6",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"backtrack\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": [\"P1\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P3\",\n      \"visited_set\": [\"P0\", \"P1\", \"P3\"],\n      \"recursion_stack\": [\"P1\", \"P3\"]\n    },\n    {\n      \"step\": 5,\n      \"action\": \"backtrack\",\n      \"node\": \"P3\",\n      \"visited_set\": [\"P0\", \"P1\", \"P3\"],\n      \"recursion_stack\": [\"P1\"]\n    },\n    {\n      \"step\": 6,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\", \"P3\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 7,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\"],\n      \"recursion_stack\": [\"P2\"]\n    },\n    {\n      \"step\": 8,\n      \"action\": \"visit\",\n      \"node\": \"P5\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\", \"P5\"],\n      \"recursion_stack\": [\"P2\", \"P5\"]\n    },\n    {\n      \"step\": 9,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\", \"P5\"],\n      \"recursion_stack\": [\"P2\", \"P5\"],\n      \"cycle\": [\"P2\", \"P5\", \"P2\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P2\", \"P5\", \"P2\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 961,
+    "completion_tokens": 2432,
+    "total_tokens": 3393,
+    "attempts": 4
+  }
+}

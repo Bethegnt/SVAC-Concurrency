@@ -1,0 +1,12 @@
+{
+  "instance_id": "sem_3e990ec3c920",
+  "task": "semaphore",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

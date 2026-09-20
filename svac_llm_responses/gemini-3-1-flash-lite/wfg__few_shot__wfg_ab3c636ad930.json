@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_ab3c636ad930",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P3\",\n      \"visited_set\": [\"P0\", \"P3\"],\n      \"recursion_stack\": [\"P0\", \"P3\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\", \"P3\"],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P1\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\"],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P1\", \"P2\"]\n    },\n    {\n      \"step\": 5,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\", \"P3\"],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P1\", \"P2\"],\n      \"cycle\": [\"P0\", \"P3\", \"P1\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P3\", \"P1\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 876,
+    "response_tokens": 411,
+    "total_tokens": 1287,
+    "attempts": 1
+  }
+}

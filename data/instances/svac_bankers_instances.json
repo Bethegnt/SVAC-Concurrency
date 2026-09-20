@@ -1,0 +1,5923 @@
+[
+  {
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      3,
+      1
+    ],
+    "max_matrix": [
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P0",
+        "P1",
+        "P2"
+      ],
+      "need_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            1
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0
+          ],
+          "work_after": [
+            7,
+            5
+          ],
+          "finish": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            7,
+            5
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            3,
+            1
+          ],
+          "work_after": [
+            10,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            10,
+            8
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            1
+          ],
+          "work_after": [
+            11,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      0,
+      1
+    ],
+    "max_matrix": [
+      [
+        6,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P2",
+        "P0",
+        "P1"
+      ],
+      "need_matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            1
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            1
+          ],
+          "work_after": [
+            4,
+            2
+          ],
+          "finish": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            2
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            3,
+            0
+          ],
+          "work_after": [
+            7,
+            6
+          ],
+          "finish": [
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            7,
+            6
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            4
+          ],
+          "work_after": [
+            11,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      0,
+      3
+    ],
+    "max_matrix": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P0",
+        "P1",
+        "P2"
+      ],
+      "need_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            3
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0
+          ],
+          "work_after": [
+            4,
+            6
+          ],
+          "finish": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            6
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            1
+          ],
+          "work_after": [
+            7,
+            10
+          ],
+          "finish": [
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            7,
+            10
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            2
+          ],
+          "work_after": [
+            7,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      0,
+      2
+    ],
+    "max_matrix": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            2
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            0
+          ],
+          "work_after": [
+            3,
+            3
+          ],
+          "finish": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            3,
+            3
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            true,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      1,
+      1
+    ],
+    "max_matrix": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            1
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "complexity_level": 1,
+    "num_processes": 3,
+    "num_resources": 2,
+    "available": [
+      1,
+      0
+    ],
+    "max_matrix": [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      3,
+      3,
+      2
+    ],
+    "max_matrix": [
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        6,
+        3,
+        3
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        5,
+        4,
+        0
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        1,
+        4
+      ],
+      [
+        4,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P1",
+        "P0",
+        "P2",
+        "P3"
+      ],
+      "need_matrix": [
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            3,
+            2
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            2,
+            3,
+            1
+          ],
+          "work_after": [
+            7,
+            3,
+            4
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            7,
+            3,
+            4
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            2,
+            3,
+            3
+          ],
+          "work_after": [
+            8,
+            4,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            8,
+            4,
+            8
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            2,
+            2
+          ],
+          "work_after": [
+            9,
+            7,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            9,
+            7,
+            11
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            2,
+            2,
+            0
+          ],
+          "work_after": [
+            12,
+            9,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      3,
+      3,
+      1
+    ],
+    "max_matrix": [
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        4,
+        2,
+        3
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        8,
+        3,
+        6
+      ]
+    ],
+    "allocation": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        4,
+        2,
+        4
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P1",
+        "P0",
+        "P2",
+        "P3"
+      ],
+      "need_matrix": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            3,
+            1
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            1,
+            1
+          ],
+          "work_after": [
+            6,
+            4,
+            3
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            6,
+            4,
+            3
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            1,
+            2
+          ],
+          "work_after": [
+            8,
+            5,
+            4
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            8,
+            5,
+            4
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            1,
+            1,
+            4
+          ],
+          "work_after": [
+            10,
+            8,
+            5
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            10,
+            8,
+            5
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            4,
+            1,
+            2
+          ],
+          "work_after": [
+            14,
+            10,
+            9
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      2,
+      0,
+      3
+    ],
+    "max_matrix": [
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        8,
+        5,
+        4
+      ],
+      [
+        1,
+        3,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P0",
+        "P1",
+        "P3",
+        "P2"
+      ],
+      "need_matrix": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            2,
+            0,
+            3
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0,
+            2
+          ],
+          "work_after": [
+            2,
+            2,
+            3
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            2,
+            2,
+            3
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            2,
+            0,
+            0
+          ],
+          "work_after": [
+            3,
+            5,
+            3
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            3,
+            5,
+            3
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            0,
+            2,
+            1
+          ],
+          "work_after": [
+            4,
+            6,
+            5
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            4,
+            6,
+            5
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            4,
+            2,
+            1
+          ],
+          "work_after": [
+            8,
+            9,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      1,
+      1,
+      2
+    ],
+    "max_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        8,
+        2
+      ],
+      [
+        3,
+        2,
+        6
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        4,
+        1
+      ],
+      [
+        1,
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          4,
+          4,
+          1
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            1,
+            2
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0,
+            0
+          ],
+          "work_after": [
+            4,
+            1,
+            2
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            1,
+            2
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            2,
+            0,
+            0
+          ],
+          "work_after": [
+            4,
+            2,
+            2
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            4,
+            2,
+            2
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      0,
+      0,
+      0
+    ],
+    "max_matrix": [
+      [
+        3,
+        8,
+        4
+      ],
+      [
+        6,
+        2,
+        7
+      ],
+      [
+        3,
+        4,
+        1
+      ],
+      [
+        6,
+        3,
+        6
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        4,
+        3
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        2,
+        4,
+        1
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            0,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "complexity_level": 2,
+    "num_processes": 4,
+    "num_resources": 3,
+    "available": [
+      3,
+      0,
+      2
+    ],
+    "max_matrix": [
+      [
+        2,
+        5,
+        4
+      ],
+      [
+        7,
+        5,
+        3
+      ],
+      [
+        0,
+        4,
+        2
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        3,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            0,
+            2
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      3,
+      3,
+      2
+    ],
+    "max_matrix": [
+      [
+        7,
+        3,
+        6
+      ],
+      [
+        3,
+        3,
+        8
+      ],
+      [
+        5,
+        4,
+        3
+      ],
+      [
+        6,
+        2,
+        6
+      ],
+      [
+        3,
+        2,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        0,
+        3
+      ],
+      [
+        2,
+        2,
+        4
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P3",
+        "P0",
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "need_matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            3,
+            2
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            3,
+            0,
+            2
+          ],
+          "work_after": [
+            6,
+            5,
+            6
+          ],
+          "finish": [
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            6,
+            5,
+            6
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            3,
+            3,
+            3
+          ],
+          "work_after": [
+            10,
+            5,
+            9
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            10,
+            5,
+            9
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            1,
+            4
+          ],
+          "work_after": [
+            12,
+            7,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            12,
+            7,
+            13
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            2,
+            2,
+            3
+          ],
+          "work_after": [
+            15,
+            9,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            15,
+            9,
+            13
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            2,
+            2,
+            0
+          ],
+          "work_after": [
+            16,
+            9,
+            16
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      1,
+      1,
+      3
+    ],
+    "max_matrix": [
+      [
+        5,
+        3,
+        4
+      ],
+      [
+        3,
+        3,
+        4
+      ],
+      [
+        0,
+        7,
+        4
+      ],
+      [
+        3,
+        7,
+        6
+      ],
+      [
+        6,
+        6,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        4,
+        2,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P1",
+        "P3",
+        "P0",
+        "P2",
+        "P4"
+      ],
+      "need_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          4,
+          3
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            1,
+            3
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            1,
+            2
+          ],
+          "work_after": [
+            3,
+            3,
+            5
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            3,
+            3,
+            5
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            0,
+            3,
+            2
+          ],
+          "work_after": [
+            6,
+            7,
+            9
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            6,
+            7,
+            9
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            4,
+            0,
+            1
+          ],
+          "work_after": [
+            7,
+            10,
+            12
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            7,
+            10,
+            12
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            4,
+            3
+          ],
+          "work_after": [
+            7,
+            13,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            7,
+            13,
+            13
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            2,
+            4,
+            1
+          ],
+          "work_after": [
+            11,
+            15,
+            15
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      0,
+      0,
+      3
+    ],
+    "max_matrix": [
+      [
+        6,
+        4,
+        7
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        6
+      ],
+      [
+        2,
+        4,
+        5
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P1",
+        "P0",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "need_matrix": [
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            0,
+            3
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            0,
+            2
+          ],
+          "work_after": [
+            3,
+            2,
+            4
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            3,
+            2,
+            4
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            2,
+            0,
+            3
+          ],
+          "work_after": [
+            7,
+            6,
+            8
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            7,
+            6,
+            8
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            2,
+            1,
+            2
+          ],
+          "work_after": [
+            8,
+            8,
+            9
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            8,
+            8,
+            9
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            0,
+            3,
+            4
+          ],
+          "work_after": [
+            11,
+            8,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            11,
+            8,
+            11
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            0,
+            4,
+            2
+          ],
+          "work_after": [
+            13,
+            8,
+            14
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      3,
+      3,
+      0
+    ],
+    "max_matrix": [
+      [
+        3,
+        1,
+        3
+      ],
+      [
+        4,
+        4,
+        7
+      ],
+      [
+        7,
+        4,
+        2
+      ],
+      [
+        4,
+        4,
+        2
+      ],
+      [
+        3,
+        2,
+        7
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        4
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        3
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          4,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            3,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      0,
+      3,
+      0
+    ],
+    "max_matrix": [
+      [
+        4,
+        3,
+        2
+      ],
+      [
+        0,
+        7,
+        4
+      ],
+      [
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        7,
+        5
+      ],
+      [
+        3,
+        6,
+        1
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        0,
+        2,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          1
+        ],
+        [
+          3,
+          4,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            3,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "complexity_level": 3,
+    "num_processes": 5,
+    "num_resources": 3,
+    "available": [
+      1,
+      0,
+      3
+    ],
+    "max_matrix": [
+      [
+        7,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        4
+      ],
+      [
+        3,
+        3,
+        3
+      ],
+      [
+        6,
+        6,
+        7
+      ],
+      [
+        8,
+        8,
+        2
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        4,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            0,
+            3
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "max_matrix": [
+      [
+        0,
+        0,
+        5,
+        4
+      ],
+      [
+        2,
+        4,
+        6,
+        4
+      ],
+      [
+        3,
+        4,
+        5,
+        3
+      ],
+      [
+        6,
+        1,
+        1,
+        4
+      ],
+      [
+        5,
+        4,
+        5,
+        1
+      ],
+      [
+        3,
+        5,
+        4,
+        4
+      ]
+    ],
+    "allocation": [
+      [
+        0,
+        0,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        0
+      ],
+      [
+        3,
+        1,
+        3,
+        3
+      ],
+      [
+        4,
+        1,
+        1,
+        4
+      ],
+      [
+        3,
+        4,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        4,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P3",
+        "P0",
+        "P4",
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "need_matrix": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          1
+        ],
+        [
+          2,
+          4,
+          0,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "work_after": [
+            7,
+            2,
+            1,
+            4
+          ],
+          "finish": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            7,
+            2,
+            1,
+            4
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "work_after": [
+            7,
+            2,
+            5,
+            6
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            7,
+            2,
+            5,
+            6
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            2,
+            0,
+            4,
+            1
+          ],
+          "work_after": [
+            10,
+            6,
+            6,
+            6
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            10,
+            6,
+            6,
+            6
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            2,
+            3,
+            2,
+            4
+          ],
+          "work_after": [
+            10,
+            7,
+            10,
+            6
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            10,
+            7,
+            10,
+            6
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            3,
+            2,
+            0
+          ],
+          "work_after": [
+            13,
+            8,
+            13,
+            9
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            13,
+            8,
+            13,
+            9
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            2,
+            4,
+            0,
+            2
+          ],
+          "work_after": [
+            14,
+            9,
+            17,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      0,
+      2,
+      3,
+      3
+    ],
+    "max_matrix": [
+      [
+        1,
+        7,
+        6,
+        3
+      ],
+      [
+        3,
+        6,
+        4,
+        7
+      ],
+      [
+        5,
+        4,
+        5,
+        2
+      ],
+      [
+        3,
+        0,
+        6,
+        7
+      ],
+      [
+        3,
+        3,
+        2,
+        5
+      ],
+      [
+        5,
+        0,
+        5,
+        3
+      ]
+    ],
+    "allocation": [
+      [
+        0,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        3,
+        4,
+        2,
+        2
+      ],
+      [
+        3,
+        0,
+        4,
+        4
+      ],
+      [
+        2,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        3,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P3",
+        "P2",
+        "P0",
+        "P1",
+        "P4",
+        "P5"
+      ],
+      "need_matrix": [
+        [
+          1,
+          4,
+          4,
+          1
+        ],
+        [
+          1,
+          3,
+          3,
+          4
+        ],
+        [
+          2,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            2,
+            3,
+            3
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            0,
+            0,
+            2,
+            3
+          ],
+          "work_after": [
+            3,
+            2,
+            7,
+            7
+          ],
+          "finish": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            3,
+            2,
+            7,
+            7
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            2,
+            0,
+            3,
+            0
+          ],
+          "work_after": [
+            6,
+            6,
+            9,
+            9
+          ],
+          "finish": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            6,
+            6,
+            9,
+            9
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            1,
+            4,
+            4,
+            1
+          ],
+          "work_after": [
+            6,
+            9,
+            11,
+            11
+          ],
+          "finish": [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            6,
+            9,
+            11,
+            11
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            3,
+            3,
+            4
+          ],
+          "work_after": [
+            8,
+            12,
+            12,
+            14
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            8,
+            12,
+            12,
+            14
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "work_after": [
+            10,
+            13,
+            14,
+            16
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            10,
+            13,
+            14,
+            16
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            3,
+            0,
+            2,
+            2
+          ],
+          "work_after": [
+            12,
+            13,
+            17,
+            17
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "max_matrix": [
+      [
+        1,
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        5,
+        3,
+        8
+      ],
+      [
+        7,
+        4,
+        6,
+        7
+      ],
+      [
+        5,
+        3,
+        5,
+        3
+      ],
+      [
+        6,
+        4,
+        3,
+        4
+      ],
+      [
+        7,
+        7,
+        3,
+        0
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        4,
+        3,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        3,
+        3,
+        4,
+        2
+      ],
+      [
+        3,
+        2,
+        0,
+        2
+      ],
+      [
+        4,
+        4,
+        3,
+        0
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P0",
+        "P2",
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "need_matrix": [
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          4
+        ],
+        [
+          3,
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          3,
+          0,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "work_after": [
+            4,
+            5,
+            3,
+            3
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            5,
+            3,
+            3
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            3,
+            0,
+            2,
+            3
+          ],
+          "work_after": [
+            8,
+            9,
+            7,
+            7
+          ],
+          "finish": [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            8,
+            9,
+            7,
+            7
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            1,
+            0,
+            4
+          ],
+          "work_after": [
+            11,
+            13,
+            10,
+            11
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            11,
+            13,
+            10,
+            11
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            2,
+            0,
+            1,
+            1
+          ],
+          "work_after": [
+            14,
+            16,
+            14,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            14,
+            16,
+            14,
+            13
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "work_after": [
+            17,
+            18,
+            14,
+            15
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            17,
+            18,
+            14,
+            15
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "work_after": [
+            21,
+            22,
+            17,
+            15
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "max_matrix": [
+      [
+        5,
+        4,
+        5,
+        7
+      ],
+      [
+        3,
+        5,
+        2,
+        5
+      ],
+      [
+        4,
+        2,
+        2,
+        3
+      ],
+      [
+        6,
+        2,
+        3,
+        5
+      ],
+      [
+        3,
+        5,
+        5,
+        5
+      ],
+      [
+        8,
+        4,
+        3,
+        5
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        0,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        4,
+        1,
+        3
+      ],
+      [
+        4,
+        2,
+        3,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          0,
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          4
+        ],
+        [
+          2,
+          1,
+          4,
+          2
+        ],
+        [
+          4,
+          2,
+          0,
+          3
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "max_matrix": [
+      [
+        1,
+        6,
+        6,
+        7
+      ],
+      [
+        5,
+        4,
+        3,
+        2
+      ],
+      [
+        2,
+        5,
+        3,
+        5
+      ],
+      [
+        3,
+        1,
+        5,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        8
+      ],
+      [
+        3,
+        5,
+        7,
+        6
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        2,
+        2,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        4,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        2,
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        1,
+        4,
+        4
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          4,
+          4,
+          3
+        ],
+        [
+          1,
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          1,
+          4
+        ],
+        [
+          2,
+          4,
+          3,
+          2
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "complexity_level": 4,
+    "num_processes": 6,
+    "num_resources": 4,
+    "available": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "max_matrix": [
+      [
+        4,
+        4,
+        5,
+        4
+      ],
+      [
+        0,
+        4,
+        2,
+        4
+      ],
+      [
+        2,
+        5,
+        5,
+        3
+      ],
+      [
+        7,
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        5
+      ],
+      [
+        6,
+        3,
+        2,
+        1
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        3,
+        1,
+        3
+      ],
+      [
+        2,
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        4
+      ],
+      [
+        3,
+        1,
+        1,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          0,
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          3
+        ],
+        [
+          3,
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          4,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            3,
+            1,
+            3
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_after": [
+            1,
+            6,
+            2,
+            6
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            1,
+            6,
+            2,
+            6
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "max_matrix": [
+      [
+        4,
+        6,
+        5,
+        7
+      ],
+      [
+        5,
+        7,
+        6,
+        6
+      ],
+      [
+        6,
+        2,
+        6,
+        7
+      ],
+      [
+        6,
+        4,
+        2,
+        4
+      ],
+      [
+        6,
+        6,
+        5,
+        4
+      ],
+      [
+        5,
+        6,
+        3,
+        6
+      ],
+      [
+        1,
+        5,
+        4,
+        2
+      ],
+      [
+        3,
+        4,
+        6,
+        8
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        4,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        0,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        0,
+        1
+      ],
+      [
+        3,
+        4,
+        1,
+        3
+      ],
+      [
+        3,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        3,
+        4
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P6",
+        "P3",
+        "P0",
+        "P1",
+        "P2",
+        "P4",
+        "P5",
+        "P7"
+      ],
+      "need_matrix": [
+        [
+          0,
+          2,
+          4,
+          4
+        ],
+        [
+          3,
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          4,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          3,
+          4
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "candidate_process": 6,
+          "need_row": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "work_after": [
+            2,
+            6,
+            5,
+            3
+          ],
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            2,
+            6,
+            5,
+            3
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            2,
+            0,
+            2,
+            3
+          ],
+          "work_after": [
+            6,
+            10,
+            5,
+            4
+          ],
+          "finish": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            6,
+            10,
+            5,
+            4
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            0,
+            2,
+            4,
+            4
+          ],
+          "work_after": [
+            10,
+            14,
+            6,
+            7
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            10,
+            14,
+            6,
+            7
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "work_after": [
+            12,
+            17,
+            8,
+            9
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            12,
+            17,
+            8,
+            9
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "work_after": [
+            15,
+            17,
+            12,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            15,
+            17,
+            12,
+            13
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "work_after": [
+            18,
+            21,
+            13,
+            16
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 7,
+          "work_before": [
+            18,
+            21,
+            13,
+            16
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            2,
+            2,
+            0,
+            4
+          ],
+          "work_after": [
+            21,
+            25,
+            16,
+            18
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 8,
+          "work_before": [
+            21,
+            25,
+            16,
+            18
+          ],
+          "candidate_process": 7,
+          "need_row": [
+            3,
+            1,
+            3,
+            4
+          ],
+          "work_after": [
+            21,
+            28,
+            19,
+            22
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      2,
+      3,
+      1,
+      1
+    ],
+    "max_matrix": [
+      [
+        4,
+        4,
+        2,
+        1
+      ],
+      [
+        5,
+        0,
+        4,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        7,
+        6,
+        2
+      ],
+      [
+        7,
+        3,
+        1,
+        3
+      ],
+      [
+        2,
+        4,
+        7,
+        5
+      ],
+      [
+        3,
+        3,
+        7,
+        2
+      ],
+      [
+        4,
+        3,
+        7,
+        2
+      ]
+    ],
+    "allocation": [
+      [
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        4,
+        0,
+        4,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        4,
+        2,
+        1
+      ],
+      [
+        3,
+        3,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        1,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "need_matrix": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          4,
+          2
+        ],
+        [
+          0,
+          2,
+          3,
+          2
+        ],
+        [
+          4,
+          3,
+          4,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "work_after": [
+            4,
+            5,
+            3,
+            2
+          ],
+          "finish": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            5,
+            3,
+            2
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "work_after": [
+            8,
+            5,
+            7,
+            5
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            8,
+            5,
+            7,
+            5
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "work_after": [
+            9,
+            5,
+            7,
+            5
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            9,
+            5,
+            7,
+            5
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "work_after": [
+            11,
+            9,
+            9,
+            6
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            11,
+            9,
+            9,
+            6
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "work_after": [
+            14,
+            12,
+            10,
+            9
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            14,
+            12,
+            10,
+            9
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            2,
+            4,
+            4,
+            2
+          ],
+          "work_after": [
+            14,
+            12,
+            13,
+            12
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 7,
+          "work_before": [
+            14,
+            12,
+            13,
+            12
+          ],
+          "candidate_process": 6,
+          "need_row": [
+            0,
+            2,
+            3,
+            2
+          ],
+          "work_after": [
+            17,
+            13,
+            17,
+            12
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 8,
+          "work_before": [
+            17,
+            13,
+            17,
+            12
+          ],
+          "candidate_process": 7,
+          "need_row": [
+            4,
+            3,
+            4,
+            1
+          ],
+          "work_after": [
+            17,
+            13,
+            20,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      2,
+      3,
+      2,
+      2
+    ],
+    "max_matrix": [
+      [
+        5,
+        7,
+        7,
+        7
+      ],
+      [
+        3,
+        4,
+        3,
+        0
+      ],
+      [
+        2,
+        7,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        5,
+        6
+      ],
+      [
+        4,
+        8,
+        2,
+        7
+      ],
+      [
+        4,
+        4,
+        2,
+        7
+      ],
+      [
+        8,
+        2,
+        6,
+        3
+      ],
+      [
+        3,
+        6,
+        3,
+        2
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        4,
+        4,
+        4
+      ],
+      [
+        2,
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        4,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        1,
+        4
+      ],
+      [
+        4,
+        2,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": true,
+      "safe_sequence": [
+        "P1",
+        "P3",
+        "P0",
+        "P2",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "need_matrix": [
+        [
+          2,
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          1,
+          3
+        ],
+        [
+          4,
+          0,
+          4,
+          3
+        ],
+        [
+          0,
+          4,
+          1,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "candidate_process": 1,
+          "need_row": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "work_after": [
+            4,
+            5,
+            5,
+            2
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 2,
+          "work_before": [
+            4,
+            5,
+            5,
+            2
+          ],
+          "candidate_process": 3,
+          "need_row": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "work_after": [
+            4,
+            6,
+            7,
+            6
+          ],
+          "finish": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 3,
+          "work_before": [
+            4,
+            6,
+            7,
+            6
+          ],
+          "candidate_process": 0,
+          "need_row": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "work_after": [
+            7,
+            10,
+            11,
+            10
+          ],
+          "finish": [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 4,
+          "work_before": [
+            7,
+            10,
+            11,
+            10
+          ],
+          "candidate_process": 2,
+          "need_row": [
+            0,
+            4,
+            1,
+            4
+          ],
+          "work_after": [
+            9,
+            13,
+            15,
+            13
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 5,
+          "work_before": [
+            9,
+            13,
+            15,
+            13
+          ],
+          "candidate_process": 4,
+          "need_row": [
+            4,
+            4,
+            0,
+            4
+          ],
+          "work_after": [
+            9,
+            17,
+            17,
+            16
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 6,
+          "work_before": [
+            9,
+            17,
+            17,
+            16
+          ],
+          "candidate_process": 5,
+          "need_row": [
+            4,
+            1,
+            1,
+            3
+          ],
+          "work_after": [
+            9,
+            20,
+            18,
+            20
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "step": 7,
+          "work_before": [
+            9,
+            20,
+            18,
+            20
+          ],
+          "candidate_process": 6,
+          "need_row": [
+            4,
+            0,
+            4,
+            3
+          ],
+          "work_after": [
+            13,
+            22,
+            20,
+            20
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "step": 8,
+          "work_before": [
+            13,
+            22,
+            20,
+            20
+          ],
+          "candidate_process": 7,
+          "need_row": [
+            0,
+            4,
+            1,
+            1
+          ],
+          "work_after": [
+            16,
+            24,
+            22,
+            21
+          ],
+          "finish": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      2,
+      3,
+      0,
+      2
+    ],
+    "max_matrix": [
+      [
+        7,
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        1,
+        1,
+        3
+      ],
+      [
+        7,
+        4,
+        5,
+        7
+      ],
+      [
+        1,
+        4,
+        2,
+        4
+      ],
+      [
+        4,
+        5,
+        6,
+        3
+      ],
+      [
+        4,
+        4,
+        5,
+        4
+      ],
+      [
+        2,
+        2,
+        6,
+        5
+      ],
+      [
+        4,
+        5,
+        8,
+        2
+      ]
+    ],
+    "allocation": [
+      [
+        4,
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        1
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          3,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          3,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          4,
+          4,
+          3,
+          2
+        ],
+        [
+          3,
+          3,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4,
+          1
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            2,
+            3,
+            0,
+            2
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      0,
+      2,
+      1,
+      0
+    ],
+    "max_matrix": [
+      [
+        2,
+        5,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        7
+      ],
+      [
+        5,
+        4,
+        1,
+        2
+      ],
+      [
+        5,
+        2,
+        7,
+        8
+      ],
+      [
+        6,
+        3,
+        1,
+        6
+      ],
+      [
+        0,
+        6,
+        8,
+        2
+      ],
+      [
+        4,
+        5,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        5,
+        5
+      ]
+    ],
+    "allocation": [
+      [
+        1,
+        3,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        3,
+        4
+      ],
+      [
+        3,
+        3,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        0
+      ],
+      [
+        4,
+        3,
+        0,
+        4
+      ],
+      [
+        3,
+        4,
+        1,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4,
+          4
+        ],
+        [
+          3,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          4,
+          4,
+          2
+        ],
+        [
+          0,
+          2,
+          4,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          3
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            0,
+            2,
+            1,
+            0
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "complexity_level": 5,
+    "num_processes": 8,
+    "num_resources": 4,
+    "available": [
+      3,
+      0,
+      2,
+      2
+    ],
+    "max_matrix": [
+      [
+        7,
+        8,
+        3,
+        5
+      ],
+      [
+        3,
+        8,
+        4,
+        4
+      ],
+      [
+        1,
+        5,
+        2,
+        4
+      ],
+      [
+        2,
+        8,
+        1,
+        6
+      ],
+      [
+        2,
+        7,
+        5,
+        3
+      ],
+      [
+        8,
+        3,
+        4,
+        3
+      ],
+      [
+        3,
+        5,
+        4,
+        3
+      ],
+      [
+        2,
+        2,
+        7,
+        6
+      ]
+    ],
+    "allocation": [
+      [
+        3,
+        4,
+        1,
+        1
+      ],
+      [
+        3,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        4,
+        0,
+        2
+      ],
+      [
+        2,
+        4,
+        1,
+        2
+      ],
+      [
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        4,
+        1,
+        0,
+        3
+      ],
+      [
+        0,
+        4,
+        4,
+        1
+      ],
+      [
+        2,
+        1,
+        4,
+        2
+      ]
+    ],
+    "ground_truth": {
+      "safe": false,
+      "safe_sequence": null,
+      "need_matrix": [
+        [
+          4,
+          4,
+          2,
+          4
+        ],
+        [
+          0,
+          4,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          4,
+          0,
+          4
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "work_before": [
+            3,
+            0,
+            2,
+            2
+          ],
+          "candidate_process": null,
+          "need_row": null,
+          "work_after": null,
+          "finish": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  }
+]

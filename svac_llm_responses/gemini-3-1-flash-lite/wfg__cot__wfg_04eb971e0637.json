@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_04eb971e0637",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0; adding P0 to recursion stack.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P0's edge to P3; P3 is not in recursion stack, so visit P3.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P3\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\"]\n    },\n    {\n      \"thought\": \"Exploring P3's edge to P2; P2 is not in recursion stack, so visit P2.\",\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P2\"]\n    },\n    {\n      \"thought\": \"Exploring P2's edge to P0; P0 is in recursion stack, cycle detected.\",\n      \"step\": 4,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P3\", \"P2\"],\n      \"cycle\": [\"P0\", \"P3\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P3\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 725,
+    "response_tokens": 389,
+    "total_tokens": 1114,
+    "attempts": 1
+  }
+}

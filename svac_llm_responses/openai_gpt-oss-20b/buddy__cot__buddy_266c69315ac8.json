@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_266c69315ac8",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "finish_reason": "length",
+    "prompt_tokens": 1747,
+    "completion_tokens": 4096,
+    "total_tokens": 5843,
+    "attempts": 5
+  }
+}

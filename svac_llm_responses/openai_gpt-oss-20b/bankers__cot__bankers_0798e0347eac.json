@@ -1,0 +1,12 @@
+{
+  "instance_id": "bankers_0798e0347eac",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

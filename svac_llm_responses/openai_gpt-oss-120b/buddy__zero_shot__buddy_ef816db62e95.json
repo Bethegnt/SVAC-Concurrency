@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_ef816db62e95",
+  "task": "buddy",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-120b",
+  "response_text": "{\"steps\":[{\"step\":1,\"op_index\":0,\"request_id\":\"A\",\"action\":\"split\",\"block_addr\":0,\"block_size\":32,\"buddy_addr\":16,\"resulting_block_size\":16,\"free_lists\":{\"16\":[16]}},{\"step\":2,\"op_index\":0,\"request_id\":\"A\",\"action\":\"alloc_placement\",\"block_addr\":0,\"block_size\":16,\"free_lists\":{}},{\"step\":3,\"op_index\":1,\"request_id\":\"B\",\"action\":\"alloc_placement\",\"block_addr\":16,\"block_size\":16,\"free_lists\":{}},{\"step\":4,\"op_index\":2,\"request_id\":\"C\",\"action\":\"alloc_failed\",\"block_addr\":null,\"block_size\":null,\"free_lists\":{}},{\"step\":5,\"op_index\":3,\"request_id\":\"C\",\"action\":\"free_failed_request\",\"block_addr\":null,\"block_size\":null,\"free_lists\":{}},{\"step\":6,\"op_index\":4,\"request_id\":\"B\",\"action\":\"free_placement\",\"block_addr\":16,\"block_size\":16,\"free_lists\":{\"16\":[16]}},{\"step\":7,\"op_index\":4,\"request_id\":\"B\",\"action\":\"free_settled\",\"block_addr\":16,\"block_size\":16,\"free_lists\":{\"16\":[16]}},{\"step\":8,\"op_index\":5,\"request_id\":\"A\",\"action\":\"free_placement\",\"block_addr\":0,\"block_size\":16,\"free_lists\":{\"16\":[\"016\"]}},{\"step\":9,\"op_index\":5,\"request_id\":\"A\",\"action\":\"coalesce\",\"block_addr\":0,\"block_size\":32,\"buddy_addr\":16,\"merged_from_size\":16,\"free_lists\":{\"32\":[0]}},{\"step\":10,\"op_index\":5,\"request_id\":\"A\",\"action\":\"free_settled\",\"block_addr\":0,\"block_size\":32,\"free_lists\":{\"32\":[0]}}],\"allocation_log\":{\"A\":{\"address\":0,\"block_size\":16,\"status\":\"freed\"},\"B\":{\"address\":16,\"block_size\":16,\"status\":\"freed\"},\"C\":{\"address\":null,\"block_size\":null,\"status\":\"failed\"}},\"final_free_lists\":{\"32\":[0]}}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 1451,
+    "completion_tokens": 3384,
+    "total_tokens": 4835,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "instance_id": "bankers_4cf71d568433",
+  "task": "bankers",
+  "variant": "zero_shot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "network_error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "attempts": 5
+  }
+}

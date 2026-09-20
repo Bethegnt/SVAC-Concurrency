@@ -1,0 +1,12 @@
+{
+  "instance_id": "bankers_0798e0347eac",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "qwen_qwen3-6-27b",
+  "response_text": "",
+  "meta": {
+    "error": "http_413",
+    "body": "{\"error\":{\"message\":\"Request too large for model `qwen/qwen3.6-27b` in organization `org_01jx5n9k6ze3290z05282p6ycm` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8897, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "attempts": 5
+  }
+}

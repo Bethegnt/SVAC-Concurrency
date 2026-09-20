@@ -1,0 +1,12 @@
+{
+  "instance_id": "sem_fdb39b0f2fbb",
+  "task": "semaphore",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

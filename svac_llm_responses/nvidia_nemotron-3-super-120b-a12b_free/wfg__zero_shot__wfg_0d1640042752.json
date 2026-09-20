@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_0d1640042752",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\"step\":1,\"action\":\"visit\",\"node\":\"P0\",\"visited_set\":[],\"recursion_stack\":[\"P0\"]},\n    {\"step\":2,\"action\":\"visit\",\"node\":\"P3\",\"visited_set\":[],\"recursion_stack\":[\"P0\",\"P3\"]},\n    {\"step\":3,\"action\":\"backtrack\",\"node\":\"P3\",\"visited_set\":[\"P3\"],\"recursion_stack\":[\"P0\"]},\n    {\"step\":4,\"action\":\"visit\",\"node\":\"P4\",\"visited_set\":[\"P3\"],\"recursion_stack\":[\"P0\",\"P4\"]},\n    {\"step\":5,\"action\":\"visit\",\"node\":\"P5\",\"visited_set\":[\"P3\"],\"recursion_stack\":[\"P0\",\"P4\",\"P5\"]},\n    {\"step\":6,\"action\":\"visit\",\"node\":\"P6\",\"visited_set\":[\"P3\"],\"recursion_stack\":[\"P0\",\"P4\",\"P5\",\"P6\"]},\n    {\"step\":7,\"action\":\"backtrack\",\"node\":\"P6\",\"visited_set\":[\"P3\",\"P6\"],\"recursion_stack\":[\"P0\",\"P4\",\"P5\"]},\n    {\"step\":8,\"action\":\"visit\",\"node\":\"P7\",\"visited_set\":[\"P3\",\"P6\"],\"recursion_stack\":[\"P0\",\"P4\",\"P5\",\"P7\"]},\n    {\"step\":9,\"action\":\"backtrack\",\"node\":\"P7\",\"visited_set\":[\"P3\",\"P6\",\"P7\"],\"recursion_stack\":[\"P0\",\"P4\",\"P5\"]},\n    {\"step\":10,\"action\":\"backtrack\",\"node\":\"P5\",\"visited_set\":[\"P3\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[\"P0\",\"P4\"]},\n    {\"step\":11,\"action\":\"backtrack\",\"node\":\"P4\",\"visited_set\":[\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[\"P0\"]},\n    {\"step\":12,\"action\":\"backtrack\",\"node\":\"P0\",\"visited_set\":[\"P0\",\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[]},\n    {\"step\":13,\"action\":\"visit\",\"node\":\"P1\",\"visited_set\":[\"P0\",\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[\"P1\"]},\n    {\"step\":14,\"action\":\"backtrack\",\"node\":\"P1\",\"visited_set\":[\"P0\",\"P1\",\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[]},\n    {\"step\":15,\"action\":\"visit\",\"node\":\"P2\",\"visited_set\":[\"P0\",\"P1\",\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[\"P2\"]},\n    {\"step\":16,\"action\":\"backtrack\",\"node\":\"P2\",\"visited_set\":[\"P0\",\"P1\",\"P2\",\"P3\",\"P4\",\"P5\",\"P6\",\"P7\"],\"recursion_stack\":[]}\n  ],\n  \"deadlock\": false,\n  \"cycle_nodes\": null\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 698,
+    "completion_tokens": 6952,
+    "total_tokens": 7650,
+    "attempts": 1
+  }
+}

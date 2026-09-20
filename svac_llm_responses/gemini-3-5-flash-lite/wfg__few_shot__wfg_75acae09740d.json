@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_75acae09740d",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\n        \"P0\"\n      ],\n      \"recursion_stack\": [\n        \"P0\"\n      ]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\"\n      ],\n      \"recursion_stack\": [\n        \"P0\",\n        \"P1\"\n      ]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\"\n      ],\n      \"recursion_stack\": [\n        \"P0\"\n      ]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": [\n        \"P0\",\n        \"P2\"\n      ]\n    },\n    {\n      \"step\": 5,\n      \"action\": \"backtrack\",\n      \"node\": \"P2\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": [\n        \"P0\"\n      ]\n    },\n    {\n      \"step\": 6,\n      \"action\": \"backtrack\",\n      \"node\": \"P0\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 7,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": [\n        \"P1\"\n      ]\n    },\n    {\n      \"step\": 8,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 9,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": [\n        \"P2\"\n      ]\n    },\n    {\n      \"step\": 10,\n      \"action\": \"backtrack\",\n      \"node\": \"P2\",\n      \"visited_set\": [\n        \"P0\",\n        \"P1\",\n        \"P2\"\n      ],\n      \"recursion_stack\": []\n    }\n  ],\n  \"deadlock\": false,\n  \"cycle_nodes\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 859,
+    "response_tokens": 765,
+    "total_tokens": 1624,
+    "attempts": 1
+  }
+}

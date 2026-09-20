@@ -1,0 +1,12 @@
+{
+  "instance_id": "wfg_c18edba7a44b",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

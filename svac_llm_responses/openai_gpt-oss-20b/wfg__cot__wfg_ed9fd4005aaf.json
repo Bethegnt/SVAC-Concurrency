@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_ed9fd4005aaf",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"thought\": \"Starting DFS at P0; no cycle yet.\",\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"thought\": \"Exploring P4 from P0; no cycle yet.\",\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P4\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P4\"]\n    },\n    {\n      \"thought\": \"Exploring P1 from P4; no cycle yet.\",\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P4\", \"P1\"]\n    },\n    {\n      \"thought\": \"Exploring P2 from P1; no cycle yet.\",\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P4\", \"P1\", \"P2\"]\n    },\n    {\n      \"thought\": \"Edge P2 -> P0 forms a cycle; deadlock detected.\",\n      \"step\": 5,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P4\", \"P1\", \"P2\"],\n      \"cycle\": [\"P0\", \"P4\", \"P1\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P4\", \"P1\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 785,
+    "completion_tokens": 1831,
+    "total_tokens": 2616,
+    "attempts": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "instance_id": "wfg_a7d34eafc06a",
+  "task": "wfg",
+  "variant": "cot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

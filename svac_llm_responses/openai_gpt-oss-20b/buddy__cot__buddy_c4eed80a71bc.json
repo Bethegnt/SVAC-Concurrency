@@ -1,0 +1,12 @@
+{
+  "instance_id": "buddy_c4eed80a71bc",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

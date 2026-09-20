@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_3ec4aba2a019",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-5-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [2, 0],\n    [3, 2],\n    [1, 2]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: its need [2, 0] requires more than the available work [1, 0], so it cannot be satisfied.\",\n      \"step\": 1,\n      \"work_before\": [1, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 705,
+    "response_tokens": 164,
+    "total_tokens": 869,
+    "attempts": 1
+  }
+}

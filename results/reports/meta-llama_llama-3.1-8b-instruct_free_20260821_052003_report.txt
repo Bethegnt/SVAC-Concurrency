@@ -1,0 +1,65 @@
+==============================================================================
+SVAC_Concurrency Evaluation Report
+Model: meta-llama_llama-3.1-8b-instruct_free
+Generated: 2026-08-21T05:20:03
+Total scored responses: 230
+==============================================================================
+
+### AGGREGATE BY TASK ###
+
+task | N | ParseOK | MeanSA | MinSA | MaxSA | MeanFEP | MeanECR | VerdictAcc
+----------------------------------------------------------------------------
+bankers | 90 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 50 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 90 | 0.0% | - | - | - | - | - | 0.0%
+
+
+### AGGREGATE BY TASK x PROMPT VARIANT ###
+
+task | variant | N | ParseOK | MeanSA | MinSA | MaxSA | MeanFEP | MeanECR | VerdictAcc
+--------------------------------------------------------------------------------------
+bankers | cot | 30 | 0.0% | - | - | - | - | - | 0.0%
+bankers | few_shot | 30 | 0.0% | - | - | - | - | - | 0.0%
+bankers | zero_shot | 30 | 0.0% | - | - | - | - | - | 0.0%
+buddy | few_shot | 25 | 0.0% | - | - | - | - | - | 0.0%
+buddy | zero_shot | 25 | 0.0% | - | - | - | - | - | 0.0%
+wfg | cot | 30 | 0.0% | - | - | - | - | - | 0.0%
+wfg | few_shot | 30 | 0.0% | - | - | - | - | - | 0.0%
+wfg | zero_shot | 30 | 0.0% | - | - | - | - | - | 0.0%
+
+
+### AGGREGATE BY COMPLEXITY LEVEL ###
+
+complexity_level | N | ParseOK | MeanSA | MinSA | MaxSA | MeanFEP | MeanECR | VerdictAcc
+----------------------------------------------------------------------------------------
+1 | 46 | 0.0% | - | - | - | - | - | 0.0%
+2 | 46 | 0.0% | - | - | - | - | - | 0.0%
+3 | 46 | 0.0% | - | - | - | - | - | 0.0%
+4 | 46 | 0.0% | - | - | - | - | - | 0.0%
+5 | 46 | 0.0% | - | - | - | - | - | 0.0%
+
+
+### AGGREGATE BY TASK x COMPLEXITY LEVEL ###
+
+task | complexity_level | N | ParseOK | MeanSA | MinSA | MaxSA | MeanFEP | MeanECR | VerdictAcc
+-----------------------------------------------------------------------------------------------
+bankers | 1 | 18 | 0.0% | - | - | - | - | - | 0.0%
+bankers | 2 | 18 | 0.0% | - | - | - | - | - | 0.0%
+bankers | 3 | 18 | 0.0% | - | - | - | - | - | 0.0%
+bankers | 4 | 18 | 0.0% | - | - | - | - | - | 0.0%
+bankers | 5 | 18 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 1 | 10 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 2 | 10 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 3 | 10 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 4 | 10 | 0.0% | - | - | - | - | - | 0.0%
+buddy | 5 | 10 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 1 | 18 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 2 | 18 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 3 | 18 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 4 | 18 | 0.0% | - | - | - | - | - | 0.0%
+wfg | 5 | 18 | 0.0% | - | - | - | - | - | 0.0%
+
+
+### OVERALL SUMMARY ###
+
+N=230  ParseSuccess=0.0%  MeanSA=-  MeanECR=-  VerdictAccuracy=0.0%

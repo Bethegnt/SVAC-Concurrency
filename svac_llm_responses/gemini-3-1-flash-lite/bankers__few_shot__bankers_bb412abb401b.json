@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_bb412abb401b",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [3, 1, 3, 4],\n    [0, 0, 1, 2],\n    [4, 3, 3, 4],\n    [1, 4, 2, 3],\n    [4, 4, 3, 2],\n    [3, 3, 3, 4],\n    [1, 0, 3, 4],\n    [3, 4, 4, 1]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [2, 3, 0, 2],\n      \"candidate_process\": 1,\n      \"need_row\": [0, 0, 1, 2],\n      \"work_after\": [4, 4, 0, 3],\n      \"finish\": [false, true, false, false, false, false, false, false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [4, 4, 0, 3],\n      \"candidate_process\": 6,\n      \"need_row\": [1, 0, 3, 4],\n      \"work_after\": [5, 6, 3, 4],\n      \"finish\": [false, true, false, false, false, false, true, false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [5, 6, 3, 4],\n      \"candidate_process\": 0,\n      \"need_row\": [3, 1, 3, 4],\n      \"work_after\": [9, 7, 4, 6],\n      \"finish\": [true, true, false, false, false, false, true, false]\n    },\n    {\n      \"step\": 4,\n      \"work_before\": [9, 7, 4, 6],\n      \"candidate_process\": 2,\n      \"need_row\": [4, 3, 3, 4],\n      \"work_after\": [12, 8, 6, 9],\n      \"finish\": [true, true, true, false, false, false, true, false]\n    },\n    {\n      \"step\": 5,\n      \"work_before\": [12, 8, 6, 9],\n      \"candidate_process\": 3,\n      \"need_row\": [1, 4, 2, 3],\n      \"work_after\": [12, 8, 6, 10],\n      \"finish\": [true, true, true, true, false, false, true, false]\n    },\n    {\n      \"step\": 6,\n      \"work_before\": [12, 8, 6, 10],\n      \"candidate_process\": 4,\n      \"need_row\": [4, 4, 3, 2],\n      \"work_after\": [12, 9, 9, 11],\n      \"finish\": [true, true, true, true, true, false, true, false]\n    },\n    {\n      \"step\": 7,\n      \"work_before\": [12, 9, 9, 11],\n      \"candidate_process\": 5,\n      \"need_row\": [3, 3, 3, 4],\n      \"work_after\": [13, 10, 11, 11],\n      \"finish\": [true, true, true, true, true, true, true, false]\n    },\n    {\n      \"step\": 8,\n      \"work_before\": [13, 10, 11, 11],\n      \"candidate_process\": 7,\n      \"need_row\": [3, 4, 4, 1],\n      \"work_after\": [14, 11, 15, 12],\n      \"finish\": [true, true, true, true, true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\"P1\", \"P6\", \"P0\", \"P2\", \"P3\", \"P4\", \"P5\", \"P7\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 1059,
+    "response_tokens": 1027,
+    "total_tokens": 2086,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_7493fe374806",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P2\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P2\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\", \"P2\"],\n      \"cycle\": [\"P0\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 620,
+    "completion_tokens": 2768,
+    "total_tokens": 3388,
+    "attempts": 1
+  }
+}

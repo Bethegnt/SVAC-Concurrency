@@ -1,0 +1,12 @@
+{
+  "instance_id": "mtx_a8773ebc3230",
+  "task": "mutex",
+  "variant": "cot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "",
+  "meta": {
+    "error": "rate_limited",
+    "status_code": 429,
+    "attempts": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_eb86ed643627",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"need_matrix\": [\n    [4, 4, 4, 3],\n    [0, 4, 2, 4],\n    [4, 2, 0, 1],\n    [2, 0, 0, 4],\n    [2, 1, 4, 2],\n    [4, 2, 0, 3]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [2, 1, 3, 0],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 985,
+    "completion_tokens": 3581,
+    "total_tokens": 4566,
+    "attempts": 1
+  }
+}

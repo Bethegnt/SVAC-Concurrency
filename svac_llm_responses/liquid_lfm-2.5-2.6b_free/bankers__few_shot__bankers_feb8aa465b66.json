@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_feb8aa465b66",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 1, 2],\n    [1, 1, 1],\n    [1, 1, 4],\n    [4, 1, 2]\n  ],\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"work_before\": [3, 3, 1],\n      \"candidate_process\": 1,\n      \"need_row\": [1, 1, 1],\n      \"work_after\": [6, 4, 3],\n      \"finish\": [false, true, false, false]\n    },\n    {\n      \"step\": 2,\n      \"work_before\": [6, 4, 3],\n      \"candidate_process\": 0,\n      \"need_row\": [0, 1, 2],\n      \"work_after\": [8, 5, 4],\n      \"finish\": [true, true, false, false]\n    },\n    {\n      \"step\": 3,\n      \"work_before\": [8, 5, 4],\n      \"candidate_process\": 2,\n      \"need_row\": [1, 1, 4],\n      \"work_after\": [10, 8, 5],\n      \"finish\": [true, true, true, false]\n    },\n    {\n      \"step\": 4,\n      \"work_before\": [10, 8, 5],\n      \"candidate_process\": 3,\n      \"need_row\": [4, 1, 2],\n      \"work_after\": [14, 10, 9],\n      \"finish\": [true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\"P1\", \"P0\", \"P2\", \"P3\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 910,
+    "completion_tokens": 3370,
+    "total_tokens": 4280,
+    "attempts": 1
+  }
+}

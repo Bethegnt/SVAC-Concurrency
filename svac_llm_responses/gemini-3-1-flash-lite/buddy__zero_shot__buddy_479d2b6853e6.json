@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_479d2b6853e6",
+  "task": "buddy",
+  "variant": "zero_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"op_index\": 0,\n      \"request_id\": \"OVERFLOW\",\n      \"action\": \"alloc_failed\",\n      \"block_addr\": null,\n      \"block_size\": null,\n      \"free_lists\": {\n        \"32\": [\n          0\n        ]\n      }\n    }\n  ],\n  \"allocation_log\": {\n    \"OVERFLOW\": {\n      \"address\": null,\n      \"block_size\": 128,\n      \"status\": \"failed\"\n    }\n  },\n  \"final_free_lists\": {\n    \"32\": [\n      0\n    ]\n  }\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 1430,
+    "response_tokens": 173,
+    "total_tokens": 1603,
+    "attempts": 1
+  }
+}

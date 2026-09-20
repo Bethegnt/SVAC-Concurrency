@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_8b264a279dbd",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [2, 3, 3],\n    [2, 3, 1],\n    [0, 2, 2],\n    [2, 2, 0]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: Need [2, 3, 3] is not less than or equal to Work [3, 3, 2] because 3 is not less than or equal to 2.\",\n      \"step\": 1,\n      \"work_before\": [3, 3, 2],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false, false]\n    },\n    {\n      \"thought\": \"Checking P1: Need [2, 3, 1] is not less than or equal to Work [3, 3, 2] because 3 is not less than or equal to 3, but 3 is not less than or equal to 3, and 1 is less than or equal to 2, however 3 is not less than or equal to 3 is false, wait, 2<=3, 3<=3, 1<=2 is true.\",\n      \"step\": 2,\n      \"work_before\": [3, 3, 2],\n      \"candidate_process\": 1,\n      \"need_row\": [2, 3, 1],\n      \"work_after\": [7, 3, 4],\n      \"finish\": [false, true, false, false]\n    },\n    {\n      \"thought\": \"Checking P0: Need [2, 3, 3] is less than or equal to Work [7, 3, 4], so P0 qualifies.\",\n      \"step\": 3,\n      \"work_before\": [7, 3, 4],\n      \"candidate_process\": 0,\n      \"need_row\": [2, 3, 3],\n      \"work_after\": [8, 4, 8],\n      \"finish\": [true, true, false, false]\n    },\n    {\n      \"thought\": \"Checking P2: Need [0, 2, 2] is less than or equal to Work [8, 4, 8], so P2 qualifies.\",\n      \"step\": 4,\n      \"work_before\": [8, 4, 8],\n      \"candidate_process\": 2,\n      \"need_row\": [0, 2, 2],\n      \"work_after\": [9, 7, 11],\n      \"finish\": [true, true, true, false]\n    },\n    {\n      \"thought\": \"Checking P3: Need [2, 2, 0] is less than or equal to Work [9, 7, 11], so P3 qualifies.\",\n      \"step\": 5,\n      \"work_before\": [9, 7, 11],\n      \"candidate_process\": 3,\n      \"need_row\": [2, 2, 0],\n      \"work_after\": [12, 9, 11],\n      \"finish\": [true, true, true, true]\n    }\n  ],\n  \"safe\": true,\n  \"safe_sequence\": [\"P1\", \"P0\", \"P2\", \"P3\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 744,
+    "response_tokens": 799,
+    "total_tokens": 1543,
+    "attempts": 1
+  }
+}

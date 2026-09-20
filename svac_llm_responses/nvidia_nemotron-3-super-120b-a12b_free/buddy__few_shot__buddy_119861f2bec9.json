@@ -1,0 +1,14 @@
+{
+  "instance_id": "buddy_119861f2bec9",
+  "task": "buddy",
+  "variant": "few_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"op_index\": 0,\n      \"request_id\": \"C\",\n      \"action\": \"split\",\n      \"block_addr\": 0,\n      \"block_size\": 32,\n      \"free_lists\": {\n        \"16\": [\n          16\n        ]\n      },\n      \"buddy_addr\": 16,\n      \"resulting_block_size\": 16\n    },\n    {\n      \"step\": 2,\n      \"op_index\": 0,\n      \"request_id\": \"C\",\n      \"action\": \"split\",\n      \"block_addr\": 0,\n      \"block_size\": 16,\n      \"free_lists\": {\n        \"16\": [\n          16\n        ],\n        \"8\": [\n          8\n        ]\n      },\n      \"buddy_addr\": 8,\n      \"resulting_block_size\": 8\n    },\n    {\n      \"step\": 3,\n      \"op_index\": 0,\n      \"request_id\": \"C\",\n      \"action\": \"alloc_placement\",\n      \"block_addr\": 0,\n      \"block_size\": 8,\n      \"free_lists\": {\n        \"16\": [\n          16\n        ],\n        \"8\": [\n          8\n        ]\n      }\n    },\n    {\n      \"step\": 4,\n      \"op_index\": 1,\n      \"request_id\": \"C\",\n      \"action\": \"free_placement\",\n      \"block_addr\": 0,\n      \"block_size\": 8,\n      \"free_lists\": {\n        \"16\": [\n          16\n        ],\n        \"8\": [\n          0,\n          8\n        ]\n      }\n    },\n    {\n      \"step\": 5,\n      \"op_index\": 1,\n      \"request_id\": \"C\",\n      \"action\": \"coalesce\",\n      \"block_addr\": 0,\n      \"block_size\": 16,\n      \"free_lists\": {\n        \"1",
+  "meta": {
+    "finish_reason": "length",
+    "prompt_tokens": 1952,
+    "completion_tokens": 8192,
+    "total_tokens": 10144,
+    "attempts": 1
+  }
+}

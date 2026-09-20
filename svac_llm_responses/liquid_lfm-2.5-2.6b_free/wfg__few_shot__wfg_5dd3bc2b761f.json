@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_5dd3bc2b761f",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"backtrack\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 5,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P2\"],\n      \"cycle\": [\"P0\", \"P2\", \"P0\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P0\", \"P2\", \"P0\"]\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 842,
+    "completion_tokens": 4080,
+    "total_tokens": 4922,
+    "attempts": 1
+  }
+}

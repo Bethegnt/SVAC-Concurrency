@@ -1,0 +1,13 @@
+Task Domain,Strategy,Error Instances,FEP=1 (%),Mean FEP,Median FEP
+Banker's Algorithm,Zero-Shot,25,76.0%,1.28,1.0
+Banker's Algorithm,Few-Shot,22,59.1%,1.55,1.0
+Banker's Algorithm,Chain-of-Thought,17,82.4%,1.41,1.0
+Buddy System Allocation,Zero-Shot,23,34.8%,6.96,4.0
+Buddy System Allocation,Few-Shot,23,26.1%,7.57,4.0
+Buddy System Allocation,Chain-of-Thought,22,22.7%,6.55,5.0
+Counting Semaphore,Zero-Shot,3,33.3%,3.67,3.0
+Counting Semaphore,Few-Shot,3,0.0%,4.33,3.0
+Counting Semaphore,Chain-of-Thought,2,0.0%,3.00,3.0
+WFG Deadlock Detection,Zero-Shot,30,100.0%,1.00,1.0
+WFG Deadlock Detection,Few-Shot,13,0.0%,8.38,7.0
+WFG Deadlock Detection,Chain-of-Thought,30,100.0%,1.00,1.0

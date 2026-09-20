@@ -1,0 +1,14 @@
+{
+  "instance_id": "bankers_04efb5729513",
+  "task": "bankers",
+  "variant": "cot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"need_matrix\": [\n    [0, 2],\n    [2, 2],\n    [4, 1]\n  ],\n  \"steps\": [\n    {\n      \"thought\": \"Checking P0: Need [0, 2] is not less than or equal to Available [1, 1] because 2 > 1.\",\n      \"step\": 1,\n      \"work_before\": [1, 1],\n      \"candidate_process\": null,\n      \"need_row\": null,\n      \"work_after\": null,\n      \"finish\": [false, false, false]\n    }\n  ],\n  \"safe\": false,\n  \"safe_sequence\": null\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 705,
+    "response_tokens": 166,
+    "total_tokens": 871,
+    "attempts": 1
+  }
+}

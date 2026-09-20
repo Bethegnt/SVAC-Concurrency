@@ -1,0 +1,11 @@
+{
+  "instance_id": "buddy_ab8a20d35a28",
+  "task": "buddy",
+  "variant": "cot",
+  "model_slug": "openai_gpt-oss-20b",
+  "response_text": "",
+  "meta": {
+    "error": "network_error: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=60)",
+    "attempts": 5
+  }
+}

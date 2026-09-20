@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_55c243f253a1",
+  "task": "wfg",
+  "variant": "few_shot",
+  "model_slug": "gemini-3-5-flash",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": [\"P0\", \"P1\"]\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P9\",\n      \"visited_set\": [\"P0\", \"P1\", \"P9\"],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P9\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"visit\",\n      \"node\": \"P10\",\n      \"visited_set\": [\"P0\", \"P1\", \"P10\", \"P9\"],\n      \"recursion_stack\": [\"P0\", \"P1\", \"P9\", \"P10\"]\n    },\n    {\n      \"step\": 5,\n      \"action\": \"backtrack\",\n      \"node\": \"P10\",\n      \"visited_set\": [\"P0\", \"P1\", \"P10\", \"P9\"],\n      \"recursion",
+  "meta": {
+    "finish_reason": "MAX_TOKENS",
+    "prompt_tokens": 994,
+    "response_tokens": 328,
+    "total_tokens": 9182,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "instance_id": "sem_b2d7610910c0",
+  "task": "semaphore",
+  "variant": "zero_shot",
+  "model_slug": "openai_gpt-oss-120b",
+  "response_text": "{\"steps\":[{\"step\":1,\"op_index\":0,\"thread\":\"T0\",\"action\":\"wait_acquired\",\"value_before\":1,\"value_after\":0,\"blocked_queue_before\":[],\"blocked_queue_after\":[],\"woken_thread\":null},{\"step\":2,\"op_index\":1,\"thread\":\"T1\",\"action\":\"signal_increment\",\"value_before\":0,\"value_after\":1,\"blocked_queue_before\":[],\"blocked_queue_after\":[],\"woken_thread\":null},{\"step\":3,\"op_index\":2,\"thread\":\"T0\",\"action\":\"wait_acquired\",\"value_before\":1,\"value_after\":0,\"blocked_queue_before\":[],\"blocked_queue_after\":[],\"woken_thread\":null},{\"step\":4,\"op_index\":3,\"thread\":\"T1\",\"action\":\"signal_increment\",\"value_before\":0,\"value_after\":1,\"blocked_queue_before\":[],\"blocked_queue_after\":[],\"woken_thread\":null}],\"final_value\":1,\"final_blocked_queue\":[],\"thread_final_state\":{\"T0\":\"running\",\"T1\":\"running\"}}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 780,
+    "completion_tokens": 989,
+    "total_tokens": 1769,
+    "attempts": 4
+  }
+}

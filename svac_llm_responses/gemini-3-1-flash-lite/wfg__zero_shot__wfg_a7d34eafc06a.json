@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_a7d34eafc06a",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "gemini-3-1-flash-lite",
+  "response_text": "{\n  \"steps\": [\n    {\n      \"step\": 1,\n      \"action\": \"visit\",\n      \"node\": \"P0\",\n      \"visited_set\": [],\n      \"recursion_stack\": [\"P0\"]\n    },\n    {\n      \"step\": 2,\n      \"action\": \"backtrack\",\n      \"node\": \"P0\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 3,\n      \"action\": \"visit\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\"],\n      \"recursion_stack\": [\"P1\"]\n    },\n    {\n      \"step\": 4,\n      \"action\": \"backtrack\",\n      \"node\": \"P1\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 5,\n      \"action\": \"visit\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\"],\n      \"recursion_stack\": [\"P2\"]\n    },\n    {\n      \"step\": 6,\n      \"action\": \"backtrack\",\n      \"node\": \"P2\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": []\n    },\n    {\n      \"step\": 7,\n      \"action\": \"visit\",\n      \"node\": \"P3\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": [\"P3\"]\n    },\n    {\n      \"step\": 8,\n      \"action\": \"visit\",\n      \"node\": \"P11\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": [\"P3\", \"P11\"]\n    },\n    {\n      \"step\": 9,\n      \"action\": \"cycle_detected\",\n      \"node\": \"P3\",\n      \"visited_set\": [\"P0\", \"P1\", \"P2\"],\n      \"recursion_stack\": [\"P3\", \"P11\"],\n      \"cycle\": [\"P3\", \"P11\", \"P3\"]\n    }\n  ],\n  \"deadlock\": true,\n  \"cycle_nodes\": [\"P3\", \"P11\", \"P3\"]\n}",
+  "meta": {
+    "finish_reason": "STOP",
+    "prompt_tokens": 727,
+    "response_tokens": 579,
+    "total_tokens": 1306,
+    "attempts": 1
+  }
+}

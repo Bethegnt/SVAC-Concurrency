@@ -1,0 +1,11 @@
+{
+  "instance_id": "bankers_edf089e93bfa",
+  "task": "bankers",
+  "variant": "few_shot",
+  "model_slug": "liquid_lfm-2.5-2.6b_free",
+  "response_text": "",
+  "meta": {
+    "error": "network_error: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)",
+    "attempts": 5
+  }
+}

@@ -1,0 +1,9 @@
+Task Family / Variant,Strict Positional SA,Invariant-Based Valid SA,Delta (Valid - Strict)
+Banker's Algorithm Overall (N=90),41.5%,74.3%,+32.8%
+  - Banker's Zero-Shot,32.9%,74.4%,+41.6%
+  - Banker's Few-Shot,41.9%,78.9%,+37.1%
+  - Banker's Chain-of-Thought,49.7%,69.5%,+19.8%
+WFG Deadlock Overall (N=88),31.2%,95.6%,+64.3%
+  - WFG Zero-Shot,4.4%,93.7%,+89.4%
+  - WFG Few-Shot,85.4%,100.0%,+14.6%
+  - WFG Chain-of-Thought,7.5%,93.2%,+85.8%

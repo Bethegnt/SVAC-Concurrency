@@ -1,0 +1,14 @@
+{
+  "instance_id": "wfg_6d3225e8cb4c",
+  "task": "wfg",
+  "variant": "zero_shot",
+  "model_slug": "nvidia_nemotron-3-super-120b-a12b_free",
+  "response_text": "{\n  \"steps\": [\n    {\"step\": 1, \"action\": \"visit\", \"node\": \"P0\", \"visited_set\": [], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 2, \"action\": \"visit\", \"node\": \"P2\", \"visited_set\": [], \"recursion_stack\": [\"P0\", \"P2\"]},\n    {\"step\": 3, \"action\": \"backtrack\", \"node\": \"P2\", \"visited_set\": [\"P2\"], \"recursion_stack\": [\"P0\"]},\n    {\"step\": 4, \"action\": \"backtrack\", \"node\": \"P0\", \"visited_set\": [\"P0\", \"P2\"], \"recursion_stack\": []},\n    {\"step\": 5, \"action\": \"visit\", \"node\": \"P1\", \"visited_set\": [\"P0\", \"P2\"], \"recursion_stack\": [\"P1\"]},\n    {\"step\": 6, \"action\": \"backtrack\", \"node\": \"P1\", \"visited_set\": [\"P0\", \"P1\", \"P2\"], \"recursion_stack\": []}\n  ],\n  \"deadlock\": false,\n  \"cycle_nodes\": null\n}",
+  "meta": {
+    "finish_reason": "stop",
+    "prompt_tokens": 624,
+    "completion_tokens": 2300,
+    "total_tokens": 2924,
+    "attempts": 1
+  }
+}
