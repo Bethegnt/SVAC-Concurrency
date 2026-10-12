@@ -1,0 +1,5465 @@
+[
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 1819,
+      "total_tokens": 2512,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 2696,
+      "total_tokens": 3389,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.2,
+    "first_error_position": 2,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 4,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 3821,
+      "total_tokens": 4571,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 732,
+      "completion_tokens": 3645,
+      "total_tokens": 4377,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 1963,
+      "total_tokens": 2656,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 2395,
+      "total_tokens": 3145,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.6,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 4,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 807,
+      "completion_tokens": 6148,
+      "total_tokens": 6955,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.8,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 3662,
+      "total_tokens": 4412,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 2833,
+      "total_tokens": 3526,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "errors_by_type": {
+      "wrong_safety_verdict": 1,
+      "wrong_candidate_process": 1,
+      "work_vector_drift": 2,
+      "finish_array_corruption": 2,
+      "wrong_need_row": 1,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 2,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 2915,
+      "total_tokens": 3665,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 732,
+      "completion_tokens": 3649,
+      "total_tokens": 4381,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Extra data: line 9 column 2 (char 248)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 732,
+      "completion_tokens": 2075,
+      "total_tokens": 2807,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 1994,
+      "total_tokens": 2744,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 750,
+      "completion_tokens": 1845,
+      "total_tokens": 2595,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 2,
+      "wrong_need_row": 1,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 2,
+    "n_steps_ground_truth": 2,
+    "parse_success": true,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 2204,
+      "total_tokens": 2897,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 732,
+      "completion_tokens": 2096,
+      "total_tokens": 2828,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.75,
+    "first_error_position": 3,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 732,
+      "completion_tokens": 4702,
+      "total_tokens": 5434,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 2,
+    "error_cascade_rate": 0.75,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 4,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 807,
+      "completion_tokens": 6181,
+      "total_tokens": 6988,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 807,
+      "completion_tokens": 2870,
+      "total_tokens": 3677,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 3,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 1,
+      "work_vector_drift": 1,
+      "finish_array_corruption": 3,
+      "wrong_need_row": 1,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 807,
+      "completion_tokens": 5623,
+      "total_tokens": 6430,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.6667,
+    "first_error_position": 2,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 693,
+      "completion_tokens": 2574,
+      "total_tokens": 3267,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 732,
+      "completion_tokens": 8192,
+      "total_tokens": 8924,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 871,
+      "completion_tokens": 3987,
+      "total_tokens": 4858,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 871,
+      "completion_tokens": 2039,
+      "total_tokens": 2910,
+      "attempts": 2
+    }
+  },
+  {
+    "step_accuracy": 0.6,
+    "first_error_position": 4,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 4515,
+      "total_tokens": 5443,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 2637,
+      "total_tokens": 3547,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 871,
+      "completion_tokens": 1722,
+      "total_tokens": 2593,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 1978,
+      "total_tokens": 2906,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.5,
+    "first_error_position": 3,
+    "error_cascade_rate": 0.6667,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 2,
+      "wrong_need_row": 1,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 6076,
+      "total_tokens": 7061,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 1,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 3055,
+      "total_tokens": 4088,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 3884,
+      "total_tokens": 4812,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.375,
+    "first_error_position": 2,
+    "error_cascade_rate": 0.6667,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 2,
+      "work_vector_drift": 2,
+      "finish_array_corruption": 4,
+      "wrong_need_row": 2,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 7280,
+      "total_tokens": 8313,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 2,
+    "n_steps_ground_truth": 2,
+    "parse_success": true,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 4355,
+      "total_tokens": 5340,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 7332,
+      "total_tokens": 8365,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 3548,
+      "total_tokens": 4476,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 3013,
+      "total_tokens": 3923,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 1999,
+      "total_tokens": 2909,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 2481,
+      "total_tokens": 3409,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 928,
+      "completion_tokens": 2365,
+      "total_tokens": 3293,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 2,
+    "n_steps_ground_truth": 2,
+    "parse_success": true,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 871,
+      "completion_tokens": 2292,
+      "total_tokens": 3163,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 1,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 3034,
+      "total_tokens": 3944,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 2872,
+      "total_tokens": 3905,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 3675,
+      "total_tokens": 4585,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 3,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 6,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 5190,
+      "total_tokens": 6223,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.5,
+    "first_error_position": 2,
+    "error_cascade_rate": 0.5,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 2,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 5104,
+      "total_tokens": 6089,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": false,
+    "errors_by_type": {
+      "wrong_safety_verdict": 1,
+      "wrong_candidate_process": 1,
+      "work_vector_drift": 1,
+      "finish_array_corruption": 1,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 5832,
+      "total_tokens": 6817,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 3581,
+      "total_tokens": 4566,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 2,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 1,
+      "work_vector_drift": 1,
+      "finish_array_corruption": 4,
+      "wrong_need_row": 1,
+      "wrong_safe_sequence": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 985,
+      "completion_tokens": 4783,
+      "total_tokens": 5768,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "network_error: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)",
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 1,
+    "n_steps_ground_truth": 1,
+    "parse_success": true,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 1033,
+      "completion_tokens": 2818,
+      "total_tokens": 3851,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "wrong_safety_verdict": 0,
+      "wrong_candidate_process": 0,
+      "work_vector_drift": 0,
+      "finish_array_corruption": 0,
+      "wrong_need_row": 0,
+      "wrong_safe_sequence": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 910,
+      "completion_tokens": 3370,
+      "total_tokens": 4280,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_04efb5729513",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0798e0347eac",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_087a914651f6",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_0f4ea61f9899",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_3ec4aba2a019",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_42eb49a1cc03",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_437d9af49ed5",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_4cf71d568433",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_52b678191293",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_5ef44d5a5234",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_61f73c9e70c3",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_6f10924ab565",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_733aeb4350f0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8ad3e4c80fea",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8b264a279dbd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_8bcbf9a168c8",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9b87c54ebde0",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_9ee4952f8585",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_a8f5dfcc9b26",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_b0d499478685",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_bb412abb401b",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ca2c4323bf9a",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ce12e004f603",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_d3945305b6bb",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_df8f1266549d",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_eb86ed643627",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_ec2be33bef2f",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_edf089e93bfa",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_fa13f76c0ccd",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "bankers_feb8aa465b66",
+    "task": "bankers",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "network_error: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_026f9fbafeeb",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_0ac97d9f190e",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_119861f2bec9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_172bf0ba8061",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_266c69315ac8",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2c721f93b757",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_2dc0389e94b7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_31654d756a8a",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_3caccf7e7589",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_479d2b6853e6",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_71a69d81d3d7",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_749d02e99409",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_76489588cd3c",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_8e4d4cdd33b5",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_9aac4a1c9491",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_a772b6d71e37",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ab8a20d35a28",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_acb37282ef15",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c4eed80a71bc",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "fragmentation",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c53400301161",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_c6751d03ab85",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d168475599fd",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": "overflow",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_d74bb7c7fa43",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": "interleaved",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_df111acb48f9",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "invalid_ops",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "buddy_ef816db62e95",
+    "task": "buddy",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": "sequential",
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "cot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 842,
+      "completion_tokens": 4021,
+      "total_tokens": 4863,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.3333,
+    "first_error_position": 2,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 2,
+      "wrong_node": 2,
+      "visited_set_corruption": 2,
+      "recursion_stack_corruption": 2,
+      "wrong_cycle_nodes": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 842,
+      "completion_tokens": 4080,
+      "total_tokens": 4922,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 1.0,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 842,
+      "completion_tokens": 3074,
+      "total_tokens": 3916,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "few_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "error": "rate_limited",
+      "status_code": 429,
+      "attempts": 5
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 4,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 4,
+    "n_steps_ground_truth": 4,
+    "parse_success": true,
+    "instance_id": "wfg_04eb971e0637",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 653,
+      "completion_tokens": 4692,
+      "total_tokens": 5345,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0625,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.9091,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 11,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 12,
+    "n_steps_ground_truth": 16,
+    "parse_success": true,
+    "instance_id": "wfg_0d1640042752",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 694,
+      "completion_tokens": 5912,
+      "total_tokens": 6606,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 9,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 9,
+    "n_steps_ground_truth": 9,
+    "parse_success": true,
+    "instance_id": "wfg_0ec67367ebb6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 675,
+      "completion_tokens": 5180,
+      "total_tokens": 5855,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 1,
+      "wrong_node": 0,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_1f02fad7f5cc",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 717,
+      "completion_tokens": 4196,
+      "total_tokens": 4913,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_1f160cd685bb",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 665,
+      "completion_tokens": 8192,
+      "total_tokens": 8857,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_33a85a3988c1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 748,
+      "completion_tokens": 8192,
+      "total_tokens": 8940,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_34bc6b54f102",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 681,
+      "completion_tokens": 4541,
+      "total_tokens": 5222,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_37b668e2a078",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 659,
+      "completion_tokens": 5250,
+      "total_tokens": 5909,
+      "attempts": 5
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_3ceec919261d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 693,
+      "completion_tokens": 8192,
+      "total_tokens": 8885,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_417dd8d468e4",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 620,
+      "completion_tokens": 2569,
+      "total_tokens": 3189,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 8,
+      "recursion_stack_corruption": 3,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_469a2c65243a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 637,
+      "completion_tokens": 6786,
+      "total_tokens": 7423,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_55c243f253a1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 746,
+      "completion_tokens": 8192,
+      "total_tokens": 8938,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 2,
+      "wrong_node": 4,
+      "visited_set_corruption": 8,
+      "recursion_stack_corruption": 3,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_564d936009b5",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 636,
+      "completion_tokens": 5146,
+      "total_tokens": 5782,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_5dd3bc2b761f",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 620,
+      "completion_tokens": 2287,
+      "total_tokens": 2907,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 1,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_6d3225e8cb4c",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 620,
+      "completion_tokens": 4160,
+      "total_tokens": 4780,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 2,
+      "wrong_node": 2,
+      "visited_set_corruption": 8,
+      "recursion_stack_corruption": 2,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 8,
+    "n_steps_ground_truth": 8,
+    "parse_success": true,
+    "instance_id": "wfg_6d4b7cc00456",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 636,
+      "completion_tokens": 7872,
+      "total_tokens": 8508,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_7493fe374806",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 620,
+      "completion_tokens": 2768,
+      "total_tokens": 3388,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 4,
+      "wrong_node": 3,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 4,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_75acae09740d",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 621,
+      "completion_tokens": 3044,
+      "total_tokens": 3665,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting ',' delimiter: line 79 column 6 (char 1561)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_a145312eb200",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 664,
+      "completion_tokens": 8192,
+      "total_tokens": 8856,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 9,
+      "recursion_stack_corruption": 4,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 9,
+    "n_steps_ground_truth": 9,
+    "parse_success": true,
+    "instance_id": "wfg_a7d34eafc06a",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 714,
+      "completion_tokens": 3997,
+      "total_tokens": 4711,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_ab3c636ad930",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 639,
+      "completion_tokens": 3648,
+      "total_tokens": 4287,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.25,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.7333,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 12,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 16,
+    "n_steps_ground_truth": 16,
+    "parse_success": true,
+    "instance_id": "wfg_aebd30c18fd6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 694,
+      "completion_tokens": 7926,
+      "total_tokens": 8620,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_af5db55599b1",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 639,
+      "completion_tokens": 2755,
+      "total_tokens": 3394,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 1,
+      "wrong_action": 3,
+      "wrong_node": 5,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 6,
+      "wrong_cycle_nodes": 1,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_b075ff19c8f8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 4,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 684,
+      "completion_tokens": 7352,
+      "total_tokens": 8036,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.1667,
+    "first_error_position": 1,
+    "error_cascade_rate": 0.8,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 1,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 4,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_b507447891b6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 1,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 620,
+      "completion_tokens": 6440,
+      "total_tokens": 7060,
+      "attempts": 1
+    }
+  },
+  {
+    "parse_success": false,
+    "parse_error": "Invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": false,
+    "instance_id": "wfg_c18edba7a44b",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "length",
+      "prompt_tokens": 745,
+      "completion_tokens": 8192,
+      "total_tokens": 8937,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 6,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 6,
+    "n_steps_ground_truth": 6,
+    "parse_success": true,
+    "instance_id": "wfg_d07c20613d8e",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 5,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 725,
+      "completion_tokens": 5315,
+      "total_tokens": 6040,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.9167,
+    "first_error_position": null,
+    "error_cascade_rate": 0.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 0,
+      "visited_set_corruption": 0,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 1
+    },
+    "n_steps_compared": 11,
+    "n_steps_ground_truth": 12,
+    "parse_success": true,
+    "instance_id": "wfg_d8423683c8d6",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 665,
+      "completion_tokens": 5008,
+      "total_tokens": 5673,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 5,
+      "recursion_stack_corruption": 1,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 5,
+    "n_steps_ground_truth": 5,
+    "parse_success": true,
+    "instance_id": "wfg_ed9fd4005aaf",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 3,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 656,
+      "completion_tokens": 3840,
+      "total_tokens": 4496,
+      "attempts": 1
+    }
+  },
+  {
+    "step_accuracy": 0.0,
+    "first_error_position": 1,
+    "error_cascade_rate": 1.0,
+    "verdict_correct": true,
+    "errors_by_type": {
+      "false_cycle": 0,
+      "missed_cycle": 0,
+      "wrong_action": 0,
+      "wrong_node": 1,
+      "visited_set_corruption": 3,
+      "recursion_stack_corruption": 0,
+      "wrong_cycle_nodes": 0,
+      "step_count_mismatch": 0
+    },
+    "n_steps_compared": 3,
+    "n_steps_ground_truth": 3,
+    "parse_success": true,
+    "instance_id": "wfg_f37c7f53b7a8",
+    "task": "wfg",
+    "variant": "zero_shot",
+    "complexity_level": 2,
+    "mode": null,
+    "model_slug": "liquid_lfm-2.5-2.6b_free",
+    "response_meta": {
+      "finish_reason": "stop",
+      "prompt_tokens": 632,
+      "completion_tokens": 2612,
+      "total_tokens": 3244,
+      "attempts": 1
+    }
+  }
+]
