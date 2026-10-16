@@ -1,6 +1,6 @@
 """
 Generate all publication-quality figures for SVAC-Concurrency paper.
-All numbers sourced from verified CSVs in results/csvs/.
+All numbers sourced directly from verified scorer output (Oct 2026 re-score).
 Output: analysis/figures/paper_fig*.pdf (for LaTeX) and .png (preview)
 """
 import matplotlib
@@ -33,14 +33,15 @@ matplotlib.rc('legend', fontsize=9)
 
 # ══════════════════════════════════════════════════════════════════════════════
 # FIG 1 — Per-Task SA Heatmap (Prompt Strategy × Task)
-# Source: results/csvs/table2_task_by_prompt_strategy.csv
+# Source: svac_run_evaluation.py → Gemini-3.5-Flash-Lite AGGREGATE BY TASK x PROMPT VARIANT
+# Verified Oct 2026 re-score.
 # ══════════════════════════════════════════════════════════════════════════════
 def fig1_task_heatmap():
     tasks = ['WFG\nDeadlock', "Banker's\nSafety", 'Buddy\nSystem',
              'Counting\nSemaphore', 'Mutex\nLock']
     strategies = ['Zero-Shot', 'Few-Shot', 'CoT']
 
-    # Verified from table2 CSV
+    # Gemini-3.5-Flash-Lite per-task SA by variant
     data = np.array([
         [4.4,  85.4, 7.5 ],   # WFG
         [32.9, 41.9, 49.7],   # Banker's
@@ -85,39 +86,43 @@ def fig1_task_heatmap():
     print('✓ Fig 1 (heatmap) saved')
 
 # ══════════════════════════════════════════════════════════════════════════════
-# FIG 2 — Cross-Model Metric Comparison (grouped bar)
-# Source: results/csvs/table1_cross_model.csv
+# FIG 2 — Cross-Model WFG-Only Comparison (grouped bar)
+# WFG is the only task where all 4 models have N=90 for fair comparison.
+# Source: svac_run_evaluation.py WFG task rows for each model (Oct 2026 re-score)
 # ══════════════════════════════════════════════════════════════════════════════
 def fig2_cross_model_bar():
-    models   = ['Gemini\n3.5-Flash-Lite', 'GPT-OSS\n20B', 'Nemotron\n120B', 'Liquid\nLFM-2.6B', 'Majority\nBaseline']
-    colors   = [C_GEMINI, C_GPT, C_NEMOTRON, C_LIQUID, C_BASELINE]
+    models = ['Gemini\n3.5-Flash-Lite\n(88/90)', 'GPT-OSS\n20B\n(53/90)',
+              'Nemotron\n120B\n(48/90)', 'Liquid\nLFM-2.6B\n(27/90)',
+              'Majority\nBaseline']
+    colors = [C_GEMINI, C_GPT, C_NEMOTRON, C_LIQUID, C_BASELINE]
 
-    # SA, ECR, VA_parsed, VA_all  — verified from table1 CSV
-    sa         = [56.1, 53.1, 48.5, 14.4, 0.0  ]
-    ecr        = [36.9, 45.3, 41.3, 86.1, 100.0]
-    va_parsed  = [72.8, 100.0, 95.9, 96.3, 50.0]
-    va_all     = [72.3, 58.0,  18.9, 66.7, 50.0]
+    # WFG-only numbers (verified from scorer output)
+    sa         = [31.2, 48.1, 43.2, 14.4, 0.0  ]
+    ecr        = [73.8, 50.4, 56.6, 86.1, 100.0]
+    va_parsed  = [94.3, 100.0, 100.0, 96.3, 50.0]
+    va_all     = [92.2, 58.9, 53.3, 28.9, 50.0]
 
-    metrics = ['Step Acc.\n(SA)', 'Error Cascade\nRatio (ECR)', 'Verdict Acc.\n(Parsed)', 'Verdict Acc.\n(All)']
-    all_vals = [sa, ecr, va_parsed, va_all]
+    metrics = ['Step Acc.\n(SA)*', 'Error Cascade\nRatio (ECR)*', 'Verdict Acc.\n(Parsed)*', 'Verdict Acc.\n(All)']
 
     x   = np.arange(len(metrics))
     w   = 0.14
     fig, ax = plt.subplots(figsize=(7.5, 4.2))
 
-    for i, (model, color, vals) in enumerate(zip(models, colors, zip(sa, ecr, va_parsed, va_all))):
+    for i, (model, color) in enumerate(zip(models, colors)):
+        vals = [sa[i], ecr[i], va_parsed[i], va_all[i]]
         offset = (i - 2) * w
-        bars = ax.bar(x + offset, vals, w, label=model, color=color,
-                      edgecolor='white', linewidth=0.5)
+        ax.bar(x + offset, vals, w, label=model, color=color,
+               edgecolor='white', linewidth=0.5)
 
     ax.set_xticks(x)
     ax.set_xticklabels(metrics, fontweight='bold')
     ax.set_ylabel('Score (%)')
     ax.set_ylim(0, 115)
-    ax.set_title('Multi-Provider Cross-Architecture Benchmark Results',
-                 fontweight='bold', pad=8)
+    ax.set_title('Cross-Architecture WFG Deadlock Detection (N=90 per model)\n'
+                 '*SA, ECR, VA(Parsed) computed over parsed responses only',
+                 fontweight='bold', pad=8, fontsize=10)
     ax.axhline(50, color='#757575', linewidth=0.8, linestyle=':', label='Majority baseline (50%)')
-    ax.legend(loc='upper right', ncol=2, framealpha=0.9, fontsize=8)
+    ax.legend(loc='upper right', ncol=2, framealpha=0.9, fontsize=7.5)
 
     # Note about ECR: lower is better
     ax.annotate('↓ ECR: lower = better', xy=(1, 108), ha='center',
@@ -127,11 +132,11 @@ def fig2_cross_model_bar():
     fig.savefig(os.path.join(OUT_DIR, 'paper_fig2_cross_model.pdf'), dpi=300, bbox_inches='tight')
     fig.savefig(os.path.join(OUT_DIR, 'paper_fig2_cross_model.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print('✓ Fig 2 (cross-model bar) saved')
+    print('✓ Fig 2 (cross-model WFG bar) saved')
 
 # ══════════════════════════════════════════════════════════════════════════════
 # FIG 3 — WFG Error Taxonomy Stacked Bar
-# Source: results/csvs/table3_wfg_error_taxonomy.csv
+# Source: Gemini WFG error taxonomy (unchanged, Gemini-only analysis)
 # ══════════════════════════════════════════════════════════════════════════════
 def fig3_wfg_taxonomy():
     categories = ['Visited Set\nCorruption', 'Recursion Stack\nCorruption',
@@ -175,7 +180,7 @@ def fig3_wfg_taxonomy():
 
 # ══════════════════════════════════════════════════════════════════════════════
 # FIG 4 — Strict SA vs Invariant-Based Valid SA (the "gap" figure)
-# Source: results/csvs/table4_invariant_vs_positional_sa.csv
+# Source: validity_checker.py output (Gemini, Banker's + WFG)
 # ══════════════════════════════════════════════════════════════════════════════
 def fig4_invariant_gap():
     labels   = ["Banker's\nZS", "Banker's\nFS", "Banker's\nCoT",
@@ -191,7 +196,7 @@ def fig4_invariant_gap():
 
     bars_s = ax.bar(x - w/2, strict,   w, label='Strict Positional SA',
                     color='#DC2626', edgecolor='white', alpha=0.85)
-    bars_v = ax.bar(x + w/2, valid_sa, w, label='Invariant-Based Valid SA',
+    bars_v = ax.bar(x + w/2, valid_sa, w, label='Invariant Valid SA\n(action-level legality)',
                     color='#16A34A', edgecolor='white', alpha=0.85)
 
     # Delta arrows / annotations
@@ -288,7 +293,6 @@ if __name__ == '__main__':
     fig4_invariant_gap()
     fig5_architecture()
     print(f'\nAll figures saved to: {OUT_DIR}')
-    import os
     for f in sorted(os.listdir(OUT_DIR)):
         if f.startswith('paper_fig'):
             path = os.path.join(OUT_DIR, f)
